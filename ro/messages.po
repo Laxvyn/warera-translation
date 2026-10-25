@@ -16142,7 +16142,7 @@ msgid "Tools"
 msgstr ""
 
 #: src/components/_economy/employee/EmployeeToolSlot.tsx:137
-msgid "Tools give a boost to <0>Production</0>. They come out of <1>Toolboxes</1>, looted in battles."
+msgid "Tools give a boost to <0>Production</0>. They come out of <1>Toolboxes</1>, found by your employees' Luck."
 msgstr ""
 
 #: src/components/_social/ArticleList.tsx:218
