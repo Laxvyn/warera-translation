@@ -426,15 +426,15 @@ msgstr "{count, plural, one {<0>Werk <1/> keer in jouw bedrijf</0>} other {<2>We
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:171
 msgid "{days, plural, one {# day of their wage} other {# days of their wage}}"
-msgstr ""
+msgstr "{days, plural, one {# loondag} other {# loondagen}}"
 
 #: src/components/_user/notification/NotificationList.tsx:92
 msgid "{daysAgo, plural, one {# day ago} other {# days ago}}"
-msgstr ""
+msgstr "{daysAgo, plural, one {# day geleden} other {# dagen geleden}}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:631
 msgid "{delay} after you pick {answer} in {source}."
-msgstr ""
+msgstr "{delay} na je kiest {answer} in {source}."
 
 #: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
@@ -539,7 +539,7 @@ msgstr "{gender, select, male {{name} kan het niet wanneer anderen kijken, ook n
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3909
 msgid "{gender, select, male {{name} climbed into the vents to prune Kevin, and was stuck there all afternoon.} female {{name} climbed into the vents to prune Kevin, and was stuck there all afternoon.} other {{name} climbed into the vents to prune Kevin, and was stuck there all afternoon.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} klom in de ventilatieschachten om Kevin te snoeien en zat daar de hele namiddag vast.} female {{name} klom in de ventilatieschachten om Kevin te snoeien en zat daar de hele namiddag vast.} other {{name} klom in de ventilatieschachten om Kevin te snoeien en zat daar de hele namiddag vast.}}""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:667
 msgid "{gender, select, male {{name} comes back a day later, proud and steadier than before.} female {{name} comes back a day later, proud and steadier than before.} other {{name} comes back a day later, proud and steadier than before.}}"
