@@ -567,19 +567,19 @@ msgstr "{gender, select, male {{name} ontkent alles, en ontloopt je de hele week
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1632
 msgid "{gender, select, male {{name} denies everything. The mustache stays on.} female {{name} denies everything. The mustache stays on.} other {{name} denies everything. The mustache stays on.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} ontkent alles. De snor blijft zitten.} female {{name} ontkent alles. De snor blijft zitten.} other {{name} ontkent alles. De snor blijft zitten.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:679
 msgid "{gender, select, male {{name} did not come back.} female {{name} did not come back.} other {{name} did not come back.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} kwam niet terug.} female {{name} kwam niet terug.} other {{name} kwam niet terug.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1122
 msgid "{gender, select, male {{name} did not laugh.} female {{name} did not laugh.} other {{name} did not laugh.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} lachte niet.} female {{name} lachte niet.} other {{name} lachte niet.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3474
 msgid "{gender, select, male {{name} did not want to know, and is taking it hard.} female {{name} did not want to know, and is taking it hard.} other {{name} did not want to know, and is taking it hard.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wilde het niet weten en heeft het er moeilijk mee.} female {{name} wilde het niet weten en heeft het er moeilijk mee.} other {{name} wilde het niet weten en heeft het er moeilijk mee.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2168
 msgid "{gender, select, male {{name} digs in and stays out on the picket line.} female {{name} digs in and stays out on the picket line.} other {{name} digs in and stays out on the picket line.}}"
