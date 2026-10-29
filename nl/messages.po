@@ -559,7 +559,7 @@ msgstr "{gender, select, male {{name} houdt zich sterk. Amper.} female {{name} h
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1817
 msgid "{gender, select, male {{name} crosses out “Supreme” and keeps drafting.} female {{name} crosses out “Supreme” and keeps drafting.} other {{name} crosses out “Supreme” and keeps drafting.}}"
-msgstr "{gender, select, male {{name} streept "Supreme" door en gaat verder met schrijven.} female {{name} streept "Supreme" door en gaat verder met schrijven.} other {{name} streept "Supreme" door en gaat verder met schrijven.}}" 
+msgstr "{gender, select, male {{name} streept “Supreme” door en gaat verder met schrijven.} female {{name} streept "Supreme" door en gaat verder met schrijven.} other {{name} streept "Supreme" door en gaat verder met schrijven.}}" 
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2243
 msgid "{gender, select, male {{name} denies everything, and avoids you all week.} female {{name} denies everything, and avoids you all week.} other {{name} denies everything, and avoids you all week.}}"
