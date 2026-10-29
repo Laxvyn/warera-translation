@@ -1275,7 +1275,7 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1474
 msgid "{gender, select, male {It is {name}'s work anniversary. Nobody remembers the date, including {name}.} female {It is {name}'s work anniversary. Nobody remembers the date, including {name}.} other {It is {name}'s work anniversary. Nobody remembers the date, including {name}.}}"
-msgstr "{gender, select, male {Es el aniversario de trabajo de {name}. Nadie recuerda la fecha, incluido {name}.} female {Es el aniversario de trabajo de {name}. Nadie recuerda la fecha, incluida {name}.} other {Es el aniversario de trabajo de {name}. Nadie recuerda la fecha, incluido {name}.}"
+msgstr "{gender, select, male {Es el aniversario de trabajo de {name}. Nadie recuerda la fecha, incluido {name}.} female {Es el aniversario de trabajo de {name}. Nadie recuerda la fecha, incluida {name}.} other {Es el aniversario de trabajo de {name}. Nadie recuerda la fecha, incluido {name}.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3293
 msgid "{gender, select, male {It is a delicacy. {name} is beaming, and the others want the recipe.} female {It is a delicacy. {name} is beaming, and the others want the recipe.} other {It is a delicacy. {name} is beaming, and the others want the recipe.}}"
@@ -1307,11 +1307,11 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2027
 msgid "{gender, select, male {It turns out the cat was not fat. There are five kittens under the workbench, and {name} has already named them all.} female {It turns out the cat was not fat. There are five kittens under the workbench, and {name} has already named them all.} other {It turns out the cat was not fat. There are five kittens under the workbench, and {name} has already named them all.}}"
-msgstr "{gender, select, male {Resulta que el gato no estaba gordo. Hay cinco gatitos bajo el banco de trabajo, y {name} ya les ha puesto nombre a todos.} female {Resulta que el gato no estaba gordo. Hay cinco gatitos bajo el banco de trabajo, y {name} ya les ha puesto nombre a todos.} other {Resulta que el gato no estaba gordo. Hay cinco gatitos bajo el banco de trabajo, y {name} ya les ha puesto nombre a todos.}"
+msgstr "{gender, select, male {Resulta que el gato no estaba gordo. Hay cinco gatitos bajo el banco de trabajo, y {name} ya les ha puesto nombre a todos.} female {Resulta que el gato no estaba gordo. Hay cinco gatitos bajo el banco de trabajo, y {name} ya les ha puesto nombre a todos.} other {Resulta que el gato no estaba gordo. Hay cinco gatitos bajo el banco de trabajo, y {name} ya les ha puesto nombre a todos.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3572
 msgid "{gender, select, male {It was {name}'s birthday, and nobody knew. {name} is quietly moved.} female {It was {name}'s birthday, and nobody knew. {name} is quietly moved.} other {It was {name}'s birthday, and nobody knew. {name} is quietly moved.}}"
-msgstr "{gender, select, male {Fue el cumpleaños de {name}, y nadie lo sabía. {name} se conmueve en silencio.} female {Fue el cumpleaños de {name}, y nadie lo sabía. {name} se conmueve en silencio.} other {Fue el cumpleaños de {name}, y nadie lo sabía. {name} se conmueve en silencio.}"
+msgstr "{gender, select, male {Fue el cumpleaños de {name}, y nadie lo sabía. {name} se conmueve en silencio.} female {Fue el cumpleaños de {name}, y nadie lo sabía. {name} se conmueve en silencio.} other {Fue el cumpleaños de {name}, y nadie lo sabía. {name} se conmueve en silencio.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2696
 msgid "{gender, select, male {It was a prank on the whole bar, and {name} fell for it.} female {It was a prank on the whole bar, and {name} fell for it.} other {It was a prank on the whole bar, and {name} fell for it.}}"
@@ -1323,7 +1323,7 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:306
 msgid "{gender, select, male {It works beautifully, and {name} is already thinking about the next one.} female {It works beautifully, and {name} is already thinking about the next one.} other {It works beautifully, and {name} is already thinking about the next one.}}"
-msgstr "{gender, select, male {Funciona de maravilla, y {name} ya está pensando en el siguiente.} female {Funciona de maravilla, y {name} ya está pensando en el siguiente.} other {Funciona de maravilla, y {name} ya está pensando en el siguiente.}"
+msgstr "{gender, select, male {Funciona de maravilla, y {name} ya está pensando en el siguiente.} female {Funciona de maravilla, y {name} ya está pensando en el siguiente.} other {Funciona de maravilla, y {name} ya está pensando en el siguiente.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2756
 msgid "{gender, select, male {It works brilliantly. {name} learns more in an afternoon than in the last two weeks.} female {It works brilliantly. {name} learns more in an afternoon than in the last two weeks.} other {It works brilliantly. {name} learns more in an afternoon than in the last two weeks.}}"
