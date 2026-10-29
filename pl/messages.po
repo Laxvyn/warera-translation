@@ -3612,7 +3612,7 @@ msgstr "Oferta mentora"
 
 #: src/components/_layout/loadingTips.tsx:190
 msgid "A Military Unit's Headquarters gives its members up to +{maxHqBonus}% damage."
-msgstr "Sztab Jednostki Wosjkowej daje jej członkom aż do +{maxHqBonus} obrażeń."
+msgstr "Sztab Jednostki Wosjkowej daje jej członkom aż do +{maxHqBonus}% obrażeń."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1781
 msgid "A new job title"
