@@ -17362,7 +17362,7 @@ msgstr "Łączny zysk z dotychczasowych bitew (trafienia, obrażenia, skrzynki, 
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:545
 msgid "What your employees' Luck should find in a day. Only hours that bank production count."
-msgstr "Co Szczęście Twoich pracowników powinno znaleźć w ciągu dnia. Liczą się tylko godziny, które gromadzą produkcję."
+msgstr "Przewidywane dzienne znaleziska ze Szczęścia Twoich pracowników. Liczą się tylko godziny, które gromadzą produkcję."
 
 #: src/components/_common/GameRules.tsx:124
 msgid "While data collection and display tools that use the official public API are allowed, for any other development or data access, please contact the staff team directly."
