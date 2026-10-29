@@ -3850,7 +3850,7 @@ msgstr "Aktywny obywatel"
 
 #: src/components/_political/country/CountryHeader.tsx:233
 msgid "Active citizens"
-msgstr "Aktywni mieszkańcy"
+msgstr "Aktywni obywatele"
 
 #: src/pages/country/[countryId]/citizens.tsx:36
 msgid "Active Citizens"
@@ -7441,7 +7441,7 @@ msgstr "Szac. dzienny dochód"
 #: src/components/_political/map/MapMenu.tsx:563
 #: src/components/_political/region/RegionHeader.tsx:84
 msgid "Estimated daily income"
-msgstr "Szacowany dzienny dochód"
+msgstr "Szacowany dzienny przychód"
 
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:41
 msgid "Estimated from current development, rosters, managers and tax rates. Updated hourly."
@@ -8995,7 +8995,7 @@ msgstr "Nieaktywny"
 
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:94
 msgid "Income"
-msgstr "Dochód"
+msgstr "Przychód"
 
 #: src/components/_political/unrest/UnrestPanel.tsx:144
 #: src/components/_political/unrest/UnrestPanel.tsx:180
@@ -14827,7 +14827,7 @@ msgstr "Magazyn"
 
 #: src/components/_economy/employee/employeeStats.tsx:699
 msgid "Storage full"
-msgstr "Magazyn pełen"
+msgstr "Pełen magazyn"
 
 #: src/components/_economy/employeeEvent/EmployeeEventHistory.tsx:36
 msgid "Story"
