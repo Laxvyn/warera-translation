@@ -215,7 +215,7 @@ msgstr "{0} ontwikkelingsinkomen uit kernregio's"
 #. placeholder {0}: gift.amount
 #: src/components/_user/user/EnergyGiftAlert.tsx:32
 msgid "{0} energy for the update, once per account."
-msgstr "{0} energie voor de update, eenmaal per account."
+msgstr "{0} energie voor de update, eenkeer per account."
 
 #. placeholder {0}: user.data.leveling.freeReset
 #: src/components/_user/user/UserSkills.tsx:336
@@ -422,7 +422,7 @@ msgstr "{count, plural, one {<0>Reis <1/> keer naar een andere region</0>} other
 
 #: src/components/_user/mission/mission.frontConfig.tsx:730
 msgid "{count, plural, one {<0>Upgrade your skills <1/> time</0>} other {<2>Upgrade your skills <3/> times</2>}}"
-msgstr ""
+msgstr "{count, plural, one {<0>Upgrade je vaardigheden <1/> keer</0>} other {<2>Upgrade je vaardigheden <3/> keer</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:127
 msgid "{count, plural, one {<0>Work <1/> time in your companies</0>} other {<2>Work <3/> times in your companies</2>}}"
@@ -430,15 +430,15 @@ msgstr "{count, plural, one {<0>Werk <1/> keer in jouw bedrijf</0>} other {<2>We
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:171
 msgid "{days, plural, one {# day of their wage} other {# days of their wage}}"
-msgstr ""
+msgstr "{days, plural, one {# loondag} other {# loondagen}}"
 
 #: src/components/_user/notification/NotificationList.tsx:92
 msgid "{daysAgo, plural, one {# day ago} other {# days ago}}"
-msgstr ""
+msgstr "{daysAgo, plural, one {# day geleden} other {# dagen geleden}}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:631
 msgid "{delay} after you pick {answer} in {source}."
-msgstr ""
+msgstr "{delay} na je kiest {answer} in {source}."
 
 #: src/components/_user/user/SkillUpgrade.tsx:293
 msgid "{draftPrestigeCount} prestige point(s) on this skill ({savedPrestigeCount} saved, locked until reset)"
@@ -467,7 +467,7 @@ msgstr "{gain} elke {perDays} dagen bij hetzelfde bedrijf"
 
 #: src/components/_economy/employee/EmployeeTraitArg.tsx:51
 msgid "{gain} every {perDays} days at the same company, up to {cap}"
-msgstr "{gain} elke {perDays} dagen bij hetzelfde bedrijf, tot maximaal {cap}"
+msgstr "{gain} elke {perDays} dagen bij hetzelfde bedrijf, tot maxikeer {cap}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1168
 msgid "{gender, select, male {{name} accepts mixed grapes, under protest.} female {{name} accepts mixed grapes, under protest.} other {{name} accepts mixed grapes, under protest.}}"
@@ -507,7 +507,7 @@ msgstr "{gender, select, male {{name} krijgt een inzinking. Het zal bij hem blij
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3008
 msgid "{gender, select, male {{name} brings the house down, solo, and talks about it all week.} female {{name} brings the house down, solo, and talks about it all week.} other {{name} brings the house down, solo, and talks about it all week.}}"
-msgstr "{gender, select, male {{name} brengt het publiek in vervoering, op zijn eentje, en spreekt er nog de hele week over.} female {{name} brengt het publiek in vervoering, op haar eentje, en spreekt er nog de hele week over.} other {{name} brengt het publiek in vervoering, helemaal alleen, en spreekt er nog de hele week over.}}"
+msgstr "{gender, select, male {{name} brengt het publiek in vervoering, op zijn eentje, en spreekt er nog de hele week over.} female {{name} brengt het publiek in vervoering, op haar eentje, en spreekt er nog de hele week over.} other {{name} brengt het publiek in vervoering, helekeer alleen, en spreekt er nog de hele week over.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3283
 msgid "{gender, select, male {{name} brought a snack from home to share. It is either a delicacy or a war crime.} female {{name} brought a snack from home to share. It is either a delicacy or a war crime.} other {{name} brought a snack from home to share. It is either a delicacy or a war crime.}}"
@@ -543,7 +543,7 @@ msgstr "{gender, select, male {{name} kan het niet wanneer anderen kijken, ook n
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3909
 msgid "{gender, select, male {{name} climbed into the vents to prune Kevin, and was stuck there all afternoon.} female {{name} climbed into the vents to prune Kevin, and was stuck there all afternoon.} other {{name} climbed into the vents to prune Kevin, and was stuck there all afternoon.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} klom in de ventilatieschachten om Kevin te snoeien en zat daar de hele namiddag vast.} female {{name} klom in de ventilatieschachten om Kevin te snoeien en zat daar de hele namiddag vast.} other {{name} klom in de ventilatieschachten om Kevin te snoeien en zat daar de hele namiddag vast.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:667
 msgid "{gender, select, male {{name} comes back a day later, proud and steadier than before.} female {{name} comes back a day later, proud and steadier than before.} other {{name} comes back a day later, proud and steadier than before.}}"
@@ -563,7 +563,7 @@ msgstr "{gender, select, male {{name} houdt zich sterk. Amper.} female {{name} h
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1817
 msgid "{gender, select, male {{name} crosses out “Supreme” and keeps drafting.} female {{name} crosses out “Supreme” and keeps drafting.} other {{name} crosses out “Supreme” and keeps drafting.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} streept “Supreme” door en gaat verder met schrijven.} female {{name} streept "Supreme" door en gaat verder met schrijven.} other {{name} streept "Supreme" door en gaat verder met schrijven.}}" 
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2243
 msgid "{gender, select, male {{name} denies everything, and avoids you all week.} female {{name} denies everything, and avoids you all week.} other {{name} denies everything, and avoids you all week.}}"
@@ -571,51 +571,51 @@ msgstr "{gender, select, male {{name} ontkent alles, en ontloopt je de hele week
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1632
 msgid "{gender, select, male {{name} denies everything. The mustache stays on.} female {{name} denies everything. The mustache stays on.} other {{name} denies everything. The mustache stays on.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} ontkent alles. De snor blijft zitten.} female {{name} ontkent alles. De snor blijft zitten.} other {{name} ontkent alles. De snor blijft zitten.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:679
 msgid "{gender, select, male {{name} did not come back.} female {{name} did not come back.} other {{name} did not come back.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} kwam niet terug.} female {{name} kwam niet terug.} other {{name} kwam niet terug.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1122
 msgid "{gender, select, male {{name} did not laugh.} female {{name} did not laugh.} other {{name} did not laugh.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} lachte niet.} female {{name} lachte niet.} other {{name} lachte niet.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3474
 msgid "{gender, select, male {{name} did not want to know, and is taking it hard.} female {{name} did not want to know, and is taking it hard.} other {{name} did not want to know, and is taking it hard.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} wilde het niet weten en heeft het er moeilijk mee.} female {{name} wilde het niet weten en heeft het er moeilijk mee.} other {{name} wilde het niet weten en heeft het er moeilijk mee.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2168
 msgid "{gender, select, male {{name} digs in and stays out on the picket line.} female {{name} digs in and stays out on the picket line.} other {{name} digs in and stays out on the picket line.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} graaft in en blijft uit op de piketlijn.} female {{name} graaft in en blijft uit op de piketlijn.} other {{name} graaft in en blijft uit op de piketlijn.}}" 
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1080
 msgid "{gender, select, male {{name} does an impression of you banning impressions.} female {{name} does an impression of you banning impressions.} other {{name} does an impression of you banning impressions.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} doet een imitaties van jouw die impressies verbiedt.} female {{name} doet een imitaties van jouw die impressies verbiedt.} other {{name} doet een imitaties van jouw die impressies verbiedt.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1339
 msgid "{gender, select, male {{name} does not agree that it is just a chair.} female {{name} does not agree that it is just a chair.} other {{name} does not agree that it is just a chair.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} is het er niet mee eens dat het maar een stoel is.} female {{name} is het er niet mee eens dat het maar een stoel is.} other {{name} is het er niet mee eens dat het maar een stoel is.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3365
 msgid "{gender, select, male {{name} does push-ups alone by the machine, disappointed.} female {{name} does push-ups alone by the machine, disappointed.} other {{name} does push-ups alone by the machine, disappointed.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} doet alleen push-ups bij de machine, teleurgesteld.} female {{name} doet alleen push-ups bij de machine, teleurgesteld.} other {{name} doet alleen push-ups bij de machine, teleurgesteld.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2793
 msgid "{gender, select, male {{name} dreamed the solution to everything and wrote it on his arm before it faded. It is smudged.} female {{name} dreamed the solution to everything and wrote it on her arm before it faded. It is smudged.} other {{name} dreamed the solution to everything and wrote it on their arm before it faded. It is smudged.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} droomde de oplossing voor alles en schreef die op zijn arm voordat het vervaagde. Het is vegerig.} female {{name} droomde de oplossing voor alles en schreef die op zijn arm voordat het vervaagde. Het is vegerig.} other {{name} droomde de oplossing voor alles en schreef die op zijn arm voordat het vervaagde. Het is vegerig.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2630
 msgid "{gender, select, male {{name} dropped a sandwich into the machine, and output went up. Nobody knows why, least of all him.} female {{name} dropped a sandwich into the machine, and output went up. Nobody knows why, least of all her.} other {{name} dropped a sandwich into the machine, and output went up. Nobody knows why, least of all them.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} liet een broodje in de machine vallen, en de output steeg. Niemand weet waarom, hijzelf nog het minst van al.} female {{name} liet een broodje in de machine vallen, en de output steeg. Niemand weet waarom, zijzelf nog het minst van al.} other {{name} liet een broodje in de machine vallen, en de output steeg. Niemand weet waarom, zijzelf nog het minst van al.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3321
 msgid "{gender, select, male {{name} eats it alone, looking a little homesick.} female {{name} eats it alone, looking a little homesick.} other {{name} eats it alone, looking a little homesick.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} eet het alleen op, terwijl hij er een beetje heimwee-achtig uitziet.} female {{name} eet het alleen op, terwijl ze er een beetje heimwee-achtig uitziet.} other {{name} eet het alleen op, terwijl zij er een beetje heimwee-achtig uitziet.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2664
 msgid "{gender, select, male {{name} eats lunch outside, glaring at the machine.} female {{name} eats lunch outside, glaring at the machine.} other {{name} eats lunch outside, glaring at the machine.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} eet zijn lunch buiten, terwijl hij de machine grimmig aanstaart.} female {{name} eet haar lunch buiten, terwijl ze de machine grimmig aanstaart.} other {{name} eet hun lunch buiten, terwijl zij de machine grimmig aanstaart.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1157
 msgid "{gender, select, male {{name} eats one grape, nods, and works like a star.} female {{name} eats one grape, nods, and works like a star.} other {{name} eats one grape, nods, and works like a star.}}"
@@ -2467,7 +2467,7 @@ msgstr "<0/> heeft de ronde gewonnen <1>#{0}</1> in <2/>!"
 #. placeholder {0}: ts.paper
 #: src/components/_military/battle/SetOrderFormModal.tsx:461
 msgid "<0/>: this order costs ×{orderCostMult} <1>{0}</1> and gives ×{orderDamageMult} damage bonus"
-msgstr ""
+msgstr "<0/>: Dit bevel kost ×{orderCostMult} <1>{0}</1> en geeft ×{orderDamageMult} schade bonus"
 
 #: src/pages/war/[warId]/index.tsx:55
 msgid "<0/>Priority ends in <1/>"
@@ -2480,35 +2480,35 @@ msgstr "<0>-{0}%</0> Verzetgroei per uur"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:753
 msgid "<0>-1%</0> per 1% of employee tax, up to <1>-30%</1>"
-msgstr ""
+msgstr "<0>-1%</0> per 1% van werknemer belasting, tot <1>-30%</1>"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:647
 msgid "<0>-1</0> to all stats every 20 days at the same company, up to <1>-3</1>"
-msgstr ""
+msgstr "<0>-1</0> aan alle statistieken elke 20 dagen bij hetzelfde bedrijf, tot maximaal <1>-3</1>"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:442
 msgid "<0>-15%</0> alongside their nemesis"
-msgstr ""
+msgstr "<0>-15%</0> naast hun aartsvijand"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:509
 msgid "<0>-15%</0> per female coworker, up to <1>-30%</1>"
-msgstr ""
+msgstr "<0>-15%</0> per vrouwlijke medewerker, tot <1>-30%</1>"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:495
 msgid "<0>-15%</0> per male coworker, up to <1>-30%</1>"
-msgstr ""
+msgstr "<0>-15%</0> per mannelijke medewerker, tot <1>-30%</1>"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:597
 msgid "<0>-20%</0> until storage reaches level <1>3</1>"
-msgstr ""
+msgstr "<0>-20%</0> tot opslag level <1>3</1> bereikt"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:623
 msgid "<0>-30%</0> for 3 days after a transfer"
-msgstr ""
+msgstr "<0>-30%</0> voor 3 dagen na een overstap"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:843
 msgid "<0>-50%</0> below {quitThreshold} happiness"
-msgstr ""
+msgstr "<0>-50%</0> onder {quitThreshold} blijdschap"
 
 #. placeholder {0}: sideBonus.muHqBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:157
@@ -2529,31 +2529,31 @@ msgstr "<0>{0}</0> tegen de vijand van <1/>"
 #. placeholder {1}: 10
 #: src/components/_economy/employee/employee.frontConfig.tsx:707
 msgid "<0>{0}</0> and <1>{1}</1> in a homeland core region"
-msgstr ""
+msgstr "<0>{0}</0> en <1>{1}</1> in een thuisland kernregio"
 
 #. placeholder {0}: -2
 #. placeholder {1}: -5
 #: src/components/_economy/employee/employee.frontConfig.tsx:255
 msgid "<0>{0}</0> and <1>{1}</1> when any coworker is foreign"
-msgstr ""
+msgstr "<0>{0}</0> en <1>{1}</1> wanneer een medewerker uit het buitenland komt"
 
 #. placeholder {0}: 2
 #. placeholder {1}: 5
 #: src/components/_economy/employee/employee.frontConfig.tsx:237
 msgid "<0>{0}</0> and <1>{1}</1> when half or more coworkers are compatriots"
-msgstr ""
+msgstr "<0>{0}</0> en <1>{1}</1> wanneer de helft of meer van de medewerkers landgenoten zijn"
 
 #. placeholder {0}: -2
 #. placeholder {1}: -10
 #: src/components/_economy/employee/employee.frontConfig.tsx:725
 msgid "<0>{0}</0> and <1>{1}</1> when working abroad"
-msgstr ""
+msgstr "<0>{0}</0> en <1>{1}</1> bij het werken in het buitenland"
 
 #. placeholder {0}: 3
 #. placeholder {1}: 5
 #: src/components/_economy/employee/employee.frontConfig.tsx:525
 msgid "<0>{0}</0> and <1>{1}</1> while producing their good"
-msgstr ""
+msgstr "<0>{0}</0> en <1>{1}</1> terwijl zij hun product vervaardigen"
 
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:67
@@ -2591,7 +2591,7 @@ msgstr "<0>{0}</0> vergoeding teruggegeven aan ME."
 #: src/components/_economy/employee/employee.frontConfig.tsx:340
 #: src/components/_economy/employee/employee.frontConfig.tsx:400
 msgid "<0>{0}</0> for themselves"
-msgstr ""
+msgstr "<0>{0}</0> voor hunzelf"
 
 #. placeholder {0}: sideBonus.countryAlliesBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:83
@@ -2633,19 +2633,19 @@ msgstr "<0>{0}</0> grondpunten zijn vereist om een ronde te winnen, er worden pu
 #. placeholder {0}: -1
 #: src/components/_economy/employee/employee.frontConfig.tsx:567
 msgid "<0>{0}</0> on anything manufactured"
-msgstr ""
+msgstr "<0>{0}</0> op alles wat is vervaardigd"
 
 #. placeholder {0}: 3
 #: src/components/_economy/employee/employee.frontConfig.tsx:543
 msgid "<0>{0}</0> on manufactured goods"
-msgstr ""
+msgstr "<0>{0}</0> op gefabriceerde goederen"
 
 #. placeholder {0}: -1
 #. placeholder {0}: 3
 #: src/components/_economy/employee/employee.frontConfig.tsx:549
 #: src/components/_economy/employee/employee.frontConfig.tsx:561
 msgid "<0>{0}</0> on raw resources"
-msgstr ""
+msgstr "<0>{0}</0> op grondstoffen"
 
 #. placeholder {0}: 2
 #. placeholder {1}: 6
@@ -2937,7 +2937,7 @@ msgstr ""
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:113
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
-msgstr "<0>Je account vereist aanvullende verificatie. Verifieer je telefoonnummer zo snel mogelijk om je account normaal te blijven gebruiken. Niet-geverifieerde accounts krijgen na 48 uur beperkte toegang en kunnen na 5 dagen permanent worden opgeschort.</0><1>Telefoonnummers worden versleuteld en zijn niet zichtbaar voor enige beheerder.</1>"
+msgstr "<0>Je account vereist aanvullende verificatie. Verifieer je telefoonnummer zo snel mogelijk om je account norkeer te blijven gebruiken. Niet-geverifieerde accounts krijgen na 48 uur beperkte toegang en kunnen na 5 dagen permanent worden opgeschort.</0><1>Telefoonnummers worden versleuteld en zijn niet zichtbaar voor enige beheerder.</1>"
 
 #: src/components/_layout/LayoutOptions.tsx:103
 msgid "= consumes more power"
@@ -8921,7 +8921,7 @@ msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:39
 msgid "If negative, pay <0/> for <1/> (once per day)."
-msgstr "Als dit negatief is, betaal <0/> voor <1/> (eenmaal per dag)."
+msgstr "Als dit negatief is, betaal <0/> voor <1/> (eenkeer per dag)."
 
 #: src/components/_political/government/NominateForm.tsx:65
 msgid "If the new nominee is already in government, their positions will be swapped. Otherwise the current member will be fired and won't be able to be nominated again for {cooldownDays} days."
@@ -11547,7 +11547,7 @@ msgstr "Geen"
 #: src/components/_political/law/LawFormModal.tsx:250
 #: src/components/_political/law/LawFormModal.tsx:318
 msgid "Normal"
-msgstr "Normaal"
+msgstr "Norkeer"
 
 #: src/components/_common/GameRules.tsx:184
 msgid "Not all forms of helping are treated as boosting or exploiting; the intent will be assessed in line with the list provided above."
@@ -13593,7 +13593,7 @@ msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryReputationTooltip.tsx:34
 msgid "Reputation decays 20% toward 0 every week (minimum 1 point)."
-msgstr "Reputatie neemt elke week met 20% af richting 0 (minimaal 1 punt)."
+msgstr "Reputatie neemt elke week met 20% af richting 0 (minikeer 1 punt)."
 
 #: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:25
 msgid "Reputation purchased!"
@@ -18292,7 +18292,7 @@ msgstr "Je maandelijkse missies zijn gereset! Voltooi ze om beloningen te verdie
 
 #: src/components/_military/mercenaryContract/BuyMercenaryReputationButton.tsx:49
 msgid "Your MU has <0/> reputation and cannot bid on mercenary contracts. Pay to buy back reputation (once per day)."
-msgstr "Je ME heeft <0/> reputatie en kan niet bieden op huurlingencontracten. Betaal om reputatie terug te kopen (eenmaal per dag)."
+msgstr "Je ME heeft <0/> reputatie en kan niet bieden op huurlingencontracten. Betaal om reputatie terug te kopen (eenkeer per dag)."
 
 #: src/components/_military/tournament/TournamentRegisterButton.tsx:107
 msgid "Your MU is registered"
