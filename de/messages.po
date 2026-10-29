@@ -313,7 +313,7 @@ msgstr "Noch {answerWithin} zum Antworten"
 
 #: src/components/_economy/employee/TrainingCard.tsx:328
 msgid "{badTraitPercent}% chance of a bad trait"
-msgstr ""
+msgstr "{badTraitPercent}% Chance auf eine negative Eigenschaft"
 
 #. placeholder {0}: states.length
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:214
@@ -1996,7 +1996,7 @@ msgstr "+{perPoint}% pro Punkt über {statPivot}, -{perPoint}% pro Punkt darunte
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:191
 msgid "+{skillPerLevel}% per level of your Management."
-msgstr ""
+msgstr "+{skillPerLevel}% pro Level deines Managements."
 
 #: src/components/_user/user/Level.tsx:196
 msgid "+{xpBonusPercent}%"
@@ -2712,7 +2712,7 @@ msgstr "<0>{0}</0> bis Level {1}"
 #. placeholder {1}: -2
 #: src/components/_economy/employee/employee.frontConfig.tsx:659
 msgid "<0>{0}</0> until 40, then <1>{1}</1> per 10 years, down to none at 60"
-msgstr ""
+msgstr "<0>{0}</0> bis 40, danach <1>{1}</1> alle 10 Jahre, bis nichts ab 60"
 
 #. placeholder {0}: -10
 #: src/components/_economy/employee/employee.frontConfig.tsx:388
@@ -2777,7 +2777,7 @@ msgstr "<0>{v}</0> Production ÷ {OUTPUT_DIVISOR} = <1>{0} points per hour</1>, 
 
 #: src/components/_economy/employee/employeeStats.tsx:405
 msgid "<0>{v}</0> Responsibility = <1>+{happiness}</1> <2>Happiness</2>."
-msgstr ""
+msgstr "<0>{v}</0> Verantwortungsbewusstsein = <1>+{happiness}</1> <2>Zufriedenheit</2>."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:924
 msgid "<0>+1</0> candidate on every company's daily shortlist"
@@ -2915,7 +2915,7 @@ msgstr "<0>Produktion</0>: was sie machen."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:149
 msgid "<0>Responsibility</0>: raises their <1>Happiness</1>."
-msgstr ""
+msgstr "<0>Verantwortungsbewusstsein</0>: steigert ihre <1>Zufriedenheit</1>."
 
 #. placeholder {0}: gameConfig?.unrest.contributionCost
 #. placeholder {1}: gameConfig?.unrest.contributionCost
@@ -2933,7 +2933,7 @@ msgstr "<0>2-fache</0> Spezialisierungsgeschwindigkeit"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:874
 msgid "<0>x2</0> toolbox chance"
-msgstr ""
+msgstr "<0>x2</0> Werkzeugkisten Chance"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:113
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
@@ -3482,7 +3482,7 @@ msgstr "Ein Ruf zu den Waffen"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:167
 msgid "A candidate's starting trait is revealed once you hire them."
-msgstr ""
+msgstr "Die Starteigenschaft eines Kandidaten wird erst offenbart, nachdem du ihn einstellst."
 
 #: src/components/_economy/employee/TrainingCardList.tsx:132
 msgid "A card's rarity is its outline as well as its colour: a circle is Common, and it gains an edge at every tier up to the Legendary gem."
@@ -6995,11 +6995,11 @@ msgstr "Jede Stufe bietet Platz für einen weiteren Mitarbeiter."
 
 #: src/components/_user/user/EcoSkillEffects.tsx:87
 msgid "Each level gives your employees <0>{perPoint}</0> production, +{eventOddsPerLevel}% event odds and rarer training cards."
-msgstr ""
+msgstr "Jedes Level gibt deinen Mitarbeitern <0>{perPoint}</0> Produktion, +{eventOddsPerLevel}% Ereignisschance und seltenere Trainingskarten."
 
 #: src/components/_economy/employee/TrainingDrawOdds.tsx:181
 msgid "Each level of your Management moves {MOVED_PER_LEVEL}% of the draws from Common to the rarer cards."
-msgstr ""
+msgstr "Jedes Level deines Managements verschiebt {MOVED_PER_LEVEL}% der Ziehung von gewöhnlichen bis selteneren Karten."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:268
 msgid "Each level opens something new."
@@ -7026,7 +7026,7 @@ msgstr "Jede führt zur nächsten."
 
 #: src/components/_economy/employee/employeeStats.tsx:399
 msgid "Each point gives +{RESP_HAPPINESS} <0>Happiness</0>, always on. It does not affect output directly."
-msgstr ""
+msgstr "Jeder Punkt gibt +{RESP_HAPPINESS} <0>Zufriedenheit</0>, dauerhaft aktiv. Dies hat keinen direkten Einfluss auf die Produktion."
 
 #. placeholder {0}: LUCK_CHECK.statPerPoint
 #. placeholder {1}: LUCK_CHECK.luckPerPoint
@@ -7052,7 +7052,7 @@ msgstr "Jede strategische Ressource bringt dem Land, das sie besitzt, täglich d
 
 #: src/components/_economy/employee/employee.traitMeta.ts:116
 msgid "Early Bloomer"
-msgstr ""
+msgstr "Senkrechtstarter"
 
 #: src/components/_user/milestone/milestone.frontConfig.tsx:34
 msgid "Earn <0/> in total"
@@ -7294,7 +7294,7 @@ msgstr "Mitarbeiter mit einem Wohlbefinden unter {happinessQuitThreshold} könne
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:165
 msgid "Employees can have traits that change how they work."
-msgstr ""
+msgstr "Mitarbeiter können Eigenschaften haben, die ihre Arbeitsweise verändern."
 
 #: src/components/_layout/loadingTips.tsx:390
 msgid "Employees get +{specializationPerDay}% production for every day spent on the same good, up to +{specializationMax}%."
@@ -8749,7 +8749,7 @@ msgstr "Hoher Kommandeur"
 
 #: src/components/_economy/employee/RecruitModal.tsx:175
 msgid "Hire {name}"
-msgstr ""
+msgstr "Anstellen {name}"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:299
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:144
@@ -9316,7 +9316,7 @@ msgstr "Nur weil etwas nicht ausdrücklich in den Regeln steht, heißt das nicht
 
 #: src/components/_economy/employee/useConfirmFire.tsx:16
 msgid "Just hired: can be fired in {hours}h"
-msgstr ""
+msgstr "Gerade angestellt: kann in {hours}h entlassen werden"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:50
 msgid "Just one more… what could go wrong?"
@@ -10652,7 +10652,7 @@ msgstr "Bewegen"
 #. placeholder {0}: target.name
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:225
 msgid "Move {who} into {0}?"
-msgstr ""
+msgstr "{who} zu {0} versetzen?"
 
 #: src/components/_political/map/MapMenu.tsx:727
 msgid "Move & collect"
@@ -10727,7 +10727,7 @@ msgstr "Verschiebt eine Eigenschaft eine Stufe auf ihrer Entwicklungsskala nach 
 
 #: src/components/_layout/loadingTips.tsx:399
 msgid "Moving an employee to another of your companies is free."
-msgstr ""
+msgstr "Das Versetzen eines Mitarbeiters in eine andere deiner Firmen ist kostenlos"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:590
 msgid "Moving costs <0>Stamina</0>, then Oil."
@@ -11431,7 +11431,7 @@ msgstr "Kein Werkzeug"
 
 #: src/components/_economy/employee/ToolSelectorPopover.tsx:123
 msgid "No tool of this type"
-msgstr ""
+msgstr "Kein Werkzeug dieser Art"
 
 #: src/components/_economy/inventory/Inventory.tsx:693
 msgid "No tools"
@@ -11810,7 +11810,7 @@ msgstr "Nur bei einem {stockpiler}."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:505
 msgid "Only an {earlyBloomer}."
-msgstr ""
+msgstr "Nur bei {earlyBloomer}."
 
 #: src/components/_social/poll/PollCard.tsx:232
 msgid "Only citizens of <0/> can vote."
@@ -12365,7 +12365,7 @@ msgstr "{cardTitle} auswählen"
 
 #: src/components/_economy/employee/RecruitModal.tsx:175
 msgid "Pick a candidate"
-msgstr ""
+msgstr "Wähle einen Kanditaten"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:121
 #: src/components/_other/tour/tuto.frontConfig.tsx:491
@@ -14550,7 +14550,7 @@ msgstr "Verkauft von"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:166
 msgid "Some need your attention to get the best out of them."
-msgstr ""
+msgstr "Einige benötigen deine Aufmerksamkeit, um das Beste aus ihnen herauszuholen."
 
 #: src/components/_economy/company/CompanyList.tsx:182
 msgid "Some of your companies are disabled."
@@ -15076,7 +15076,7 @@ msgstr "Tippe auf eines, um es zu lesen."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:123
 msgid "Tap one, then Hire."
-msgstr ""
+msgstr "Wähle einen aus, danach stelle ihn ein."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:291
 msgid "Tap Save to keep your points."
@@ -15089,7 +15089,7 @@ msgstr "Chat aufrufen"
 #: src/components/_other/tour/tuto.frontConfig.tsx:492
 #: src/components/_other/tour/tuto.frontConfig.tsx:521
 msgid "Tap the one you like best, then Hire."
-msgstr ""
+msgstr "Wähle den der dir am Besten gefällt, danach stelle ihn ein."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:136
 msgid "Tap them to see who they are."
