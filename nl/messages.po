@@ -2462,7 +2462,7 @@ msgstr "<0/> heeft de ronde gewonnen <1>#{0}</1> in <2/>!"
 #. placeholder {0}: ts.paper
 #: src/components/_military/battle/SetOrderFormModal.tsx:461
 msgid "<0/>: this order costs ×{orderCostMult} <1>{0}</1> and gives ×{orderDamageMult} damage bonus"
-msgstr ""
+msgstr "<0/>: Dit bevel kost ×{orderCostMult} <1>{0}</1> en geeft ×{orderDamageMult} schade bonus"
 
 #: src/pages/war/[warId]/index.tsx:55
 msgid "<0/>Priority ends in <1/>"
@@ -2475,35 +2475,35 @@ msgstr "<0>-{0}%</0> Verzetgroei per uur"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:760
 msgid "<0>-1%</0> per 1% of employee tax, up to <1>-30%</1>"
-msgstr ""
+msgstr "<0>-1%</0> per 1% van werknemer belasting, tot <1>-30%</1>"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:670
 msgid "<0>-1</0> to all stats every 20 days at the same company, up to <1>-3</1>"
-msgstr ""
+msgstr "<0>-1</0> aan alle statistieken elke 20 dagen bij hetzelfde bedrijf, tot maximaal <1>-3</1>"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:453
 msgid "<0>-15%</0> alongside their nemesis"
-msgstr ""
+msgstr "<0>-15%</0> naast hun aartsvijand"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:520
 msgid "<0>-15%</0> per female coworker, up to <1>-30%</1>"
-msgstr ""
+msgstr "<0>-15%</0> per vrouwlijke medewerker, tot <1>-30%</1>"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:506
 msgid "<0>-15%</0> per male coworker, up to <1>-30%</1>"
-msgstr ""
+msgstr "<0>-15%</0> per mannelijke medewerker, tot <1>-30%</1>"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:608
 msgid "<0>-20%</0> until storage reaches level <1>3</1>"
-msgstr ""
+msgstr "<0>-20%</0> tot opslag level <1>3</1> bereikt"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:646
 msgid "<0>-30%</0> for 3 days after a transfer"
-msgstr ""
+msgstr "<0>-30%</0> voor 3 dagen na een overstap"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:850
 msgid "<0>-50%</0> below {quitThreshold} happiness"
-msgstr ""
+msgstr "<0>-50%</0> onder {quitThreshold} blijdschap"
 
 #. placeholder {0}: sideBonus.muHqBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:157
@@ -2524,31 +2524,31 @@ msgstr "<0>{0}</0> tegen de vijand van <1/>"
 #. placeholder {1}: 10
 #: src/components/_economy/employee/employee.frontConfig.tsx:714
 msgid "<0>{0}</0> and <1>{1}</1> in a homeland core region"
-msgstr ""
+msgstr "<0>{0}</0> en <1>{1}</1> in een thuisland kernregio"
 
 #. placeholder {0}: -2
 #. placeholder {1}: -5
 #: src/components/_economy/employee/employee.frontConfig.tsx:266
 msgid "<0>{0}</0> and <1>{1}</1> when any coworker is foreign"
-msgstr ""
+msgstr "<0>{0}</0> en <1>{1}</1> wanneer een medewerker uit het buitenland komt"
 
 #. placeholder {0}: 2
 #. placeholder {1}: 5
 #: src/components/_economy/employee/employee.frontConfig.tsx:248
 msgid "<0>{0}</0> and <1>{1}</1> when half or more coworkers are compatriots"
-msgstr ""
+msgstr "<0>{0}</0> en <1>{1}</1> wanneer de helft of meer van de medewerkers landgenoten zijn"
 
 #. placeholder {0}: -2
 #. placeholder {1}: -10
 #: src/components/_economy/employee/employee.frontConfig.tsx:732
 msgid "<0>{0}</0> and <1>{1}</1> when working abroad"
-msgstr ""
+msgstr "<0>{0}</0> en <1>{1}</1> bij het werken in het buitenland"
 
 #. placeholder {0}: 3
 #. placeholder {1}: 5
 #: src/components/_economy/employee/employee.frontConfig.tsx:536
 msgid "<0>{0}</0> and <1>{1}</1> while producing their good"
-msgstr ""
+msgstr "<0>{0}</0> en <1>{1}</1> terwijl zij hun product vervaardigen"
 
 #. placeholder {0}: levelConfig.stats.attackBonus || 0
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:67
@@ -2586,7 +2586,7 @@ msgstr "<0>{0}</0> vergoeding teruggegeven aan ME."
 #: src/components/_economy/employee/employee.frontConfig.tsx:351
 #: src/components/_economy/employee/employee.frontConfig.tsx:411
 msgid "<0>{0}</0> for themselves"
-msgstr ""
+msgstr "<0>{0}</0> voor hunzelf"
 
 #. placeholder {0}: sideBonus.countryAlliesBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:83
@@ -2628,19 +2628,19 @@ msgstr "<0>{0}</0> grondpunten zijn vereist om een ronde te winnen, er worden pu
 #. placeholder {0}: -1
 #: src/components/_economy/employee/employee.frontConfig.tsx:578
 msgid "<0>{0}</0> on anything manufactured"
-msgstr ""
+msgstr "<0>{0}</0> op alles wat is vervaardigd"
 
 #. placeholder {0}: 3
 #: src/components/_economy/employee/employee.frontConfig.tsx:554
 msgid "<0>{0}</0> on manufactured goods"
-msgstr ""
+msgstr "<0>{0}</0> op gefabriceerde goederen"
 
 #. placeholder {0}: -1
 #. placeholder {0}: 3
 #: src/components/_economy/employee/employee.frontConfig.tsx:560
 #: src/components/_economy/employee/employee.frontConfig.tsx:572
 msgid "<0>{0}</0> on raw resources"
-msgstr ""
+msgstr "<0>{0}</0> op grondstoffen"
 
 #. placeholder {0}: 2
 #. placeholder {1}: 6
