@@ -12405,7 +12405,7 @@ msgstr "Wybierz, który podoba Ci się najbardziej"
 
 #: src/components/_economy/itemOffer/CreateItemOffersModal.tsx:197
 msgid "Pick up to {maxItemsPerListing} weapons or equipment in perfect condition to put on sale."
-msgstr "Wybierz do {maxItemsPerListing} broni bądź wyposażenia in perfect w doskonałeś kondycji, aby wystawić na sprzedaż."
+msgstr "Wybierz do {maxItemsPerListing} broni bądź wyposażenia w doskonałeś kondycji, aby wystawić na sprzedaż."
 
 #: src/utils/translations.tsx:248
 msgid "Pickaxe"
