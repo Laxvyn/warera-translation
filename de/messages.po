@@ -278,7 +278,7 @@ msgstr "Werkzeug: {0}"
 #. placeholder {0}: user.data?.username
 #: src/pages/user/[userId]/companies.tsx:45
 msgid "{0}'s Companies"
-msgstr "Unternehmen von {0}"
+msgstr "Firmen von {0}"
 
 #. placeholder {0}: activeCompaniesCount.data ?? 0
 #. placeholder {1}: companiesLimit ?? 1
@@ -358,7 +358,7 @@ msgstr "{count, plural, one {<0><1/> Lebensmittel verzehren</0>} other {<2><3/> 
 
 #: src/components/_user/mission/mission.frontConfig.tsx:362
 msgid "{count, plural, one {<0>Help <1/> MU member</0>} other {<2>Help <3/> MU members</2>}}"
-msgstr "{count, plural, one {<0><1/> Mitglied einer Militäreinheit (MU) unterstützen</0>} other {<2><3/> Mitglieder einer Militäreinheit (MU) unterstützen</2>}}"
+msgstr "{count, plural, one {<0><1/> Mitglied einer Militäreinheit (ME) unterstützen</0>} other {<2><3/> Mitglieder einer Militäreinheit (ME) unterstützen</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:161
 msgid "{count, plural, one {<0>Hit <1/> time in battles</0>} other {<2>Hit <3/> times in battles</2>}}"
@@ -394,7 +394,7 @@ msgstr "{count, plural, one {<0><1/> Artikel lesen</0>} other {<2><3/> Artikel l
 
 #: src/components/_user/mission/mission.frontConfig.tsx:93
 msgid "{count, plural, one {<0>Self work <1/> time in your companies</0>} other {<2>Self work <3/> times in your companies</2>}}"
-msgstr "{count, plural, one {<0><1/>-mal selbst in deinen Unternehmen arbeiten</0>} other {<2><3/>-mal selbst in deinen Unternehmen arbeiten</2>}}"
+msgstr "{count, plural, one {<0><1/>-mal selbst in deinen Firmen arbeiten</0>} oder {<2><3/>-mal selbst in deinen Firmen arbeiten</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:563
 msgid "{count, plural, one {<0>Send <1/> message</0>} other {<2>Send <3/> messages</2>}}"
@@ -402,7 +402,7 @@ msgstr "{count, plural, one {<0><1/> Nachricht senden</0>} other {<2><3/> Nachri
 
 #: src/components/_user/mission/mission.frontConfig.tsx:790
 msgid "{count, plural, one {<0>Take care of an employee <1/> time in the company you manage</0>} other {<2>Take care of an employee <3/> times in the company you manage</2>}}"
-msgstr "{count, plural, one {<0>Dich im von dir geleiteten Unternehmen <1/>-mal um einen Mitarbeiter kümmern</0>} other {<2>Dich im von dir geleiteten Unternehmen <3/>-mal um einen Mitarbeiter kümmern</2>}}"
+msgstr "{count, plural, one {<0>Dich in der von dir geleiteten Firma <1/>-mal um einen Mitarbeiter kümmern</0>} oder {<2>Dich in der von dir geleiteten Firma <3/>-mal um einen Mitarbeiter kümmern</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:435
 msgid "{count, plural, one {<0>Tip <1/> article</0>} other {<2>Tip <3/> articles</2>}}"
@@ -422,7 +422,7 @@ msgstr "{count, plural, one {<0>Deine Fertigkeiten <1/>-mal verbessern</0>} othe
 
 #: src/components/_user/mission/mission.frontConfig.tsx:127
 msgid "{count, plural, one {<0>Work <1/> time in your companies</0>} other {<2>Work <3/> times in your companies</2>}}"
-msgstr "{count, plural, one {<0><1/>-mal in deinen Unternehmen arbeiten</0>} other {<2><3/>-mal in deinen Unternehmen arbeiten</2>}}"
+msgstr "{count, plural, one {<0><1/>-mal in deinen Firmen arbeiten</0>} oder {<2><3/>-mal in deinen Firmen arbeiten</2>}}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:171
 msgid "{days, plural, one {# day of their wage} other {# days of their wage}}"
@@ -459,11 +459,11 @@ msgstr "{freeMoves} kostenlos"
 
 #: src/components/_economy/employee/EmployeeTraitArg.tsx:55
 msgid "{gain} every {perDays} days at the same company"
-msgstr "{gain} alle {perDays} Tage im selben Unternehmen"
+msgstr "{gain} alle {perDays} Tage in der selben Firma"
 
 #: src/components/_economy/employee/EmployeeTraitArg.tsx:51
 msgid "{gain} every {perDays} days at the same company, up to {cap}"
-msgstr "{gain} alle {perDays} Tage im selben Unternehmen, bis zu {cap}"
+msgstr "{gain} alle {perDays} Tage in der selben Firma, bis zu {cap}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1168
 msgid "{gender, select, male {{name} accepts mixed grapes, under protest.} female {{name} accepts mixed grapes, under protest.} other {{name} accepts mixed grapes, under protest.}}"
@@ -1099,7 +1099,7 @@ msgstr "{gender, select, male {{name} geht mit dem Schild davon und kehrt nie zu
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1021
 msgid "{gender, select, male {{name} walks out of the workshop, and out of your company.} female {{name} walks out of the workshop, and out of your company.} other {{name} walks out of the workshop, and out of your company.}}"
-msgstr "{gender, select, male {{name} verlässt die Werkstatt und damit auch dein Unternehmen.} female {{name} verlässt die Werkstatt und damit auch dein Unternehmen.} other {{name} verlässt die Werkstatt und damit auch dein Unternehmen.}}"
+msgstr "{gender, select, male {{name} verlässt die Werkstatt und damit auch deine Firma.} female {{name} verlässt die Werkstatt und damit auch deine Firma.} other {{name} verlässt die Werkstatt und damit auch deine Firma.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1806
 msgid "{gender, select, male {{name} was hoping for at least “Commander”.} female {{name} was hoping for at least “Commander”.} other {{name} was hoping for at least “Commander”.}}"
@@ -1523,7 +1523,7 @@ msgstr "{gender, select, male {Der Rivale schickt eine Dankeskarte. {name} ist s
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2713
 msgid "{gender, select, male {The rival thanks your company in the paper. {name} has never been prouder to work here.} female {The rival thanks your company in the paper. {name} has never been prouder to work here.} other {The rival thanks your company in the paper. {name} has never been prouder to work here.}}"
-msgstr "{gender, select, male {Der Rivale bedankt sich in der Zeitung bei deinem Unternehmen. {name} war noch nie so stolz, hier zu arbeiten.} female {Der Rivale bedankt sich in der Zeitung bei deinem Unternehmen. {name} war noch nie so stolz, hier zu arbeiten.} other {Der Rivale bedankt sich in der Zeitung bei deinem Unternehmen. {name} war noch nie so stolz, hier zu arbeiten.}}"
+msgstr "{gender, select, male {Der Rivale bedankt sich in der Zeitung bei deine Firma. {name} war noch nie so stolz, hier zu arbeiten.} female {Der Rivale bedankt sich in der Zeitung bei deine Firma. {name} war noch nie so stolz, hier zu arbeiten.} other {Der Rivale bedankt sich in der Zeitung bei deiner Firma. {name} war noch nie so stolz, hier zu arbeiten.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1057
 msgid "{gender, select, male {The room loses it. {name} laughs hardest.} female {The room loses it. {name} laughs hardest.} other {The room loses it. {name} laughs hardest.}}"
@@ -1609,7 +1609,7 @@ msgstr "{hours, plural, one {# Stunde} other {# Stunden}}"
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:116
 msgid "{input} days in the company"
-msgstr "{input} Tage im Unternehmen"
+msgstr "{input} Tage in der Firma"
 
 #: src/components/_economy/itemOffer/itemOffer.hooks.ts:25
 msgid "{itemCount, plural, one {Item put on sale} other {Items put on sale}}"
@@ -1625,7 +1625,7 @@ msgstr "{lead} wartet auf deine Entscheidung."
 
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:441
 msgid "{managerTax}% manager tax is withheld from this pay when the manager collects it, for the country the company sits in."
-msgstr "Bei Auszahlung durch den Manager werden {managerTax}% Managersteuer von diesem Gehalt für das Land einbehalten, in dem sich das Unternehmen befindet."
+msgstr "Bei Auszahlung durch den Manager werden {managerTax}% Managersteuer von diesem Gehalt für das Land einbehalten, in dem sich die Firma befindet."
 
 #: src/components/_economy/manager/ManagerOfferRow.tsx:162
 msgid "{managerTax}% manager tax is withheld when you collect your pay in this country."
@@ -1766,7 +1766,7 @@ msgstr "{rareCount, plural, one {# davon ist selten oder besser} other {# davon 
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:702
 msgid "{raw} of the company's good, {product} if it is a product"
-msgstr "{raw} der Ware des Unternehmens, {product}, falls es sich um ein Produkt handelt"
+msgstr "{raw} der Ware der Firma, {product}, falls es sich um ein Produkt handelt"
 
 #: src/components/_political/map/MapMenu.tsx:752
 msgid "{regionLootCount, plural, =1 {Collect the wooden case lying on this region} one {Collect the # wooden case lying on this region} other {Collect the # wooden cases lying on this region}}"
@@ -2297,7 +2297,7 @@ msgstr "<0/> ist dem Spiel über deinen Empfehlungslink beigetreten!"
 #. placeholder {0}: data.wage
 #: src/components/_user/notification/notification.frontConfig.tsx:428
 msgid "<0/> joined your company <1/> for <2>{0}</2> wage"
-msgstr "<0/> ist deinem Unternehmen <1/> für <2>{0}</2> Lohn beigetreten"
+msgstr "<0/> ist deiner Firma <1/> für <2>{0}</2> Lohn beigetreten"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:43
 msgid "<0/> kicked <1/> from the conversation"
@@ -2312,7 +2312,7 @@ msgstr "<0/> ist gegangen"
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
 #: src/components/_user/notification/notification.frontConfig.tsx:609
 msgid "<0/> left his job in your company {0}"
-msgstr "<0/> hat seinen Job in deinem Unternehmen {0} verlassen"
+msgstr "<0/> hat seinen Job in deiner Firma {0} verlassen"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:34
 msgid "<0/> left the conversation"
@@ -2479,7 +2479,7 @@ msgstr "<0>-1%</0> pro 1% Lohnsteuer, bis zu <1>-30%</1>"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:670
 msgid "<0>-1</0> to all stats every 20 days at the same company, up to <1>-3</1>"
-msgstr "<0>-1</0> für alle Werte alle 20 Tage im selben Unternehmen, bis zu <1>-3</1>"
+msgstr "<0>-1</0> für alle Werte alle 20 Tage in der selben Firma, bis zu <1>-3</1>"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:453
 msgid "<0>-15%</0> alongside their nemesis"
@@ -2499,7 +2499,7 @@ msgstr "<0>-20%</0> bis das Lager Level <1>3</1> erreicht"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:646
 msgid "<0>-30%</0> for 3 days after a transfer"
-msgstr "<0>-30%</0> für 3 Tage nach der Versetzung"
+msgstr "<0>-30%</0> für drei Tage nach der Versetzung"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:850
 msgid "<0>-50%</0> below {quitThreshold} happiness"
@@ -2745,7 +2745,7 @@ msgstr "<0>{activeCompaniesCount}/{0}</0> Firmen"
 
 #: src/components/_user/user/EcoSkillEffects.tsx:110
 msgid "<0>{bonus}</0> employee production"
-msgstr "<0>{bonus}</0> Angestelltenproduktion"
+msgstr "<0>{bonus}</0> Mitarbeiterproduktion"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:47
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
@@ -2757,7 +2757,7 @@ msgstr "<0>{luck}</0> Glück: findet Werkzeugkisten, zieht seltenere Trainingska
 
 #: src/components/_economy/employee/EmployeeSpecializations.tsx:41
 msgid "<0>{percentPerDay}</0> per day worked in a good, up to <1>{maxPercent}</1>. Each good keeps its own days, so a moved employee starts over in the new good and keeps the old bonus for later."
-msgstr "<0>{percentPerDay}</0> pro Arbeitstag in einem Produkt, bis zu <1>{maxPercent}</1>. Jedes Produkt behält seine eigenen Tage, daher fängt ein versetzter Angestellter im neuen Produkt wieder von vorne an und behält seinen alten Bonus für später."
+msgstr "<0>{percentPerDay}</0> pro Arbeitstag in einem Produkt, bis zu <1>{maxPercent}</1>. Jedes Produkt behält seine eigenen Tage, daher fängt ein versetzter Mitarbeiter im neuen Produkt wieder von vorne an und behält seinen alten Bonus für später."
 
 #. placeholder {0}: fmt2(v / OUTPUT_DIVISOR)
 #: src/components/_economy/employee/employeeStats.tsx:246
@@ -2774,11 +2774,11 @@ msgstr "<0>{v}</0> Verantwortung = <1>{shieldPct}% weniger als</1> <2>Zufriedenh
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:931
 msgid "<0>+1</0> candidate on every company's daily shortlist"
-msgstr "<0>+1</0> Kandidat auf der täglichen Auswahlliste jedes Unternehmens"
+msgstr "<0>+1</0> Kandidat auf der täglichen Auswahlliste jeder Firma"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:658
 msgid "<0>+1</0> to one stat every 10 days at the same company, up to <1>+4</1>"
-msgstr "<0>+1</0> auf einen Wert alle 10 Tage im selben Unternehmen, bis zu <1>+4</1>"
+msgstr "<0>+1</0> auf einen Wert alle zehn Tage in der selben Firma, bis zu <1>+4</1>"
 
 #. placeholder {0}: 5
 #: src/components/_economy/employee/employee.frontConfig.tsx:296
@@ -2799,7 +2799,7 @@ msgstr "<0>+15 %</0> pro Kollege, bis zu <1>+30 %</1>"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:634
 msgid "<0>+20%</0> after 30 days at the same company"
-msgstr "<0>+20 %</0> nach 30 Tagen im selben Unternehmen"
+msgstr "<0>+20 %</0> nach 30 Tagen in der selben Firma"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:465
 msgid "<0>+20%</0> alongside their sweetheart"
@@ -2823,7 +2823,7 @@ msgstr "<0>+40 %</0>, solange ein Werkzeug gehalten wird"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:622
 msgid "<0>+50%</0> on their first day in a company"
-msgstr "<0>+50 %</0> am ersten Tag in einem Unternehmen"
+msgstr "<0>+50 %</0> am ersten Tag in einer Firma"
 
 #: src/components/_layout/loadingTips.tsx:225
 msgid "<0>Armor</0> and <1>Dodge</1> have diminishing returns: each point is worth a bit less than the one before."
@@ -2876,11 +2876,11 @@ msgstr "<0>Je <1/> insgesamt verursachtem Schaden über beide Seiten hinweg wird
 #. placeholder {2}: contract.isInactive && ( <p>They are away, so none of it applies right now.</p> )
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:172
 msgid "<0>Every employee of this company produces <1>{0}</1> more.</0><2><3>{1}</3> per Management point, and they have <4/>.</2>{2}"
-msgstr "<0>Jeder Mitarbeiter dieses Unternehmens produziert <1>{0}</1> mehr.</0><2><3>{1}</3> pro Managementpunkt; außerdem verfügen sie über <4/>.</2>{2}"
+msgstr "<0>Jeder Mitarbeiter dieser Firma produziert <1>{0}</1> mehr.</0><2><3>{1}</3> pro Managementpunkt; außerdem verfügen sie über <4/>.</2>{2}"
 
 #: src/components/_economy/company/CompanyProduce.tsx:90
 msgid "<0>Filled with <1>Production Points</1> when you work, by your employees and by the automated engine.</0><2>Only the company owner can spend it to produce items.</2>"
-msgstr "<0>Wird durch deine Arbeit, deine Mitarbeiter und den automatisierten Ablauf mit <1>Produktionspunkten</1> gefüllt.</0><2>Nur der Eigentümer des Unternehmens kann diese Punkte ausgeben, um Gegenstände herzustellen.</2>"
+msgstr "<0>Wird durch deine Arbeit, deine Mitarbeiter und der automatisierten Engine mit <1>Produktionspunkten</1> gefüllt.</0><2>Nur der Eigentümer der Firma kann diese Punkte ausgeben, um Gegenstände herzustellen.</2>"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:824
 msgid "<0>Half</0> Happiness losses"
@@ -3426,7 +3426,7 @@ msgstr "Ein {luckyCharm} mit mindestens einem Kollegen."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:228
 msgid "A {mentor} or an employee with Production {high} or more, and a coworker with Production {low} or less and training potential left."
-msgstr "Ein {mentor} oder ein Angestellter mit Produktion {high} oder mehr, und ein Kollege mit Produktion {low} oder weniger und übrigen Trainingspotenzial."
+msgstr "Ein {mentor} oder ein Mitarbeiter mit Produktion {high} oder mehr, und ein Kollege mit Produktion {low} oder weniger und übrigen Trainingspotenzial."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:256
 msgid "A {primaDonna} with at least one coworker."
@@ -3488,30 +3488,30 @@ msgstr "Ein Bürgerkrieg wurde von <0/> in <1/> gestartet"
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:161
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:533
 msgid "A company with 2 or more employees at work."
-msgstr "Eine Firma mit 2 oder mehr Angestellten die arbeiten."
+msgstr "Eine Firma mit zwei oder mehr Mitarbeitern, die arbeiten."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:409
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:493
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:526
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:536
 msgid "A company with 3 or more employees at work."
-msgstr "Eine Firma mit 3 oder mehr Angestellten die arbeiten."
+msgstr "Eine Firma mit drei oder mehr Mitarbeitern, die arbeiten."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:299
 msgid "A company with 3 or more employees at work. Twice as likely if {handy} or {improviser}."
-msgstr "Eine Firma mit 3 oder mehr Angestellen die arbeiten. Doppelt so hohe Wahrscheinlichkeit, wenn {handy} oder {improviser}."
+msgstr "Eine Firma mit drei oder mehr Angestellen, die arbeiten. Doppelt so hohe Wahrscheinlichkeit, wenn {handy} oder {improviser}."
 
 #: src/components/_layout/loadingTips.tsx:323
 msgid "A company with a full storage can't be worked and makes its employees unhappy. Produce often, or upgrade its Storage."
-msgstr "Eine Firma mit einem vollem Lager kann nicht arbeiten und macht ihre Angestellten unglücklich. Produziere häufig, oder upgrade ihr Lager."
+msgstr "Eine Firma mit einem vollem Lager kann nicht produzieren und macht ihre Mitarbeiter unglücklich. Produziere häufig oder erweitere das Lager."
 
 #: src/components/_layout/loadingTips.tsx:419
 msgid "A company's Break Room level is the number of employees it can hold."
-msgstr "Die Kapazität des Pausenraums einer Firma entspricht der Anzahl der Mitarbeiter die darin Platz finden."
+msgstr "Die Kapazität des Pausenraums einer Firma entspricht der Anzahl der Mitarbeiter, die darin Platz finden."
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:222
 msgid "A core region of your country: your employees here get +{coreRegionBonusPercent}% production."
-msgstr "Die Kernregion deines Landes: deine Angestellten erhalten hier +{coreRegionBonusPercent}% Produktion. "
+msgstr "Die Kernregion deines Landes: deine Mitarbeiter erhalten hier +{coreRegionBonusPercent}% Produktion. "
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:340
 msgid "A coworker"
@@ -3535,7 +3535,7 @@ msgstr "Ein Tag mi der Familie, und sie kommen lächelnd zurück"
 
 #: src/pages/region/[regionId]/index.tsx:60
 msgid "A deposit has been found in this region, it can be exploited by companies to produce raws."
-msgstr "In dieser Region wurde ein Vorkommen gefunden; es kann von Unternehmen genutzt werden, um Rohstoffe zu produzieren."
+msgstr "In dieser Region wurde ein Vorkommen gefunden. Es kann von Firmen genutzt werden, um Rohstoffe zu produzieren."
 
 #. placeholder {0}: ts[data.itemCode]
 #. placeholder {1}: data.bonusPercent
@@ -3645,7 +3645,7 @@ msgstr "Ein ruhiges Abendessen, ein langes Gespräch. {name} und {partnerName} g
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:60
 msgid "A random employee tool"
-msgstr "Ein zufälliges Angestellten Werkzeug"
+msgstr "Ein zufälliges Mitarbeiterwerkzeug"
 
 #: src/components/_economy/inventory/case/RarityChances.tsx:57
 msgid "A random resource stack"
@@ -3987,7 +3987,7 @@ msgstr "Alle Kategorien"
 
 #: src/components/_economy/employee/MoveShell.tsx:139
 msgid "All companies"
-msgstr "Alle Unternehmen"
+msgstr "Alle Firmen"
 
 #: src/components/_economy/manager/ManagerOfferFormModal.tsx:171
 msgid "All countries"
@@ -4152,11 +4152,11 @@ msgstr "Betrag"
 
 #: src/components/_economy/company/CompanyTags.tsx:175
 msgid "Amount of <0>Production Points</0> that can be stored inside the company before production stops."
-msgstr "Menge an <0>Produktionspunkten</0>, die im Unternehmen gelagert werden können, bevor die Produktion stoppt."
+msgstr "Menge an <0>Produktionspunkten</0>, die in der Firma gelagert werden können, bevor die Produktion stoppt."
 
 #: src/components/_user/user/skills.frontConfig.tsx:133
 msgid "Amount of companies you can own"
-msgstr "Anzahl der Unternehmen, die du besitzen kannst"
+msgstr "Anzahl der Firmen, die du besitzen kannst"
 
 #. placeholder {0}: data.refund
 #: src/components/_user/notification/notification.frontConfig.tsx:1797
@@ -4452,7 +4452,7 @@ msgstr "Höchstens einmal alle {every}"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:656
 msgid "At most once every {every} per company"
-msgstr "Pro Unternehmen höchstens einmal alle {every}"
+msgstr "Pro Firma höchstens einmal alle {every}"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:287
 msgid "AT Pistol"
@@ -4832,7 +4832,7 @@ msgstr "Werde Unterstützer, um bis zu {premiumMaxPresets} Fähigkeitsprofile zu
 
 #: src/components/_user/mission/mission.frontConfig.tsx:696
 msgid "Become the manager of another player's company"
-msgstr "Manager im Unternehmen eines anderen Spielers werden"
+msgstr "Manager in der Firma eines anderen Spielers werden"
 
 #: src/components/_economy/itemOffer/CreateItemOffersModal.tsx:245
 msgid "Before tax: buyers add their own tax on top."
@@ -5040,7 +5040,7 @@ msgstr "Bugfinder"
 
 #: src/components/_economy/company/CompanyList.tsx:272
 msgid "Build a company"
-msgstr "Unternehmen gründen"
+msgstr "Firma gründen"
 
 #: src/components/_military/mu/MuList.tsx:84
 #: src/pages/mus.tsx:43
@@ -5049,7 +5049,7 @@ msgstr "Militäreinheit gründen"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:485
 msgid "Build a second company!"
-msgstr "Gründe ein zweites Unternehmen!"
+msgstr "Gründe eine zweite Firma!"
 
 #: src/components/_military/mu/MuFormModal.tsx:134
 msgid "Build the military unit"
@@ -5135,7 +5135,7 @@ msgstr "Käufer aus deinem Land sehen <0>{buyerTotal}</0>"
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:296
 msgid "By Company"
-msgstr "Nach Unternehmen"
+msgstr "Nach Firma"
 
 #: src/components/_user/auth/ConnectFromModal.tsx:408
 msgid "By continuing, you agree to our <0>Terms of Service</0>."
@@ -5768,50 +5768,50 @@ msgstr "Firmen"
 #: src/components/_political/map/MapMenu.tsx:578
 #: src/components/_political/region/RegionHeader.tsx:115
 msgid "Companies (active, not disabled)"
-msgstr "Unternehmen (aktiv, nicht deaktiviert)"
+msgstr "Firmen (aktiv, nicht deaktiviert)"
 
 #: src/components/_user/user/skills.frontConfig.tsx:134
 #: src/components/_user/user/skills.frontConfig.tsx:135
 msgid "Companies limit"
-msgstr "Unternehmenslimit"
+msgstr "Firmenlimit"
 
 #: src/components/_economy/company/CompanyList.tsx:177
 msgid "Companies limit reached"
-msgstr "Unternehmenslimit erreicht"
+msgstr "Firmenlimit erreicht"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:123
 msgid "Company destroyed!"
-msgstr "Unternehmen zerstört!"
+msgstr "Firma zerstört!"
 
 #: src/components/_economy/company/CompanyTags.tsx:112
 #: src/components/_economy/employee/WorkforceSummary.tsx:136
 #: src/components/_economy/manager/ManagerOfferRow.tsx:177
 msgid "Company disabled"
-msgstr "Unternehmen deaktiviert"
+msgstr "Firma deaktiviert"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:150
 msgid "Company disabled!"
-msgstr "Unternehmen deaktiviert!"
+msgstr "Firma deaktiviert!"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:149
 msgid "Company enabled!"
-msgstr "Unternehmen aktiviert!"
+msgstr "Firma aktiviert!"
 
 #: src/components/_economy/company/MoveCompanyForm.tsx:59
 msgid "Company moved"
-msgstr "Unternehmen verschoben"
+msgstr "Firma verschoben"
 
 #: src/components/_economy/company/CompanyProduce.tsx:88
 msgid "Company production storage"
-msgstr "Produktionslager des Unternehmens"
+msgstr "Produktionslager der Firma"
 
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:44
 msgid "Company renamed!"
-msgstr "Unternehmen umbenannt!"
+msgstr "Firma umbenannt!"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:177
 msgid "Company upgraded!"
-msgstr "Unternehmen verbessert!"
+msgstr "Firma verbessert!"
 
 #: src/components/_layout/loadingTips.tsx:438
 msgid "Complete {missionSetPercent}% of a daily, weekly or monthly set to unlock its bonus <0>XP</0>."
@@ -6209,7 +6209,7 @@ msgstr "Erstellen"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:543
 msgid "Create a Company"
-msgstr "Unternehmen gründen"
+msgstr "Firma gründen"
 
 #. placeholder {0}: law.data.name
 #. placeholder {1}: law.data.scheme
@@ -6219,7 +6219,7 @@ msgstr "Erstelle eine neue Allianz mit dem Namen <0>{0}</0> und dem Farbschema <
 
 #: src/components/_user/mission/mission.frontConfig.tsx:544
 msgid "Create a new company"
-msgstr "Ein neues Unternehmen gründen"
+msgstr "Ein neue Firma gründen"
 
 #: src/components/_political/party/PartyFormModal.tsx:78
 #: src/components/_political/party/PartyList.tsx:88
@@ -6818,7 +6818,7 @@ msgstr "Deaktivieren"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:446
 msgid "Disable company"
-msgstr "Unternehmen deaktivieren"
+msgstr "Firma deaktivieren"
 
 #: src/components/_military/order/BattleOrderActions.tsx:72
 msgid "Disable Order"
@@ -6832,7 +6832,7 @@ msgstr "Deaktiviert"
 
 #: src/components/_layout/LayoutOptions.tsx:157
 msgid "Disabled upgrades"
-msgstr "Deaktivierte Verbesserungen"
+msgstr "Deaktivierte Befestigungen"
 
 #: src/components/_political/alliance/AllianceHeader.tsx:93
 msgid "Disbanded"
@@ -7091,7 +7091,7 @@ msgstr "Wirtschaft"
 
 #: src/components/_user/notification/notificationPrefs.categories.ts:165
 msgid "Economy & Companies"
-msgstr "Wirtschaft & Unternehmen"
+msgstr "Wirtschaft & Firmen"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:71
 msgid "Economy first"
@@ -7276,7 +7276,7 @@ msgstr "Mitarbeiter"
 #: src/components/_political/map/MapMenu.tsx:588
 #: src/components/_political/region/RegionHeader.tsx:126
 msgid "Employees (in active companies)"
-msgstr "Mitarbeiter (in aktiven Unternehmen)"
+msgstr "Mitarbeiter (in aktiven Firmen)"
 
 #: src/components/_layout/loadingTips.tsx:384
 msgid "Employees below {happinessQuitThreshold} happiness may quit."
@@ -7292,11 +7292,11 @@ msgstr "Leer"
 
 #: src/components/_user/user/SkillPresetsModal.tsx:56
 msgid "Empty build"
-msgstr "Leerer Bauplatz"
+msgstr "Leeres Profil"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:436
 msgid "Enable company"
-msgstr "Unternehmen aktivieren"
+msgstr "Firma aktivieren"
 
 #: src/components/_political/allianceLaw/AllianceLaw.tsx:87
 #: src/components/_political/allianceLaw/AllianceLawTypeSelect.tsx:103
@@ -7497,13 +7497,13 @@ msgstr "Alle 2 Minuten gewinnt die Seite mit mehr <0>Schaden</0> an <1>Boden</1>
 
 #: src/components/_economy/employee/useConfirmFire.tsx:39
 msgid "Every coworker still working in this company loses {coworkerHappinessPenalty} happiness for {penaltyHours} hours. Firing again restarts the timer, it does not stack."
-msgstr "Jeder Kollege, der weiterhin in diesem Unternehmen arbeitet, verliert für {penaltyHours} Stunden {coworkerHappinessPenalty} Wohlbefinden. Eine erneute Entlassung setzt den Timer zurück, statt den Effekt zu stapeln."
+msgstr "Jeder Kollege, der weiterhin in dieser Firma arbeitet, verliert für {penaltyHours} Stunden {coworkerHappinessPenalty} Wohlbefinden. Eine erneute Entlassung setzt den Timer zurück, statt den Effekt zu stapeln."
 
 #. placeholder {0}: contract.productionBonusPercent
 #. placeholder {1}: employeeConfig.skills.managementBonusPercentPerLevel
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:524
 msgid "Every employee of this company produces <0>{0}</0> more: <1>{1}</1> per Management point, and they have <2/>."
-msgstr "Jeder Mitarbeiter dieses Unternehmens produziert <0>{0}</0> mehr: <1>{1}</1> pro Managementpunkt; außerdem verfügen sie über <2/>."
+msgstr "Jeder Mitarbeiter dieser Firma produziert <0>{0}</0> mehr: <1>{1}</1> pro Managementpunkt; außerdem verfügen sie über <2/>."
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:79
 msgid "Every employee rolls 1 to 3 of these at hire, hidden until training reveals them."
@@ -7575,7 +7575,7 @@ msgstr "Alle halten durch. Einige nehmen es übel."
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:338
 msgid "Everyone in the company"
-msgstr "Alle im Unternehmen"
+msgstr "Alle in der Firma"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1045
 msgid "Everyone laughs, you included."
@@ -7607,7 +7607,7 @@ msgstr "Jeder will eins. Es gab nicht genug Kätzchen."
 
 #: src/components/_economy/manager/MoveManagerModal.tsx:45
 msgid "Everyone who changes company can resign straight afterwards"
-msgstr "Jeder, der das Unternehmen wechselt, kann unmittelbar danach kündigen."
+msgstr "Jeder, der die Firma wechselt, kann unmittelbar danach kündigen."
 
 #: src/components/_economy/company/CompanyDropdown.tsx:486
 #: src/components/_economy/manager/ManagerRateReductionAlert.tsx:72
@@ -7999,7 +7999,7 @@ msgstr "für {durationHours} Std. Eine Auswahl pro Tag; Boni stapeln sich."
 
 #: src/components/_economy/company/MoveCompanyForm.tsx:89
 msgid "for {penaltyDays} days, on every employee of the company"
-msgstr "für {penaltyDays} Tage bei jedem Mitarbeiter des Unternehmens"
+msgstr "für {penaltyDays} Tage bei jedem Mitarbeiter der Firma"
 
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:66
 msgid "for {penaltyDays} days, on everyone who changes desk"
@@ -8597,11 +8597,11 @@ msgstr "Wohlbefinden höchstens {mood}, Produktion mindestens {output} oder {cli
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:282
 msgid "Happiness {mood} or more, after 14 days in the company."
-msgstr "Wohlbefinden mindestens {mood}, nach 14 Tagen im Unternehmen."
+msgstr "Wohlbefinden mindestens {mood}, nach 14 Tagen in der Firma."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:118
 msgid "Happiness {mood} or more, and either 5 days of experience in the company's good or {quickStudy}."
-msgstr "Wohlbefinden mindestens {mood} und entweder 5 Tage Erfahrung mit der Ware des Unternehmens oder {quickStudy}."
+msgstr "Wohlbefinden mindestens {mood} und entweder fünf Tage Erfahrung mit der Ware der Firma oder {quickStudy}."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:126
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:459
@@ -8756,7 +8756,7 @@ msgstr "Einen Mitarbeiter einstellen"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:832
 msgid "Hire an employee in one of your companies"
-msgstr "Einen Mitarbeiter in einem deiner Unternehmen einstellen"
+msgstr "Einen Mitarbeiter in einen deiner Firmen einstellen"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:469
 msgid "Hire another employee!"
@@ -9197,11 +9197,11 @@ msgstr "Sein Land und seine Allianz."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:556
 msgid "Its daily income and companies."
-msgstr "Sein tägliches Einkommen und seine Unternehmen."
+msgstr "Sein tägliches Einkommen und seine Firmen."
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:138
 msgid "Its employees do not work and are not paid until the company is enabled again."
-msgstr "Seine Mitarbeiter arbeiten nicht und werden nicht bezahlt, bis das Unternehmen wieder aktiviert wird."
+msgstr "Seine Mitarbeiter arbeiten nicht und werden nicht bezahlt, bis die Firma wieder aktiviert wird."
 
 #: src/components/_common/GameRules.tsx:296
 msgid "j. Spam and repeated messages"
@@ -9334,7 +9334,7 @@ msgstr "Kämpf weiter!"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:618
 msgid "Keep it for the company"
-msgstr "Für das Unternehmen behalten"
+msgstr "Behalte es für die Firma"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3522
 msgid "Keep the posters"
@@ -10114,7 +10114,7 @@ msgstr "Maximiert!"
 
 #: src/components/_economy/company/CompanyTags.tsx:186
 msgid "Maximum number of employees this company can hold."
-msgstr "Maximale Anzahl an Mitarbeitern, die dieses Unternehmen aufnehmen kann."
+msgstr "Maximale Anzahl an Mitarbeitern, die diese Firma einstellen kann."
 
 #. placeholder {0}: levelConfig.stats.maxWorkers
 #: src/components/_other/upgrade/upgrade.frontConfig.tsx:140
@@ -10669,16 +10669,16 @@ msgstr "<0/> zu {0} versetzen? Der Mitarbeiter behält seinen Lohn und das berei
 
 #: src/components/_user/mission/mission.frontConfig.tsx:723
 msgid "Move a company to another region"
-msgstr "Verschiebe ein Unternehmen in eine andere Region"
+msgstr "Verschiebe eine Firma in eine andere Region"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:311
 #: src/components/_economy/company/MoveCompanyForm.tsx:70
 msgid "Move company"
-msgstr "Unternehmen verschieben"
+msgstr "Firma verschieben"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:722
 msgid "Move Company"
-msgstr "Unternehmen verschieben"
+msgstr "Firma verschieben"
 
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:326
 msgid "Move employee"
@@ -10699,7 +10699,7 @@ msgstr "Manager versetzen"
 
 #: src/components/_economy/company/MoveCompanyForm.tsx:108
 msgid "Move the company"
-msgstr "Unternehmen verschieben"
+msgstr "Firma verschieben"
 
 #: src/components/_economy/employee/MoveShell.tsx:95
 msgid "Move to"
@@ -10723,7 +10723,7 @@ msgstr "Kürzlich versetzt"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2213
 msgid "Moved to a new company"
-msgstr "In ein neues Unternehmen gewechselt"
+msgstr "In eine neue Firma gewechselt"
 
 #: src/components/_economy/employee/training.frontConfig.tsx:61
 msgid "Moves a trait one step up its ladder."
@@ -10731,7 +10731,7 @@ msgstr "Verschiebt eine Eigenschaft eine Stufe auf ihrer Entwicklungsskala nach 
 
 #: src/components/_layout/loadingTips.tsx:401
 msgid "Moving an employee to another company is free, but costs them {movePenalty} happiness for {movePenaltyDays} days."
-msgstr "Einen Mitarbeiter in ein anderes Unternehmen zu versetzen ist kostenlos, kostet ihn aber {movePenalty} Wohlbefinden für {movePenaltyDays} Tage."
+msgstr "Einen Mitarbeiter in ein andere Firma zu versetzen ist kostenlos, kostet ihn aber {movePenalty} Wohlbefinden für {movePenaltyDays} Tage."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:576
 msgid "Moving costs <0>Stamina</0>, then Oil."
@@ -10761,11 +10761,11 @@ msgstr "ME-Spende erhalten"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2323
 msgid "MU Level Up!"
-msgstr "ME-Levelaufstieg!"
+msgstr "ME-Stufenaufstieg!"
 
 #: src/components/_military/mu/MuLevelsInfoModal.tsx:112
 msgid "MU Monthly Levels"
-msgstr "Monatliche ME-Level"
+msgstr "Monatliche ME-Stufen"
 
 #: src/components/_military/battle/BattleSideOrdersModal.tsx:74
 msgid "MU Orders"
@@ -10802,7 +10802,7 @@ msgstr "Mein Bot, Skript, etc."
 
 #: src/pages/user/[userId]/companies.tsx:44
 msgid "My Companies"
-msgstr "Meine Unternehmen"
+msgstr "Meine Firmen"
 
 #. placeholder {0}: milestone.tier
 #: src/components/_user/milestone/MilestoneItem.tsx:137
@@ -11172,7 +11172,7 @@ msgstr "Noch keine Ankündigung"
 
 #: src/components/_user/apiToken/ApiTokenList.tsx:231
 msgid "No API tokens yet. Create one to get started."
-msgstr "Noch keine API-Token. Erstelle einen, um loszulegen."
+msgstr "Noch keine API-Tokens. Erstelle einen, um loszulegen."
 
 #: src/components/_user/auth/ConnectFromModal.tsx:154
 msgid "No authorization code provided."
@@ -11196,7 +11196,7 @@ msgstr "Keine Kandidaten verfügbar"
 
 #: src/components/_economy/inventory/Inventory.tsx:526
 msgid "No chests"
-msgstr "Keine Truhen"
+msgstr "Keine Kisten"
 
 #: src/pages/country/[countryId]/citizens.tsx:41
 msgid "No citizens"
@@ -11204,7 +11204,7 @@ msgstr "Keine Bürger"
 
 #: src/components/_economy/manager/ManagerOfferList.tsx:140
 msgid "No company is looking for a manager right now."
-msgstr "Derzeit sucht kein Unternehmen einen Manager."
+msgstr "Derzeit sucht keine Firma einen Manager."
 
 #: src/pages/country/[countryId]/government.tsx:178
 msgid "No congress members"
@@ -11391,7 +11391,7 @@ msgstr "Keine Prestigepunkte mehr übrig. Tippe, um vorgemerkte Punkte zurückzu
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2992
 msgid "No prize, but the whole company sang together. Spirits are high."
-msgstr "Kein Preis, aber das ganze Unternehmen hat gemeinsam gesungen. Die Stimmung ist großartig."
+msgstr "Kein Preis, aber die ganze Firma hat gemeinsam gesungen. Die Stimmung ist großartig."
 
 #: src/components/_economy/employee/EmployeeModal.tsx:150
 msgid "No production yet"
@@ -11488,7 +11488,7 @@ msgstr "Niemand weiß, für wen die Feier ist. Es ist eine großartige Party."
 
 #: src/components/_economy/manager/MoveManagerModal.tsx:210
 msgid "Nobody manages this company yet"
-msgstr "Dieses Unternehmen hat noch keinen Manager"
+msgstr "Diese Firma hat noch keinen Manager"
 
 #: src/components/_economy/itemOffer/CreateItemOffersModal.tsx:431
 msgid "Nobody sells a similar one yet. The price starts at the estimated value."
@@ -11600,11 +11600,11 @@ msgstr "Nicht begonnen"
 
 #: src/components/_economy/employee/EmployeeTooltip.tsx:213
 msgid "not usable in this company"
-msgstr "in diesem Unternehmen nicht verwendbar"
+msgstr "in dieser Firma nicht verwendbar"
 
 #: src/components/_economy/employee/EmployeeToolSlot.tsx:230
 msgid "Not usable in this company"
-msgstr "In diesem Unternehmen nicht verwendbar"
+msgstr "In dieser Firma nicht verwendbar"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2791
 msgid "Notes on an arm"
@@ -11920,7 +11920,7 @@ msgstr "Öffne deine Kiste!"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:458
 msgid "Open your company's menu."
-msgstr "Öffne das Menü deines Unternehmens."
+msgstr "Öffne das Menü deiner Firma."
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:61
 msgid "Operative"
@@ -12222,7 +12222,7 @@ msgstr "Bei Schritt {0} von {1} pausiert"
 
 #: src/components/_economy/manager/MoveManagerModal.tsx:88
 msgid "Paused: nobody manages here"
-msgstr "Pausiert: Niemand verwaltet dieses Unternehmen"
+msgstr "Pausiert: Niemand verwaltet diese Firma"
 
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:118
 msgid "Paused: nobody produces here"
@@ -12960,7 +12960,7 @@ msgstr "Mach dich an die Arbeit!"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:135
 msgid "Putting your company in one of your country's core regions gives <0>{coreRegionBonusPercent}</0> production to your employees and helps your country."
-msgstr "Wenn du dein Unternehmen in einer Kernregion deines Landes ansiedelst, erhalten deine Mitarbeiter <0>{coreRegionBonusPercent}</0> Produktion zusätzlich und du unterstützt dein Land."
+msgstr "Wenn du deine Firmen in einer Kernregion deines Landes ansiedelst, erhalten deine Mitarbeiter <0>{coreRegionBonusPercent}</0> Produktion zusätzlich und du unterstützt dein Land."
 
 #: src/components/_social/poll/PollEditorModal.tsx:187
 msgid "Question"
@@ -13057,7 +13057,7 @@ msgstr "Selten. Jeder, der vor mindestens 7 Tagen eingestellt wurde; bei einem {
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:329
 msgid "Rare. Can happen to anyone, twice as likely while the company's region is under attack."
-msgstr "Selten. Kann jedem passieren; doppelt so wahrscheinlich, wenn die Region des Unternehmens angegriffen wird."
+msgstr "Selten. Kann jedem passieren; doppelt so wahrscheinlich, wenn die Region der Firma angegriffen wird."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:450
 msgid "Rare. Hired 14 days ago or more, with happiness {mood} or more and training potential left."
@@ -13065,7 +13065,7 @@ msgstr "Selten. Vor mindestens 14 Tagen eingestellt, Wohlbefinden mindestens {mo
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:239
 msgid "Rare. Someone hired 7 days ago or more who is {craftsman}, {specialist} or {handy}, or has 15 days of experience in the company's good, if a tool exists for that good."
-msgstr "Selten. Ein Mitarbeiter, der vor mindestens 7 Tagen eingestellt wurde und {craftsman}, {specialist} oder {handy} ist oder 15 Tage Erfahrung mit der Ware des Unternehmens hat, sofern es ein Werkzeug für diese Ware gibt."
+msgstr "Selten. Ein Mitarbeiter, der vor mindestens sieben Tagen eingestellt wurde und {craftsman}, {specialist} oder {handy} ist oder 15 Tage Erfahrung mit der Ware der Firma hat, sofern es ein Werkzeug für diese Ware gibt."
 
 #: src/components/_economy/employee/employeeStats.tsx:362
 msgid "Rare+ training card"
@@ -13549,7 +13549,7 @@ msgstr "Allianz in \"{0}\" umbenennen"
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:66
 #: src/components/_economy/company/CompanyRenameFormModal.tsx:82
 msgid "Rename company"
-msgstr "Unternehmen umbenennen"
+msgstr "Firma umbenennen"
 
 #: src/components/_economy/employee/EmployeeRenameModal.tsx:65
 msgid "Rename employee"
@@ -13766,7 +13766,7 @@ msgstr "Setze sie jederzeit auf der Schlachten-Seite fort, um die Belohnung zu e
 
 #: src/components/_other/tour/tutorial.hooks.ts:272
 msgid "Resume it anytime from the Companies page to earn its reward."
-msgstr "Setze sie jederzeit auf der Unternehmens-Seite fort, um die Belohnung zu erhalten."
+msgstr "Setze sie jederzeit auf der Seite der Firma fort, um die Belohnung zu erhalten."
 
 #: src/components/_other/tour/tutorial.hooks.ts:281
 msgid "Resume it anytime from the Guides tab of the Progression page to earn its reward."
@@ -14066,7 +14066,7 @@ msgstr "Zweiter Atem"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:65
 msgid "See all your employees and companies stats"
-msgstr "Alle Werte deiner Mitarbeiter und Unternehmen ansehen"
+msgstr "Alle Werte deiner Mitarbeiter und Firmen ansehen"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:137
 msgid "See your spending and income breakdown"
@@ -14147,7 +14147,7 @@ msgstr "Einen Gegenstand verkaufen"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:522
 msgid "Sell company? Its employees will be let go and their tools returned to your inventory."
-msgstr "Unternehmen verkaufen? Die Mitarbeiter werden entlassen und ihre Werkzeuge in dein Inventar zurückgelegt."
+msgstr "Firma verkaufen? Die Mitarbeiter werden entlassen und ihre Werkzeuge in dein Inventar zurückgelegt."
 
 #: src/components/_user/mission/mission.frontConfig.tsx:301
 msgid "Sell for <0/> money on market"
@@ -14562,7 +14562,7 @@ msgstr "Verkauft von"
 
 #: src/components/_economy/company/CompanyList.tsx:182
 msgid "Some of your companies are disabled."
-msgstr "Einige deiner Unternehmen sind deaktiviert."
+msgstr "Einige deiner Firmen sind deaktiviert."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1216
 msgid "Someone else was hoarding too: a wooden case, never opened."
@@ -14583,7 +14583,7 @@ msgstr "Bald folgt etwas"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:1017
 msgid "Something happens to an employee, or to two coworkers, and you choose what to do: up to {maxPerDay} a day. Left unanswered, an event picks its “If ignored” answer after {expires}. The odds depend on the employee and your skills, and show when it happens."
-msgstr "Einem Mitarbeiter oder zwei Kollegen passiert etwas, und du entscheidest, was zu tun ist: bis zu {maxPerDay} Ereignisse pro Tag. Bleibt eine Entscheidung aus, wählt das Ereignis nach {expires} automatisch die Antwort unter „Wenn ignoriert“. Die Wahrscheinlichkeiten hängen vom Mitarbeiter und deinen Fähigkeiten ab und werden beim Ereignis angezeigt."
+msgstr "Einem Mitarbeiter oder zwei Kollegen passiert etwas und du entscheidest, was zu tun ist: bis zu {maxPerDay} Ereignisse pro Tag. Bleibt eine Entscheidung aus, wählt das Ereignis nach {expires} automatisch die Antwort unter „Wenn ignoriert“. Die Wahrscheinlichkeiten hängen vom Mitarbeiter und deinen Fähigkeiten ab und werden beim Ereignis angezeigt."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:609
 msgid "Something in the storeroom"
@@ -14625,7 +14625,7 @@ msgstr "Falsch geschrieben"
 
 #: src/components/_layout/loadingTips.tsx:471
 msgid "Spend <0>Energy</0> on <1>Construction</1> to help build your region's upgrades."
-msgstr "Setze <0>Energie</0> für <1>Bauarbeiten</1> ein, um die Verbesserungen deiner Region mit aufzubauen."
+msgstr "Setze <0>Energie</0> für <1>Bauarbeiten</1> ein, um die Befestigungen deiner Region mit aufzubauen."
 
 #: src/components/_layout/loadingTips.tsx:481
 msgid "Spend <0>Energy</0> or <1>Health</1> to raise the resistance of an occupied region."
@@ -14641,7 +14641,7 @@ msgstr "Ausgaben"
 
 #: src/components/_user/user/EcoSkillEffects.tsx:75
 msgid "Spent to work your companies, hire and train employees, and push resistance or unrest bars."
-msgstr "Wird für die Arbeit in deinen Unternehmen, das Einstellen und Trainieren von Mitarbeitern sowie zum Erhöhen von Widerstands- oder Unruheleisten verbraucht."
+msgstr "Wird für die Arbeit in deinen Firmen, das Einstellen und Trainieren von Mitarbeitern sowie zum Erhöhen von Widerstands- oder Unruheleisten verbraucht."
 
 #: src/components/_user/user/skills.frontConfig.tsx:108
 msgid "Spent when moving on the map: 10 points per region crossed. The regions your stamina can't cover are paid in oil. It refills 10 points an hour and cannot be raised with skill points."
@@ -14661,7 +14661,7 @@ msgstr "Zuverlässige, eroberungssichere Stärke. Wird für Unruhen, Regierungsg
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:499
 msgid "Staff your new company!"
-msgstr "Besetze dein neues Unternehmen mit Mitarbeitern!"
+msgstr "Besetze deine neue Firma mit Mitarbeitern!"
 
 #: src/components/_user/user/SkillUpgrade.tsx:294
 msgid "Stage a prestige point on this skill (applied on save, reset on skill reset)"
@@ -15080,7 +15080,7 @@ msgstr "Inventar aufrufen"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:558
 msgid "Tap Move to travel there."
-msgstr "Tippe auf „Bewegen“, um dorthin zu reisen."
+msgstr "Tippe auf Bewegen, um dorthin zu reisen."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:442
 msgid "Tap one to read it."
@@ -15104,7 +15104,7 @@ msgstr "Tippe auf diesen Platz, um deine neue Ausrüstung anzulegen."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:574
 msgid "Tap to go to the nearest one and loot it."
-msgstr "Tippe, um zur nächsten Kiste zu gehen und sie zu plündern."
+msgstr "Tippe, um zur nächsten Kiste zu gehen und sie zu einzusammeln."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:215
 msgid "Tap to see what's inside."
@@ -15141,7 +15141,7 @@ msgstr "Steuerart"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:128
 msgid "Tax-shy"
-msgstr "steuerscheu"
+msgstr "Steuerscheu"
 
 #: src/pages/country/[countryId]/account.tsx:37
 msgid "Taxes"
@@ -15225,7 +15225,7 @@ msgstr "Die <0>Produktionspunkte</0>, die du jedes Mal beim Arbeiten generierst"
 
 #: src/components/_layout/loadingTips.tsx:332
 msgid "The Automated Engine keeps a company producing every hour, even while you're offline. Upgrade it to produce more."
-msgstr "Die automatisierte Maschine lässt ein Unternehmen jede Stunde produzieren, selbst wenn du offline bist. Verbessere sie, um mehr zu produzieren."
+msgstr "Die automatisierte Engine lässt eine Firma jede Stunde produzieren, selbst wenn du offline bist. Verbessere sie, um mehr zu produzieren."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:193
 msgid "The bar is full. Tap to turn it into items."
@@ -15277,24 +15277,24 @@ msgstr "Die Kaffeemaschine"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3082
 msgid "The company adopts the curse as a mascot. Morale is oddly up."
-msgstr "Das Unternehmen macht das verfluchte Ding zum Maskottchen. Die Moral steigt überraschenderweise."
+msgstr "Die Firma macht das verfluchte Ding zum Maskottchen. Die Moral steigt überraschenderweise."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2996
 msgid "The company is booed off the stage. Nobody speaks of it the next morning."
-msgstr "Das Unternehmen wird von der Bühne gebuht. Am nächsten Morgen spricht niemand mehr darüber."
+msgstr "Die Firma wird von der Bühne gebuht. Am nächsten Morgen spricht niemand mehr darüber."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:78
 #: src/components/_economy/employeeEvent/EmployeeEventText.tsx:48
 msgid "the company's good"
-msgstr "die Ware des Unternehmens"
+msgstr "die Ware der Firma"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:167
 msgid "The company's region is under attack, and the employee is a citizen of the country holding it, a {patriot} or a {nationalist}."
-msgstr "Der Firmenstandort wird angegriffen und der Angestellte ist Bürger des Landes, welches die Region verteidigt, ein {patriot} oder ein {nationalist}."
+msgstr "Der Firmenstandort wird angegriffen und der Mitarbeiter ist Bürger des Landes, welches die Region verteidigt, ein {patriot} oder ein {nationalist}."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:434
 msgid "The company's region is under attack, with 2 or more employees at work."
-msgstr "Der Firmenstandort wird angegriffen. Zwei oder mehr Angestellte arbeiten hier."
+msgstr "Der Firmenstandort wird angegriffen. Zwei oder mehr Mitarbeiter arbeiten hier."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:431
 msgid "The company's region is under attack."
@@ -15302,7 +15302,7 @@ msgstr "Der Firmenstandort wird angegriffen."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:441
 msgid "The company's region is under attack. Twice as likely for a {cosmopolitan}."
-msgstr "Die Region des Unternehmens wird angegriffen. Bei einem {cosmopolitan} doppelt so wahrscheinlich."
+msgstr "Die Region der Firma wird angegriffen. Bei einem {cosmopolitan} doppelt so wahrscheinlich."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1239
 msgid "The compliment"
@@ -15408,11 +15408,11 @@ msgstr "Die Wirkung deiner verbrauchten Buffs ist beendet. Die Debuff-Phase hat 
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:74
 msgid "the employee"
-msgstr "der Angestellte"
+msgstr "der Mitarbeiter"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:320
 msgid "The employee"
-msgstr "Der Angestellte"
+msgstr "Der Mitarbeiter"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1590
 msgid "The exorcist says it is very cursed, and leaves quickly."
@@ -15472,11 +15472,11 @@ msgstr "Der Haarschnitt"
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:498
 msgid "The hour's whole payroll across all your companies, employees and managers, divided by the production it banks. Under the market value of a point your companies earn more than they spend; over it, they cost more than what they make is worth."
-msgstr "Die gesamten Stundenlohnkosten aller Mitarbeiter und Manager deiner Unternehmen, geteilt durch die eingelagerten Produktionspunkte. Liegt der Wert unter dem Marktwert eines Punktes, verdienen deine Unternehmen mehr, als sie ausgeben; liegt er darüber, kosten sie mehr, als ihre Produktion wert ist."
+msgstr "Die gesamten Stundenlohnkosten aller Mitarbeiter und Manager deiner Firmen, geteilt durch die eingelagerten Produktionspunkte. Liegt der Wert unter dem Marktwert eines Punktes, verdienen deine Firmen mehr, als sie ausgeben; liegt er darüber, kosten sie mehr, als ihre Produktion wert ist."
 
 #: src/components/_economy/employee/CostPerPp.tsx:54
 msgid "The hour's whole payroll, employees and manager, divided by the production it banks. Under the market value of a point the company earns more than it spends; over it, the roster costs more than what it makes is worth."
-msgstr "Die gesamten Stundenlohnkosten von Mitarbeitern und Manager, geteilt durch die eingelagerten Produktionspunkte. Liegt der Wert unter dem Marktwert eines Punktes, verdient das Unternehmen mehr, als es ausgibt; liegt er darüber, kostet die Belegschaft mehr, als ihre Produktion wert ist."
+msgstr "Die gesamten Stundenlohnkosten von Mitarbeitern und Manager, geteilt durch die eingelagerten Produktionspunkte. Liegt der Wert unter dem Marktwert eines Punktes, verdient die Firma mehr, als sie ausgibt; liegt er darüber, kostet die Belegschaft mehr, als ihre Produktion wert ist."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1034
 msgid "The impression"
@@ -15708,7 +15708,7 @@ msgstr "Der Tacker steckt im Wackelpudding. {name} und {partnerName} sind im Kri
 #. placeholder {0}: roundTax(companyCountry.taxes.income)
 #: src/components/_economy/company/CompanyTags.tsx:63
 msgid "The state collects {0}% of this company's employee payroll, and every point of it costs each employee happiness."
-msgstr "Der Staat erhebt {0} % der Mitarbeiterlohnsumme dieses Unternehmens als Steuer, und jeder Prozentpunkt kostet jeden Mitarbeiter Wohlbefinden."
+msgstr "Der Staat erhebt {0} % der Mitarbeiterlohnsumme dieser Firma als Steuer, und jeder Prozentpunkt kostet jeden Mitarbeiter Wohlbefinden."
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:198
 msgid "The state collects {taxPercent}% of your employees' wages as employee tax."
@@ -15768,7 +15768,7 @@ msgstr "Die Werkzeugkiste hat nur teilweise geholfen: Das Werkzeug ist besser, a
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1554
 msgid "The tournament has ended for your team <0/>. Check the results!"
-msgstr "Das Turnier für dein Team <0/> ist beendet. Überprüfe die Ergebnisse!"
+msgstr "Das Turnier für dein Team <0/> ist beendet. Schau dir die Ergebnisse an!"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2694
 msgid "The trick works for everyone. The whole shift runs faster."
@@ -15808,7 +15808,7 @@ msgstr "Der ganze Pausenraum ist sich in seiner Empörung über dich einig. Für
 
 #: src/components/_economy/employee/RecruitModal.tsx:117
 msgid "The whole shortlist is replaced every day at 00:00 UTC. Hiring only refills the slot you hired from."
-msgstr "Die gesamte Kandidatenliste wird täglich um 00:00 UTC ersetzt. Durch eine Einstellung wird nur der Platz neu aufgefüllt, aus dem du den Kandidaten eingestellt hast."
+msgstr "Die gesamte Kandidatenliste wird täglich um 00:00 UTC gewechselt. Durch eine Einstellung wird nur der Platz neu aufgefüllt, aus dem du den Kandidaten gewählt hast."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1674
 msgid "The winning ticket"
@@ -15816,11 +15816,11 @@ msgstr "Das Gewinnlos"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:644
 msgid "The workshop has a cat now, and everyone is in a better mood."
-msgstr "Die Werkstatt hat jetzt eine Katze, und alle sind besser gelaunt."
+msgstr "Die Werkstatt hat jetzt eine Katze und alle sind besser gelaunt."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3920
 msgid "The workshop is a jungle now. Everyone loves it, and nobody can find the stapler."
-msgstr "Die Werkstatt ist jetzt ein Dschungel. Alle lieben es, und niemand findet den Tacker."
+msgstr "Die Werkstatt ist jetzt ein Dschungel. Alle lieben es und niemand findet den Tacker."
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:336
 msgid "Their coworkers"
@@ -15852,7 +15852,7 @@ msgstr "Sie erhalten ihren Lohn aus deinem <0>Geld</0>."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:551
 msgid "They get through it somehow, and nobody mentions it again."
-msgstr "Sie kommen irgendwie damit zurecht, und niemand erwähnt es wieder."
+msgstr "Sie kommen irgendwie damit zurecht und niemand erwähnt es wieder."
 
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:270
 msgid "They keep what they earned."
@@ -15864,11 +15864,11 @@ msgstr "Sie lachen auch. {name} und {partnerName} sind jetzt alte Freunde und ge
 
 #: src/components/_economy/employee/EmployeeModal.tsx:657
 msgid "They left the company"
-msgstr "Sie haben das Unternehmen verlassen"
+msgstr "Sie haben die Firma verlassen"
 
 #: src/components/_economy/employee/EmployeeResumeRow.tsx:120
 msgid "They left the company."
-msgstr "Sie haben das Unternehmen verlassen."
+msgstr "Sie haben die Firma verlassen."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:827
 msgid "They let it drop, and stay {retirementStayYears, plural, one {# more year} other {# more years}}."
@@ -15928,19 +15928,19 @@ msgstr "Dieses Kopfgeld ist nur für Staatsbürger verfügbar."
 
 #: src/components/_economy/employeeEvent/EmployeeEventModal.tsx:391
 msgid "This can end with someone leaving your company for good."
-msgstr "Das kann damit enden, dass jemand dein Unternehmen endgültig verlässt."
+msgstr "Das kann damit enden, dass jemand deine Firma endgültig verlässt."
 
 #: src/components/_economy/manager/ManagerCareButton.tsx:121
 msgid "This company has no employees"
-msgstr "Dieses Unternehmen hat keine Mitarbeiter"
+msgstr "Diese Firma hat keine Mitarbeiter"
 
 #: src/components/_economy/employee/EmployeeList.tsx:202
 msgid "This company is disabled and earns nothing. Once re-enabled, a day of its production would be worth this much at the market value of a point, minus the day's whole payroll, employees and manager."
-msgstr "Dieses Unternehmen ist deaktiviert und verdient nichts. Nach der Reaktivierung wäre die Tagesproduktion zum Marktwert eines Punktes so viel wert, abzüglich der gesamten Tageslöhne von Mitarbeitern und Manager."
+msgstr "Diese Firma ist deaktiviert und verdient nichts. Nach der Reaktivierung wäre die Tagesproduktion zum Marktwert eines Punktes so viel wert, abzüglich der gesamten Tageslöhne von Mitarbeitern und Manager."
 
 #: src/components/_economy/company/CompanyTags.tsx:116
 msgid "This company is disabled because the owner reached the company limit."
-msgstr "Dieses Unternehmen ist deaktiviert, da der Besitzer das Unternehmenslimit erreicht hat."
+msgstr "Diese Firma ist deaktiviert, da der Besitzer das Firmenlimit erreicht hat."
 
 #: src/pages/country/[countryId]/index.tsx:127
 msgid "This country has no president or active congress member, you can take control of it."
@@ -15993,7 +15993,7 @@ msgstr "diese Ware"
 
 #: src/components/_economy/company/CompanyChangeItemFormModal.tsx:102
 msgid "This good needs another kind of tool: every tool your employees hold here goes back to your inventory."
-msgstr "Für diese Ware wird eine andere Werkzeugart benötigt: Alle Werkzeuge deiner Mitarbeiter hier kommen zurück in dein Inventar."
+msgstr "Für diese Ware wird eine andere Werkzeugart benötigt: Alle Werkzeuge deiner Mitarbeiter kommen zurück in dein Inventar."
 
 #: src/components/_military/battle/LootSummaryCard.tsx:77
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
@@ -16001,11 +16001,11 @@ msgstr "Übersicht über deine Beute aus dieser Schlacht. Enthält alle Kisten u
 
 #: src/components/_political/country/CountryHeader.tsx:305
 msgid "This is the value used to calculate most costs: battle orders, alliance, sworn enemy and defensive pact maintenance, laws and upgrade upkeep."
-msgstr "Dieser Wert wird zur Berechnung der meisten Kosten herangezogen: Kampfbefehle, Unterhalt für Bündnisse, Erzfeinde und Verteidigungsbündnisse, sowie Kosten für Gesetze und Instandhaltungskosten der Verbesserungen von Regionen."
+msgstr "Dieser Wert wird zur Berechnung der meisten Kosten herangezogen: Kampfbefehle, Unterhalt für Bündnisse, Erzfeinde und Verteidigungsbündnisse, sowie Kosten für Gesetze und Instandhaltungskosten der Befestigungen von Regionen."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:103
 msgid "This is your company"
-msgstr "Das ist dein Unternehmen"
+msgstr "Das ist deine Firma"
 
 #: src/components/_economy/itemOffer/ItemOfferModal.tsx:207
 msgid "This is your offer, shown like other buyers from your country see it. Buyers from elsewhere add their own country's tax."
@@ -16096,7 +16096,7 @@ msgstr "Stufe {0}"
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:165
 msgid "Time in the company"
-msgstr "Zeit im Unternehmen"
+msgstr "Zeit in der Firma"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:192
 msgid "Time to produce!"
@@ -16213,7 +16213,7 @@ msgstr "Buch der Gezeiten"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:106
 msgid "Took a job offer from a rival firm."
-msgstr "Hat ein Jobangebot eines Konkurrenzunternehmens angenommen."
+msgstr "Hat ein Jobangebot einer Konkurrenzfirma angenommen."
 
 #: src/components/_economy/employee/employee.traitMeta.ts:83
 #: src/components/_economy/employee/EmployeeToolSlot.tsx:255
@@ -16458,7 +16458,7 @@ msgstr "Trainieren"
 
 #: src/components/_layout/loadingTips.tsx:410
 msgid "Train each employee once a day, resetting at 00:00 UTC: you draw {trainingHandSize} cards and keep the one you like."
-msgstr "Trainiere jeden Mitarbeiter einmal täglich; die Auswahl wird um 00:00 UTC zurückgesetzt. Du ziehst {trainingHandSize} Karten und behältst die gewünschte."
+msgstr "Trainiere jeden Mitarbeiter einmal täglich: die Auswahl wird um 00:00 UTC zurückgesetzt. Du ziehst {trainingHandSize} Karten und behältst die gewünschte."
 
 #: src/components/_user/mission/mission.frontConfig.tsx:768
 msgid "Train Employees"
@@ -16606,7 +16606,7 @@ msgstr "Zwei Kollegen mit Wohlbefinden von mindestens {mood}, von denen keiner b
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:587
 msgid "Two coworkers, in a company with 3 or more employees at work."
-msgstr "Zwei Kollegen in einem Unternehmen mit mindestens 3 arbeitenden Mitarbeitern."
+msgstr "Zwei Kollegen in einer Firma mit mindestens drei arbeitenden Mitarbeitern."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:559
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:569
@@ -16655,7 +16655,7 @@ msgstr "Ungewöhnlich"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1588
 msgid "Uncursed, certified, and the exorcist fixed the squeak too."
-msgstr "Entflucht und zertifiziert – der Exorzist hat auch das Quietschen behoben."
+msgstr "Entflucht, zertifiziert und der Exorzist hat auch das Quietschen behoben."
 
 #: src/components/_user/UserEquipments.tsx:167
 msgid "Unequip all"
@@ -16679,7 +16679,7 @@ msgstr "Freischalten"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:110
 msgid "Unlock Help all button"
-msgstr "'Allen helfen'-Button freischalten"
+msgstr "Allen helfen-Button freischalten"
 
 #: src/components/_user/user/SkillPresetsModal.tsx:197
 msgid "Unlock more skill presets"
@@ -16687,7 +16687,7 @@ msgstr "Weitere Fähigkeitsprofile freischalten"
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:107
 msgid "Unlock Produce all button"
-msgstr "'Alle produzieren'-Button freischalten"
+msgstr "Alle produzieren-Button freischalten"
 
 #: src/components/_user/level/LevelUpExtra.tsx:15
 msgid "Unlocked"
@@ -16761,7 +16761,7 @@ msgstr "Anheftung aktualisieren"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:581
 msgid "Upgrade a company"
-msgstr "Ein Unternehmen verbessern"
+msgstr "Eine Firma verbessern"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:331
 msgid "Upgrade automated engine"
@@ -16769,11 +16769,11 @@ msgstr "Verbessere Automatisierte Engine"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:375
 msgid "Upgrade break room"
-msgstr "Aufenthaltsraum verbessern"
+msgstr "Aufenthaltsraum vergrößern"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:580
 msgid "Upgrade Company"
-msgstr "Unternehmen verbessern"
+msgstr "Firma verbessern"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:728
 msgid "Upgrade Skills"
@@ -16781,11 +16781,11 @@ msgstr "Fähigkeiten verbessern"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:353
 msgid "Upgrade storage"
-msgstr "Lager verbessern"
+msgstr "Lager vergrößern"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:463
 msgid "Upgrade the break room"
-msgstr "Den Aufenthaltsraum verbessern"
+msgstr "Den Aufenthaltsraum vergrößern"
 
 #: src/components/_economy/inventory/DismantleModal.tsx:234
 msgid "Upgrade to supporter"
@@ -16802,7 +16802,7 @@ msgstr "Verbessere deine Fähigkeiten!"
 #: src/pages/company/[companyId]/index.tsx:75
 #: src/pages/region/[regionId]/index.tsx:147
 msgid "Upgrades"
-msgstr "Verbesserungen"
+msgstr "Befestigungen"
 
 #: src/components/_user/auth/WelcomeModal.tsx:224
 msgid "Upload an avatar"
@@ -16836,7 +16836,7 @@ msgstr "Wird zum Schießen mit Waffen verwendet. Erhöht deinen <0>Angriff</0>"
 
 #: src/utils/translations.tsx:71
 msgid "Used to build companies and MUs"
-msgstr "Wird zum Bau von Unternehmen und MEs verwendet"
+msgstr "Wird zum Bau von Firmen und MEs verwendet"
 
 #: src/utils/translations.tsx:41
 msgid "Used to craft items"
@@ -16880,7 +16880,7 @@ msgstr "Wird zur Herstellung von Stahl verwendet"
 
 #: src/utils/translations.tsx:135
 msgid "Used to upgrade companies, MUs and fortifications"
-msgstr "Wird zur Verbesserung von Unternehmen, MEs und Befestigungen verwendet"
+msgstr "Wird zur Verbesserung von Firmen, MEs und Befestigungen verwendet"
 
 #: src/components/_layout/LoadingScreenContent.tsx:27
 msgid "user"
@@ -17362,7 +17362,7 @@ msgstr "Der Marktwert ihrer Tagesproduktion abzüglich eines Tageslohns. Ein Sch
 
 #: src/components/_economy/employee/EmployeeList.tsx:136
 msgid "What a day of this company's production is worth at the market value of a point, minus the day's whole payroll, employees and manager. An estimate: what you really earn depends on what it makes and the price you sell it at."
-msgstr "Der Marktwert der Tagesproduktion dieses Unternehmens abzüglich der gesamten Tageslöhne von Mitarbeitern und Manager. Ein Schätzwert: Der tatsächliche Gewinn hängt davon ab, was es produziert und zu welchem Preis du es verkaufst."
+msgstr "Der Marktwert der Tagesproduktion dieser Firma abzüglich der gesamten Tageslöhne von Mitarbeitern und Manager. Ein Schätzwert: Der tatsächliche Gewinn hängt davon ab, was es produziert und zu welchem Preis du es verkaufst."
 
 #: src/components/_economy/employee/EstimatedProfit.tsx:70
 msgid "What a day of your employees' production is worth at the market value of a point, minus the day's whole payroll, employees and managers. An estimate: what you really earn depends on what you make and the price you sell it at."
@@ -17382,7 +17382,7 @@ msgstr "Was dir die Schlachten, an denen du teilnimmst, bisher eingebracht haben
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:541
 msgid "What your employees' Luck is expected to find in a day, at their current Luck and traits. Only hours that bank production roll a find, so a full storage or a disabled company finds nothing (Salvagers keep looking while the storage is full)."
-msgstr "Wie viele Werkzeugkisten deine Mitarbeiter mit ihrem aktuellen Glück und ihren Eigenschaften voraussichtlich täglich finden. Nur Stunden, in denen Produktion eingelagert wird, zählen für die Suche. Bei vollem Lager oder deaktiviertem Unternehmen wird nichts gefunden (Bergungsspezialisten suchen auch bei vollem Lager weiter)."
+msgstr "Wie viele Werkzeugkisten deine Mitarbeiter mit ihrem aktuellen Glück und ihren Eigenschaften voraussichtlich täglich finden. Nur Stunden, in denen Produktion eingelagert wird, zählen für die Suche. Bei vollem Lager oder deaktivierter Firma wird nichts gefunden (Bergungsspezialisten suchen auch bei vollem Lager weiter)."
 
 #: src/components/_common/GameRules.tsx:124
 msgid "While data collection and display tools that use the official public API are allowed, for any other development or data access, please contact the staff team directly."
@@ -17446,7 +17446,7 @@ msgstr "Alle deine Angebote zurückziehen?"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3022
 msgid "Withdraw the company"
-msgstr "Das Unternehmen zurückziehen"
+msgstr "Die Firma zurückziehen"
 
 #: src/components/_economy/itemOffer/ItemOfferCard.tsx:100
 #: src/components/_economy/itemOffer/ItemOfferModal.tsx:237
@@ -17503,7 +17503,7 @@ msgstr "Arbeit"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:184
 msgid "Work 3 times. Each one costs <0>Energy</0>."
-msgstr "Arbeite 3-mal. Jeder Einsatz kostet <0>Energie</0>."
+msgstr "Arbeite dreimal. Jeder Einsatz kostet <0>Energie</0>."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1472
 msgid "Work anniversary"
@@ -17511,7 +17511,7 @@ msgstr "Betriebsjubiläum"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2200
 msgid "Worker left"
-msgstr "Arbeiter hat das Unternehmen verlassen"
+msgstr "Arbeiter hat die Firma verlassen"
 
 #: src/components/_economy/work/WorkChart.tsx:242
 msgid "Workers"
@@ -17539,7 +17539,7 @@ msgstr "Arbeit füllt die <0>Produktions</0>leiste."
 
 #: src/components/_layout/loadingTips.tsx:303
 msgid "Working in your own company costs <0>{energyCostPerAction}</0> and adds your <1>Production</1> to its storage."
-msgstr "Die Arbeit in deinem eigenen Unternehmen kostet <0>{energyCostPerAction}</0> und fügt deine <1>Produktion</1> dessen Lager hinzu."
+msgstr "Die Arbeit in deiner eigenen Firma kostet <0>{energyCostPerAction}</0> und fügt deine <1>Produktion</1> dessen Lager hinzu."
 
 #: src/components/_economy/employee/EmployeeModal.tsx:193
 msgid "Works alone"
@@ -17626,7 +17626,7 @@ msgstr "Du hast die Belohnung bereits erhalten."
 #. placeholder {0}: companiesLimit ?? 1
 #: src/components/_economy/company/CompanyDropdown.tsx:455
 msgid "You already have {0} active companies. Disable one first."
-msgstr "Du hast bereits {0} aktive Unternehmen. Deaktiviere zuerst eines."
+msgstr "Du hast bereits {0} aktive Firmen. Deaktiviere zuerst eines."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:25
 msgid "You are a beautiful person"
@@ -17822,7 +17822,7 @@ msgstr "Du hast noch keine Mitarbeiter"
 
 #: src/components/_economy/employee/MoveShell.tsx:90
 msgid "You have no other company to move them to"
-msgstr "Du hast kein anderes Unternehmen, in das du sie versetzen kannst"
+msgstr "Du hast keine anderen Firmen, in der du sie versetzen kannst"
 
 #: src/components/_economy/itemOffer/MyItemOffers.tsx:55
 msgid "You have nothing on sale"
@@ -18213,15 +18213,15 @@ msgstr "Deine E-Mail"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:141
 msgid "Your employee's stats"
-msgstr "Deine Angestelltenstatistiken"
+msgstr "Deine Mitarbeiterstatistiken"
 
 #: src/components/_economy/manager/ManagerProfitEstimate.tsx:63
 msgid "Your employees produce nothing right now, so a manager would add nothing."
-msgstr "Deine Angestellten produzieren aktuell nichts. Daher würde ein Manager keinen Mehrwert geben."
+msgstr "Deine Mitarbeiter produzieren aktuell nichts. Daher würde ein Manager keinen Mehrwert geben."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:514
 msgid "Your employees' estimated daily profit, at market prices."
-msgstr "Der geschätzte tägliche Profit durch deine Angestellten, zum aktuellen Marktpreis."
+msgstr "Der geschätzte tägliche Profit durch deine Mitarbeiter zum aktuellen Marktpreis."
 
 #: src/components/_economy/manager/ManagerRateReductionAlert.tsx:43
 msgid "Your employer cut your pay to"
@@ -18300,7 +18300,7 @@ msgstr "Name deiner Militäreinheit"
 
 #: src/components/_military/mu/MuSettings.tsx:53
 msgid "Your military unit nationality is the country it represents. Changing it is free and can only be done once every {cooldownDays} days."
-msgstr "Die Nationalität deiner Militäreinheit ist das Land, das sie vertritt. Die Änderung ist kostenlos und kann nur einmal alle {cooldownDays} Tage vorgenommen werden."
+msgstr "Die Nationalität deiner Militäreinheit ist das Land, welches sie vertritt. Die Änderung ist kostenlos und kann nur einmal alle {cooldownDays} Tage vorgenommen werden."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1921
 msgid "Your monthly missions have been reset! Complete them to earn rewards."
