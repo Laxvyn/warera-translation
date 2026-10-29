@@ -3510,7 +3510,7 @@ msgstr "Firma z 3 bądź więcej pracującymi pracownikami. Dwukrotnie większa 
 
 #: src/components/_layout/loadingTips.tsx:321
 msgid "A company with a full storage can't be worked and makes its employees unhappy. Produce often, or upgrade its Storage."
-msgstr "Firma z pełnym magazynem nie może dalej pracować, co smuci pracowników. Produkuj często, bądź ulepsz Magazyn."
+msgstr "Firma z pełnym magazynem nie może dalej pracować, co wywołuje niezadowolenie pracowników. Należy produkować częściej lub rozbudować jej Magazyn."
 
 #: src/components/_layout/loadingTips.tsx:414
 msgid "A company's Break Room level is the number of employees it can hold."
