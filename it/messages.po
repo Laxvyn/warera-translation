@@ -9611,7 +9611,7 @@ msgstr "Presta i soldi"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1877
 msgid "Let {partnerName} keep trying"
-msgstr "Lascia che {parnerName} continui a provare"
+msgstr "Lascia che {partnerName} continui a provare"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3613
 msgid "Let it be"
