@@ -4803,7 +4803,7 @@ msgstr "Jarahan medan perang"
 #: src/pages/region/[regionId]/index.tsx:135
 #: src/pages/war/[warId]/index.tsx:75
 msgid "Battles"
-msgstr "Pertempuran"
+msgstr "Perang"
 
 #: src/components/_layout/LayoutOptions.tsx:130
 msgid "Battles on layout"
@@ -5763,7 +5763,7 @@ msgstr "Komunitas"
 #: src/components/_user/user/WealthPanel.tsx:42
 #: src/pages/companies.tsx:153
 msgid "Companies"
-msgstr "Perusahaan"
+msgstr "Industri"
 
 #: src/components/_political/map/MapMenu.tsx:578
 #: src/components/_political/region/RegionHeader.tsx:115
@@ -7781,7 +7781,7 @@ msgstr "Biaya"
 #: src/components/_layout/LayoutRightIcons.tsx:275
 #: src/components/_layout/MoreButtonNav.tsx:83
 msgid "Feed"
-msgstr "Linimasa"
+msgstr "Riwayat"
 
 #: src/components/_military/mercenaryContract/MercenaryAuctionItem.tsx:159
 msgid "Fight for <0/> in <1/>"
@@ -9049,7 +9049,7 @@ msgstr "Perkenalkan dirimu!"
 #: src/pages/user/[userId]/companies.tsx:34
 #: src/pages/user/[userId]/index.tsx:217
 msgid "Inventory"
-msgstr "Inventaris"
+msgstr "Inv"
 
 #: src/components/_political/chat/ChatConversationsMenu.tsx:162
 msgid "Invitations"
@@ -10745,7 +10745,7 @@ msgstr "Memindahkan rumahmu ke wilayah lain membutuhkan <0>{homeMoveConcreteCost
 #: src/components/_military/tournament/TournamentHeader.tsx:55
 #: src/components/_military/tournament/TournamentItem.tsx:54
 msgid "MU"
-msgstr "MU (Unit Militer)"
+msgstr "MU"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2318
 msgid "MU Application Accepted"
