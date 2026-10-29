@@ -2933,7 +2933,7 @@ msgstr "<0>×2</0> سرعة التخصص"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:874
 msgid "<0>x2</0> toolbox chance"
-msgstr "<0>ضعفا</0> فرصة صندوق الأدوات"
+msgstr "<0>الضعف</0> فرصة العثور على صندوق أدوات"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:113
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
