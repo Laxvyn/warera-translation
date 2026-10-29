@@ -342,7 +342,7 @@ msgstr "{count, plural, one {<0>Wytwórz <1/> przedmiot</0>} other {<2>Wytwórz 
 
 #: src/components/_user/mission/mission.frontConfig.tsx:918
 msgid "{count, plural, one {<0>Cross <1/> region on the map</0>} other {<2>Cross <3/> regions on the map</2>}}"
-msgstr "{count, plural, one {<0>Przemierz <1/> region na mapie</0>} other {<2>Ptrzemierz <3/> regionów na mapie</2>}}"
+msgstr "{count, plural, one {<0>Przemierz <1/> region na mapie</0>} other {<2>Przemierz <3/> regionów na mapie</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:261
 msgid "{count, plural, one {<0>Dismantle <1/> item</0>} other {<2>Dismantle <3/> items</2>}}"
@@ -1808,7 +1808,7 @@ msgstr "{selectedCount} wybrano"
 
 #: src/components/_social/poll/PollCard.tsx:221
 msgid "{timeLeft} left"
-msgstr "{timeLeft} pozostało"
+msgstr "pozostało {timeLeft}"
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:273
 #: src/components/_economy/employee/WorkforceSummary.tsx:428
@@ -2152,20 +2152,20 @@ msgstr "<0/> podarował subskrypcję <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1228
 msgid "<0/> gifted you a premium subscription!"
-msgstr "<0/> podarował ci subskrypcję premium!"
+msgstr "<0/> podarował Ci subskrypcję premium!"
 
 #. placeholder {0}: data.bannerTitle
 #: src/components/_user/notification/notification.frontConfig.tsx:1688
 msgid "<0/> gifted you the banner \"{0}\"!"
-msgstr "<0/> podarował ci baner \"{0}\"!"
+msgstr "<0/> podarował Ci baner \"{0}\"!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1981
 msgid "<0/> gifted you the skin \"{skinTitle}\"!"
-msgstr "<0/> podarował ci skórkę \"{skinTitle}\"!"
+msgstr "<0/> podarował Ci skórkę \"{skinTitle}\"!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2052
 msgid "<0/> gifted you the skin pack \"{skinPackTitle}\"!"
-msgstr "<0/> podarował ci zestaw skórek \"{skinPackTitle}\"!"
+msgstr "<0/> podarował Ci zestaw skórek \"{skinPackTitle}\"!"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:229
 msgid "<0/> got fee back"
@@ -2373,7 +2373,7 @@ msgstr "<0/> osiągnął poziom {0}!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:742
 msgid "<0/> referred you to the game."
-msgstr "<0/> polecił ci grę."
+msgstr "<0/> polecił Ci grę."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:596
 msgid "<0/> resigned as manager of <1/>"
@@ -2628,7 +2628,7 @@ msgstr "<0>{0}</0> punktów terenu jest wymaganych do wygrania rundy, punkty są
 #. placeholder {0}: -1
 #: src/components/_economy/employee/employee.frontConfig.tsx:578
 msgid "<0>{0}</0> on anything manufactured"
-msgstr "<0>{0}</0> na wszystkim, co zostało przetworzone z surowców"
+msgstr "<0>{0}</0> przy wszystkim, co zostało przetworzone z surowców"
 
 #. placeholder {0}: 3
 #: src/components/_economy/employee/employee.frontConfig.tsx:554
@@ -2926,11 +2926,11 @@ msgstr "<0>Niepokoje</0> odzwierciedlają wewnętrzne napięcia w kraju..<1/><2/
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:590
 msgid "<0>x2</0> specialization speed"
-msgstr "<0>x2</0> prędkość specjalizacji"
+msgstr "<0>x2</0> większa prędkość specjalizacji"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:881
 msgid "<0>x2</0> toolbox chance and cap"
-msgstr "<0>x2</0> szansa na skrzynki z narzędziami oraz ich limit"
+msgstr "<0>x2</0> większa szansa na skrzynki z narzędziami oraz ich limit"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:113
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
@@ -3612,7 +3612,7 @@ msgstr "Oferta mentora"
 
 #: src/components/_layout/loadingTips.tsx:190
 msgid "A Military Unit's Headquarters gives its members up to +{maxHqBonus}% damage."
-msgstr "Sztab Jednostki Wosjkowej daje jej cżłonkom aż do +{maxHqBonus} obrażeń."
+msgstr "Sztab Jednostki Wosjkowej daje jej członkom aż do +{maxHqBonus} obrażeń."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1781
 msgid "A new job title"
@@ -7522,7 +7522,7 @@ msgstr "Każde celne uderzenie sprawdza Twoją <0>Szansę na łup</0> pod kątem
 #. placeholder {0}: ts.woodenCase
 #: src/components/_layout/loadingTips.tsx:282
 msgid "Every hour, you have a {woodenCaseChance}% chance that a <0>{0}</0> drops somewhere on the map, just for you. Go stand on it to claim it."
-msgstr "Każdej godziny masz {woodenCaseChance}% szansy, że that a <0>{0}</0> pojawi się gdzień na mapie, tylko wyłącznie dla Ciebie . Stań tam i zbierz ją."
+msgstr "Każdej godziny masz {woodenCaseChance}% szansy, że <0>{0}</0> pojawi się gdzień na mapie, tylko wyłącznie dla Ciebie . Stań tam i zbierz ją."
 
 #: src/components/_economy/itemOffer/MyItemOffers.tsx:44
 msgid "Every item goes back to your inventory."
@@ -10372,7 +10372,7 @@ msgstr "Kamienie milowe"
 
 #: src/components/_layout/loadingTips.tsx:447
 msgid "Milestones are lifetime goals that never reset. Check Progression for tiers waiting to be claimed."
-msgstr "Kamienie milowe to cele życiowe, które nigdy się nie rezestują. Sprawdzaj Postęp i odbieraj oczekujące progi."
+msgstr "Kamienie milowe to cele życiowe, które nigdy się nie resestują. Sprawdzaj Postęp i odbieraj oczekujące progi."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:637
 msgid "Military"
@@ -14030,7 +14030,7 @@ msgstr "Screenshot albo się nie stało"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:64
 msgid "Screenshot this or no one will believe you"
-msgstr "Zrób screenshot, bo nikt ci nie uwierzy"
+msgstr "Zrób screenshot, bo nikt Ci nie uwierzy"
 
 #: src/utils/translations.tsx:278
 msgid "Sealed Flask"
@@ -15784,7 +15784,7 @@ msgstr "Związek został rozwiązany bez protestów"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:12
 msgid "The universe owes you something big"
-msgstr "Wszechświat jest ci coś winien"
+msgstr "Wszechświat jest Ci coś winien"
 
 #: src/components/_common/GameRules.tsx:117
 msgid "The use of bots, scripts, or any form of automation to gain an advantage over other players is strictly forbidden. This includes, but is not limited to, web scraping and creating scripts that bypass the game intended functionality or restrictions."
@@ -16071,7 +16071,7 @@ msgstr "To wykorzytuje Twój wybór na dziś. Nastęny będzie możliwy o  00:00
 
 #: src/components/_economy/inventory/ConsumeItems.tsx:256
 msgid "This will give you a buff for {cocainBuffHours}h then cause a malus for {cocainDebuffHours}h"
-msgstr "Da ci buff na {cocainBuffHours} godz., a następnie wywołuje osłabienie na {cocainDebuffHours} godz."
+msgstr "Da Ci buff na {cocainBuffHours} godz., a następnie wywołuje osłabienie na {cocainDebuffHours} godz."
 
 #: src/components/_user/user/UserDropdown.tsx:372
 msgid "This will require the user to verify their mobile phone number."
@@ -17251,7 +17251,7 @@ msgstr "Wojna zakończona"
 
 #: src/components/_user/modals/PremiumModal.tsx:39
 msgid "War Era is 100% free to play and has no <0>ads</0> or <1>pay-to-win</1>, If you enjoy the game, you can support its development by subscribing to the Supporter Plan <3"
-msgstr "War Era jest w 100% darmowa i nie ma <0>reklam</0> ani <1>pay-to-win</1>, Jeśli podoba ci się gra, możesz wesprzeć jej rozwój subskrybując Plan Wspierającego <3"
+msgstr "War Era jest w 100% darmowa i nie ma <0>reklam</0> ani <1>pay-to-win</1>, Jeśli podoba Ci się gra, możesz wesprzeć jej rozwój subskrybując Plan Wspierającego <3"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3229
 msgid "War stories"
@@ -17485,7 +17485,7 @@ msgstr "Drewniane skrzynki czekają niedaleko Ciebie . Otwórz to menu."
 
 #: src/components/_layout/loadingTips.tsx:292
 msgid "Wooden cases vanish after {woodenCaseExpiryHours}h, and no new one drops while {maxWoodenCases} are waiting. Go collect them!"
-msgstr "Drewniany skrzynki znikają po {woodenCaseExpiryHours}godz,a dopóki czeka ich {maxWoodenCases}, nie zdobędziesz kolejnej. Zbierz je teraz!"
+msgstr "Drewniane skrzynki znikają po {woodenCaseExpiryHours}godz,a dopóki czeka ich {maxWoodenCases}, nie zdobędziesz kolejnej. Zbierz je teraz!"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:251
 msgid "Wooden Self Bow"
