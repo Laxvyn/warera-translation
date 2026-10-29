@@ -35,7 +35,7 @@ msgstr " - Skema penggabungan perlengkapan"
 
 #: src/components/_common/GameRules.tsx:161
 msgid " - Low-wage labor (lower than 0.8x and above 1.2x the normal salary)"
-msgstr " - Pekerja upah rendah (kurang dari 0.8x dan diatas 1.2x gaji normal)"
+msgstr " - Pekerja upah rendah (kurang dari 0.8x dan diatas 1.2x upah normal)"
 
 #. placeholder {0}: user.data.mute.reason
 #: src/components/_user/user/UserHeader.tsx:465
@@ -65,15 +65,15 @@ msgstr "- Membela wilayah ini akan terkena penalti sebesar <0>{0}</0>."
 
 #: src/components/_economy/employee/training.frontConfig.tsx:135
 msgid "-10% on the wage they expect."
-msgstr "-10% dari gaji yang diharapkan"
+msgstr "-10% dari upah yang diharapkan"
 
 #: src/components/_economy/employee/training.frontConfig.tsx:136
 msgid "-20% on the wage they expect."
-msgstr "-20% dari gaji yang diharapkan"
+msgstr "-20% dari upah yang diharapkan"
 
 #: src/components/_economy/employee/training.frontConfig.tsx:134
 msgid "-5% on the wage they expect."
-msgstr "-5% dari gaji yang diharapkan"
+msgstr "-5% dari upah yang diharapkan"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1804
 msgid "“Senior Worker” it is. It will do, for now."
@@ -82,7 +82,7 @@ msgstr "“Pekerja Senior”, kalau begitu. Cukup untuk saat ini"
 #: src/components/_political/alliance/AllianceMemberRow.tsx:71
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:225
 msgid "(average member development)"
-msgstr "(rata-rata perkembangan anggota)"
+msgstr "(rata-rata pembangunan anggota)"
 
 #: src/components/_economy/employee/employeeStats.tsx:718
 msgid "(coworker)"
@@ -90,11 +90,11 @@ msgstr "(Rekan kerja)"
 
 #: src/components/_political/alliance/AllianceMemberRow.tsx:66
 msgid "(member average development)"
-msgstr "(Perkembangan rata-rata anggota)"
+msgstr "(pembangunan rata-rata anggota)"
 
 #: src/components/_political/country/CountryDiplomacyGrid.tsx:215
 msgid "(own development)"
-msgstr "(Perkembangan sendiri)"
+msgstr "(pembangunan sendiri)"
 
 #. placeholder {0}: others.length
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:602
@@ -205,12 +205,12 @@ msgstr "{0} pendapatan pembangunan"
 #. placeholder {0}: developmentPercent(conquered)
 #: src/components/_political/govType/govType.frontConfig.tsx:214
 msgid "{0} development income from conquered regions"
-msgstr "{0} pendapatan perkembangan dari wilayah taklukan"
+msgstr "{0} pendapatan pembangunan dari wilayah taklukan"
 
 #. placeholder {0}: developmentPercent(core)
 #: src/components/_political/govType/govType.frontConfig.tsx:199
 msgid "{0} development income from core regions"
-msgstr "{0} pendapatan perkembangan dari wilayah inti"
+msgstr "{0} pendapatan pembangunan dari wilayah inti"
 
 #. placeholder {0}: gift.amount
 #: src/components/_user/user/EnergyGiftAlert.tsx:32
@@ -1898,11 +1898,11 @@ msgstr "{who}: {value} potensi pelatihan"
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:377
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:644
 msgid "{who}: <0>away</0> for {0} (no work, no wage)"
-msgstr "{who}: <0>absen</0> selama {0} (tanpa kerja, tanpa gaji)"
+msgstr "{who}: <0>absen</0> selama {0} (tanpa kerja, tanpa upah)"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:690
 msgid "{who}: asks for more pay"
-msgstr "{who}: meminta gaji lebih"
+msgstr "{who}: meminta upah lebih"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:702
 msgid "{who}: experience in {good} lost"
@@ -2827,23 +2827,23 @@ msgstr "<0>+50%</0> pada hari pertama bekerja di perusahaan"
 
 #: src/components/_layout/loadingTips.tsx:225
 msgid "<0>Armor</0> and <1>Dodge</1> have diminishing returns: each point is worth a bit less than the one before."
-msgstr "Setiap poin tambahan <0>Armor</0> dan <1>Dodge</1> memberikan manfaat yang sedikit lebih kecil daripada poin sebelumnya."
+msgstr "Setiap poin tambahan <0>Zirah</0> dan <1>Penghindaran</1> memberikan manfaat yang sedikit lebih kecil daripada poin sebelumnya."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:533
 msgid "<0>Armor</0> and <1>Dodge</1>: less <2>Health</2> lost."
-msgstr "<0>Armor</0> dan <1>Dodge</1>: mengurangi kehilangan <2>Health</2>."
+msgstr "<0>Zirah</0> dan <1>Penghindaran</1>: mengurangi kehilangan <2>Kesehatan</2>."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:527
 msgid "<0>Attack</0>, <1>Precision</1> and <2>Critical chance</2>: more damage."
-msgstr "<0>Attack</0>, <1>Precision</1>, dan <2>Critical chance</2>: menghasilkan damage lebih besar."
+msgstr "<0>Serang</0>, <1>Presisi</1>, dan <2>Peluang kritikal</2>: menghasilkan damage lebih besar."
 
 #: src/components/_political/country/CountryHeader.tsx:297
 msgid "<0>Average development</0> is the average of <1>Core development</1> and <2>Current development</2>."
-msgstr "<0>Average development</0> merupakan rata-rata <1>Core development</1> dan <2>Current development</2>."
+msgstr "<0>Pembangunan rata-rata</0> merupakan rata-rata dari <1>Pembangunan inti</1> dan <2>Pembangunan saat ini</2>."
 
 #: src/components/_political/country/CountryHeader.tsx:261
 msgid "<0>Core development</0> is calculated depending on the country's <1>Population</1> and average <2>Level</2>. then distributed equally among the country's <3>Core regions</3>."
-msgstr "<0>Core development</0> dihitung berdasarkan <1>Population</1> dan rata-rata <2>Level</2> negara, kemudian dibagikan secara merata ke seluruh <3>Core regions</3> negara tersebut."
+msgstr "<0>Pembangunan inti</0> dihitung berdasarkan <1>Populasi</1> dan rata-rata <2>Level</2> negara, kemudian dibagikan secara merata ke seluruh <3>inti wilayah</3> negara tersebut."
 
 #: src/components/_layout/loadingTips.tsx:212
 msgid "<0>Critical chance</0> caps at 100%: every point above turns into <1>{criticalOverflow}</1> critical damages."
@@ -2851,7 +2851,7 @@ msgstr "<0>Critical chance</0> maksimal 100%. Setiap poin yang melebihi batas in
 
 #: src/components/_political/country/CountryHeader.tsx:325
 msgid "<0>Current development</0> is the total development of the <1>regions</1> the country currently controls, including conquered territory."
-msgstr "<0>Current development</0> merupakan total perkembangan seluruh <1>regions</1> yang dikuasai negara saat ini, termasuk wilayah hasil penaklukan."
+msgstr "<0>Pembangunan saat ini</0> merupakan total pembangunan seluruh <1>wilayah</1> yang dikuasai negara saat ini, termasuk wilayah hasil penaklukan."
 
 #: src/components/_user/premium/PremiumFeatureList.tsx:121
 msgid "<0>Emotes</0> in chat"
@@ -2922,7 +2922,7 @@ msgstr "<0>Responsibility</0>: membantu menjaga <1>Happiness</1> mereka."
 #. placeholder {5}: gameConfig?.unrest.contributionCooldownAfterRevolutionHours
 #: src/components/_political/unrest/UnrestBar.tsx:25
 msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can <3>increase</3> or <4>decrease</4> unrest by spending <5>{0}</5> or <6>{1}</6> to change the bar by <7>{2}</7>.<8/><9/>When the bar is full, any party can vote via motion to start a <10>Civil war</10> (cost: <11>development × 10</11>, cooldown: {3}h). The battle takes place in the capital region, and <12>only citizens</12> can fight.<13/><14/>If revolutionaries win:<15/>- Government is impeached<16/>- Borders are opened for {4} days<17/>- Presidential elections begin<18/><19/>After a revolution, contributions are disabled for {5}h."
-msgstr "<0>Ketidakstabilan</0> mewakili ketegangan internal di negara.<1/><2/>Warga dapat <3>meningkatkan</3> atau <4>mengurangi</4> ketidakstabilan dengan menghabiskan <5>{0}</5> atau <6>{1}</6> untuk mengubah bar sebesar <7>{2}</7>.<8/><9/>Saat bar penuh, partai mana pun bisa melakukan voting lewat mosi untuk memulai <10>Perang Saudara</10> (biaya: <11>development × 10</11>, cooldown: {3}j). Pertempuran terjadi di wilayah ibu kota, dan <12>hanya warga negara</12> yang bisa bertarung.<13/><14/>Jika pihak revolusioner menang:<15/>- Pemerintah dimakzulkan<16/>- Perbatasan dibuka selama {4} hari<17/>- Pemilihan presiden dimulai<18/><19/>Setelah revolusi, kontribusi dinonaktifkan selama {5}j."
+msgstr "<0>Ketidakstabilan</0> mewakili ketegangan internal di negara.<1/><2/>Warga dapat <3>meningkatkan</3> atau <4>mengurangi</4> ketidakstabilan dengan menghabiskan <5>{0}</5> atau <6>{1}</6> untuk mengubah bar sebesar <7>{2}</7>.<8/><9/>Saat bar penuh, partai mana pun bisa melakukan voting lewat mosi untuk memulai <10>Perang Saudara</10> (biaya: <11>pembangunan × 10</11>, waktu tunggu: {3}j). Pertempuran terjadi di wilayah ibu kota, dan <12>hanya warga negara</12> yang bisa bertarung.<13/><14/>Jika pihak revolusioner menang:<15/>- Pemerintah dimakzulkan<16/>- Perbatasan dibuka selama {4} hari<17/>- Pemilihan presiden dimulai<18/><19/>Setelah revolusi, kontribusi dinonaktifkan selama {5}j."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:590
 msgid "<0>x2</0> specialization speed"
@@ -3563,12 +3563,12 @@ msgstr "Ada bebek di setiap meja. Semua orang jadi lebih bahagia, meski sedikit 
 #. placeholder {0}: contract.acceptanceFee
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:97
 msgid "A fee of <0>{0}</0> is required to accept this contract. The fee is returned once you complete the minimum damage of <1/>. If you fail to complete the contract or the country cancels it, the fee is lost."
-msgstr "Biaya sebesar <0>{0}</0> diperlukan untuk menerima kontrak ini. Biaya akan dikembalikan setelah Anda mencapai kerusakan minimum sebesar <1/>. Jika Anda gagal menyelesaikan kontrak atau negara membatalkannya, biaya akan hangus."
+msgstr "Biaya sebesar <0>{0}</0> diperlukan untuk menerima kontrak ini. Biaya akan dikembalikan setelah Anda mencapai damage minimum sebesar <1/>. Jika Anda gagal menyelesaikan kontrak atau negara membatalkannya, biaya akan hangus."
 
 #. placeholder {0}: contract.acceptanceFee
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:91
 msgid "A fee of <0>{0}</0> was required to accept this contract. The fee has been returned after completing the minimum damage."
-msgstr "Biaya sebesar <0>{0}</0> diperlukan untuk menerima kontrak ini. Biaya telah dikembalikan setelah mencapai kerusakan minimum."
+msgstr "Biaya sebesar <0>{0}</0> diperlukan untuk menerima kontrak ini. Biaya telah dikembalikan setelah mencapai damage minimum."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2335
 msgid "A few new parts later, the smoke clears."
@@ -3661,7 +3661,7 @@ msgstr "Trait acak, baik atau buruk, yang baru diketahui setelah dipilih, ditamb
 
 #: src/components/_layout/loadingTips.tsx:364
 msgid "A region's <0>Development</0> turns into daily <1>Money</1> for the country that owns it."
-msgstr "Development suatu wilayah menghasilkan Money harian bagi negara yang menguasainya."
+msgstr "<0>Pembangunan</0> suatu wilayah menghasilkan <1>Uang</1> harian bagi negara yang menguasainya."
 
 #: src/components/_political/event/event.frontConfig.tsx:143
 msgid "A revolution has started in <0/>"
@@ -4177,7 +4177,7 @@ msgstr "Negaramu mendapat undangan untuk bergabung dengan sebuah aliansi."
 
 #: src/components/_political/alliance/AllianceBattleBonus.tsx:46
 msgid "An alliance's battle <0>damage</0> bonus depends on its share of the world's total <1>Development</1>."
-msgstr "Bonus <0>damage</0> aliansi dalam pertempuran bergantung pada porsi <1>Development</1> yang dimilikinya dibandingkan dengan total Development dunia."
+msgstr "Bonus <0>damage</0> aliansi dalam pertempuran bergantung pada porsi <1>Pembangunan</1> yang dimilikinya dibandingkan dengan total Pembangunan dunia."
 
 #: src/components/_user/auth/LoginFormModal.tsx:97
 msgid "An email with the verification code has been sent to {email}"
@@ -4596,7 +4596,7 @@ msgstr "Avatar dihapus"
 #: src/components/_political/country/CountryHeader.tsx:293
 #: src/components/_political/law/LawCostExplanation.tsx:44
 msgid "Average development"
-msgstr "Perkembangan rata-rata"
+msgstr "Pembangunan rata-rata"
 
 #: src/components/_economy/employee/EmployeeResumeRow.tsx:251
 msgid "Away"
@@ -4604,11 +4604,11 @@ msgstr "Pergi"
 
 #: src/components/_economy/employee/EmployeeResumeRow.tsx:245
 msgid "Away for <0/>: no work, no wage."
-msgstr "Pergi selama <0/>: tidak bekerja, tidak ada gaji."
+msgstr "Pergi selama <0/>: tidak bekerja, tidak ada upah."
 
 #: src/components/_economy/employee/EmployeeTooltip.tsx:148
 msgid "Away, no work and no wage"
-msgstr "Pergi, tidak bekerja dan tidak ada gaji"
+msgstr "Pergi, tidak bekerja dan tidak ada upah"
 
 #: src/components/_common/GameRules.tsx:244
 msgid "b. Revealing personal information or doxxing (such as names or addresses), without explicit consent"
@@ -5923,7 +5923,7 @@ msgstr "Wilayah yang ditaklukkan"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:208
 msgid "Conquered regions give no development income"
-msgstr "Wilayah hasil penaklukan tidak menghasilkan pendapatan dari Development"
+msgstr "Wilayah hasil penaklukan tidak menghasilkan pendapatan dari Pembangunan"
 
 #: src/components/_user/badgeCollection/badgeCollection.frontConfig.tsx:91
 msgid "Conqueror"
@@ -6044,11 +6044,11 @@ msgstr "Salin token ini sekarang. Kamu tidak akan bisa melihatnya lagi! Gunakan 
 #: src/components/_political/country/CountryHeader.tsx:257
 #: src/components/_political/government/Government.tsx:216
 msgid "Core development"
-msgstr "Perkembangan inti"
+msgstr "Pembangunan inti"
 
 #: src/pages/country/[countryId]/index.tsx:366
 msgid "Core development of <0/>"
-msgstr "Perkembangan inti <0/>"
+msgstr "Pembangunan inti <0/>"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:221
 #: src/components/_economy/employee/employeeStats.tsx:546
@@ -6312,13 +6312,13 @@ msgstr "Hancurkan serikat pekerja"
 
 #: src/components/_political/alliance/AllianceBattleBonus.tsx:76
 msgid "Current alliance battle damage bonus → <0/>"
-msgstr "Bonus kerusakan pertempuran aliansi saat ini → <0/>"
+msgstr "Bonus damage pertempuran aliansi saat ini → <0/>"
 
 #: src/components/_political/alliance/AllianceHeader.tsx:88
 #: src/components/_political/country/CountryHeader.tsx:317
 #: src/components/_political/country/CountryHeader.tsx:322
 msgid "Current development"
-msgstr "Perkembangan saat ini"
+msgstr "Pembangunan saat ini"
 
 #: src/pages/user/[userId]/index.tsx:186
 msgid "Current Military Unit"
@@ -7042,7 +7042,7 @@ msgstr "Setiap wilayah yang Anda lewati menghabiskan <0>{MOVE_STAMINA_PER_REGION
 
 #: src/pages/country/[countryId]/index.tsx:409
 msgid "Each strategic resource pays the country holding it, every day, the core <0>Development</0> of the country it originally belonged to."
-msgstr "Setiap sumber daya strategis membayarkan kepada negara yang menguasainya, setiap hari, sebesar <0>Perkembangan</0> inti dari negara asal sumber daya tersebut."
+msgstr "Setiap sumber daya strategis membayarkan kepada negara yang menguasainya, setiap hari, sebesar <0>Pembangunan</0> inti dari negara asal sumber daya tersebut."
 
 #: src/components/_user/milestone/milestone.frontConfig.tsx:34
 msgid "Earn <0/> in total"
@@ -7445,7 +7445,7 @@ msgstr "Estimasi pendapatan harian"
 
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:41
 msgid "Estimated from current development, rosters, managers and tax rates. Updated hourly."
-msgstr "Estimasi dihitung berdasarkan Development saat ini, susunan anggota, manajer, dan tarif pajak. Diperbarui setiap jam."
+msgstr "Estimasi dihitung berdasarkan Pembangunan saat ini, susunan anggota, manajer, dan tarif pajak. Diperbarui setiap jam."
 
 #: src/components/_military/battle/BattleSystem.tsx:520
 #: src/components/_military/battle/BattleSystem.tsx:560
@@ -12680,7 +12680,7 @@ msgstr "Prestise?"
 #. placeholder {1}: user.leveling?.prestigeLevel ?? 0
 #: src/components/_user/user/UserBadges.tsx:84
 msgid "Prestiged <0>{0}</0> {1, plural, one {time} other {times}}"
-msgstr "Sudah prestise <0>{0}</0> {1, plural, other {kali}}"
+msgstr "Sudah prestise <0>{0}</0> {1, plural, one {kali} other {kali}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2312
 msgid "Pretend nobody is in"
@@ -13081,7 +13081,7 @@ msgstr "Tarif"
 
 #: src/components/_military/mercenaryContract/CreateAuctionModal.tsx:139
 msgid "Rate per 1K damage"
-msgstr "Tarif per 1K kerusakan"
+msgstr "Tarif per 1K damage"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2483
 msgid "Rationing"
@@ -15356,7 +15356,7 @@ msgstr "Para rekan kerja menghabiskan hari dengan saling merekrut, bukan bekerja
 
 #: src/components/_user/user/skills.frontConfig.tsx:74
 msgid "The damage factor increase of critical hits over normal hits"
-msgstr "Kenaikan faktor kerusakan dari kritikal hit dibanding hit normal"
+msgstr "Kenaikan faktor damage dari kritikal hit dibanding hit normal"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:334
 msgid "The damage race"
@@ -15567,7 +15567,7 @@ msgstr "Uangnya hilang untuk selamanya, tapi rasa terima kasihnya tulus."
 #: src/components/_military/mercenaryContract/MercenaryContractItem.tsx:85
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:64
 msgid "The MU will receive the acceptance fee back, partial payout for damage done, and a 10% penalty fee of <0>{0}</0>. Are you sure?"
-msgstr "MU akan menerima kembali biaya penerimaan, pembayaran sebagian atas kerusakan yang ditimbulkan, serta dikenakan penalti 10% sebesar <0>{0}</0>. Apakah Anda yakin?"
+msgstr "MU akan menerima kembali biaya penerimaan, pembayaran sebagian atas damage yang ditimbulkan, serta dikenakan penalti 10% sebesar <0>{0}</0>. Apakah Anda yakin?"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1609
 msgid "The mustache"
@@ -16344,7 +16344,7 @@ msgstr "Total peti dibuka"
 
 #: src/components/_military/tournament/TournamentTeamTooltip.tsx:92
 msgid "Total damage"
-msgstr "Total kerusakan"
+msgstr "Total damage"
 
 #: src/components/_user/user/UserRankingsPanel.tsx:38
 msgid "Total damages"
@@ -17296,11 +17296,11 @@ msgstr "Senjata"
 
 #: src/components/_military/tournament/TournamentRegistrationPanel.tsx:104
 msgid "Weapons, ammo and gear above {maxRarityLabel} rarity cannot be used in this tournament's battles."
-msgstr "Senjata, amunisi, dan gear dengan rarity di atas {maxRarityLabel} tidak bisa digunakan dalam pertempuran turnamen ini."
+msgstr "Senjata, amunisi, dan perlengkapan dengan rarity di atas {maxRarityLabel} tidak bisa digunakan dalam pertempuran turnamen ini."
 
 #: src/components/_military/tournament/TournamentHeader.tsx:120
 msgid "Weapons, ammo and gear above this rarity cannot be used in this tournament's battles."
-msgstr "Senjata, amunisi, dan gear dengan rarity di atas ini tidak bisa digunakan dalam pertempuran turnamen ini."
+msgstr "Senjata, amunisi, dan perlengkapan dengan rarity di atas ini tidak bisa digunakan dalam pertempuran turnamen ini."
 
 #: src/components/_military/mu/MuMemberList.tsx:192
 #: src/components/_user/mission/MissionsList.tsx:270
