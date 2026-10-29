@@ -1910,7 +1910,7 @@ msgstr "{who}: daha fazla maaş istiyor"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:702
 msgid "{who}: experience in {good} lost"
-msgstr {who}: {good} alanındaki tecrübe kaybedildi"
+msgstr "{who}: {good} alanındaki tecrübe kaybedildi"
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:428
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:668
@@ -2467,7 +2467,7 @@ msgstr "<0/> <2/> savaşında <1>#{0}</1>. turu kazandı!"
 #. placeholder {0}: ts.paper
 #: src/components/_military/battle/SetOrderFormModal.tsx:461
 msgid "<0/>: this order costs ×{orderCostMult} <1>{0}</1> and gives ×{orderDamageMult} damage bonus"
-msgstr "<0/>: bu emir ×{orderCostMult} maliyete sahiptir ve ×{orderDamageMult} hasar bonusu verir"
+msgstr "<0/>: bu emir ×{orderCostMult} <1>{0}</1> maliyete sahiptir ve ×{orderDamageMult} hasar bonusu verir"
 
 #: src/pages/war/[warId]/index.tsx:55
 msgid "<0/>Priority ends in <1/>"
