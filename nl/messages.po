@@ -374,7 +374,7 @@ msgstr "{count, plural, one {<0>Deel <1/> kritieke treffer uit</0>} other {<2>De
 
 #: src/components/_user/mission/mission.frontConfig.tsx:487
 msgid "{count, plural, one {<0>Like <1/> article</0>} other {<2>Like <3/> articles</2>}}"
-msgstr "{count, plural, one {<0>Vind <1/> artikel</0> leuk} other {<2>Vind <3/> artikels</2>} leuk}"
+msgstr "{count, plural, one {<0>Vind <1/> artikel leuk</0>} other {<2>Vind <3/> artikels leuk</2>}}"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:613
 msgid "{count, plural, one {<0>Like <1/> message</0>} other {<2>Like <3/> messages</2>}}"

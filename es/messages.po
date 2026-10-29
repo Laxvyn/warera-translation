@@ -1127,7 +1127,7 @@ msgstr "{gender, select, male {{name} le da la bienvenida a Kevin Segundo, y tar
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2359
 msgid "{gender, select, male {{name} whacks it in the wrong place. It smokes more now.} female {{name} whacks it in the wrong place. It smokes more now.} other {{name} whacks it in the wrong place. It smokes more now.}}"
-msgstr "{gender, select, male {{name} le pega en el lugar equivocado. Ahora echa mas humo.} female {{name} le pega en el lugar equivocado. Ahora echa mas humo.} le pega en el lugar equivocado. Ahora echa mas humo.}}"
+msgstr "{gender, select, male {{name} le pega en el lugar equivocado. Ahora echa mas humo.} female {{name} le pega en el lugar equivocado. Ahora echa mas humo.} other {{name} le pega en el lugar equivocado. Ahora echa mas humo.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:938
 msgid "{gender, select, male {{name} will not forget that you kept your word.} female {{name} will not forget that you kept your word.} other {{name} will not forget that you kept your word.}}"

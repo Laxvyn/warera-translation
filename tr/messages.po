@@ -547,7 +547,7 @@ msgstr "{gender, select, male {{name} Kevin'ı çıkartmak için havalandırma k
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:667
 msgid "{gender, select, male {{name} comes back a day later, proud and steadier than before.} female {{name} comes back a day later, proud and steadier than before.} other {{name} comes back a day later, proud and steadier than before.}}"
-msgstr "{gender, select, male {{name} bir gün sonra, gururlu ve eskisinden daha kararlı bir şekilde geri dönüyor.} female {{name} bir gün sonra, gururlu ve eskisinden daha kararlı bir şekilde geri dönüyor.} other {{name} bir gün sonra, gururlu ve eskisinden daha kararlı bir şekilde geri dönüyor.}"
+msgstr "{gender, select, male {{name} bir gün sonra, gururlu ve eskisinden daha kararlı bir şekilde geri dönüyor.} female {{name} bir gün sonra, gururlu ve eskisinden daha kararlı bir şekilde geri dönüyor.} other {{name} bir gün sonra, gururlu ve eskisinden daha kararlı bir şekilde geri dönüyor.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:673
 msgid "{gender, select, male {{name} comes back wounded, and shaken.} female {{name} comes back wounded, and shaken.} other {{name} comes back wounded, and shaken.}}"
