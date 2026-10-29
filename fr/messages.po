@@ -9310,7 +9310,7 @@ msgstr "Ce n'est pas parce que quelque chose n'est pas explicitement indiqué da
 
 #: src/components/_economy/employee/useConfirmFire.tsx:18
 msgid "Just moved: can be fired in {hours}h"
-msgstr "Vient d'être déplacé: peut être déclenché dans {heures}h"
+msgstr "Vient d'être déplacé: peut être déclenché dans {hours}h"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:50
 msgid "Just one more… what could go wrong?"
