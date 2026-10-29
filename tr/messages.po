@@ -69,7 +69,7 @@ msgstr "Bekledikleri maaşa -%10"
 
 #: src/components/_economy/employee/training.frontConfig.tsx:136
 msgid "-20% on the wage they expect."
-msgstr "BBekledikleri maaşa -%20"
+msgstr "Bekledikleri maaşa -%20"
 
 #: src/components/_economy/employee/training.frontConfig.tsx:134
 msgid "-5% on the wage they expect."
@@ -134,7 +134,7 @@ msgstr "{0, plural, one {# oy} other {# oylar}}"
 #. placeholder {0}: giveaway.winnersQuantity ?? 0
 #: src/components/_other/giveaway/GiveawayItem.tsx:31
 msgid "{0, plural, one {# winner} other {# winners}}"
-msgstr ""{0, plural, one {# kazanan} other {# kazananşar}}"
+msgstr "{0, plural, one {# kazanan} other {# kazananlar}}"
 
 #. placeholder {0}: totalBattles - maxBattles
 #: src/components/_layout/LayoutBattles.tsx:139
@@ -190,7 +190,7 @@ msgstr "{0} eşya teklifini satın aldı"
 #. placeholder {0}: upgradeName(EUpgrade.BASE)
 #: src/components/_political/govType/govType.frontConfig.tsx:340
 msgid "{0} can't be activated"
-msgstr "{0} aktifleştirelemiyor"
+msgstr "{0} aktifleştirilemiyor"
 
 #. placeholder {0}: Math.floor(cooldownHours / 24)
 #: src/components/_political/partyMotion/PartyMotionTypeSelect.tsx:127
