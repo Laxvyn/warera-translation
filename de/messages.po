@@ -5322,7 +5322,7 @@ msgstr "Kiste"
 
 #: src/components/_user/user/UserRankingsPanel.tsx:105
 msgid "Cases opened"
-msgstr "Geöffnete Fälle"
+msgstr "Geöffnete Kisten"
 
 #: src/utils/translations.tsx:259
 msgid "Cast Iron Skillet"
@@ -14506,7 +14506,7 @@ msgstr "Skins in diesem Paket"
 
 #: src/components/_user/user/UserRankingsPanel.tsx:99
 msgid "Skins owned"
-msgstr "Besessene Skins"
+msgstr "Skins im Besitz"
 
 #: src/components/_other/tour/TutorialStep.tsx:610
 msgid "Skip guide"

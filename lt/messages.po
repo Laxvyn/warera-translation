@@ -1713,7 +1713,7 @@ msgstr "Įgūdžių Taškai: {nextLevelSkillPoints}"
 
 #: src/components/_economy/employee/employeeStats.tsx:370
 msgid "{otherPct} on other checks"
-msgstr ""
+msgstr "{otherPct} kitoms patikroms"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1890
 msgid "{partnerName} backs off. The fort stands."
@@ -2753,7 +2753,7 @@ msgstr "<0>{depositBonus}</0> iš telkinių išteklių <1/>."
 
 #: src/components/_economy/employee/employeeStats.tsx:333
 msgid "<0>{luck}</0> Luck: finds toolboxes, draws rarer training cards and tilts employee events."
-msgstr ""
+msgstr "<0>{luck}</0> Sėkmė: randa įrankių dėžes, ištraukia retesnes mokymo kortas ir pakreipia darbuotojų įvykių baigtis."
 
 #: src/components/_economy/employee/EmployeeSpecializations.tsx:41
 msgid "<0>{percentPerDay}</0> per day worked in a good, up to <1>{maxPercent}</1>. Each good keeps its own days, so a moved employee starts over in the new good and keeps the old bonus for later."
@@ -7276,7 +7276,7 @@ msgstr "Darbuotojai"
 #: src/components/_political/map/MapMenu.tsx:588
 #: src/components/_political/region/RegionHeader.tsx:126
 msgid "Employees (in active companies)"
-msgstr ""
+msgstr "Darbuotojai (aktyviose įmonėse)"
 
 #: src/components/_layout/loadingTips.tsx:384
 msgid "Employees below {happinessQuitThreshold} happiness may quit."
@@ -7478,7 +7478,7 @@ msgstr "Įvykis"
 
 #: src/components/_economy/employee/employeeStats.tsx:369
 msgid "Event Luck checks"
-msgstr ""
+msgstr "Įvykių Sėkmės patikros"
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:180
 #: src/components/_layout/LayoutRightIcons.tsx:265
@@ -10969,7 +10969,7 @@ msgstr "Naujas straipsnis"
 
 #: src/components/_economy/employee/RecruitModal.tsx:115
 msgid "New candidates"
-msgstr ""
+msgstr "Nauji kandidatai"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:2226
 msgid "New comment"
@@ -11241,7 +11241,7 @@ msgstr "Aukų dar nėra"
 #: src/components/_economy/employee/EmployeeModal.tsx:738
 #: src/components/_economy/employee/EmployeeTraitBadge.tsx:202
 msgid "No effect now"
-msgstr ""
+msgstr "Dabar neveikia"
 
 #: src/components/_political/govType/GovTypeEffects.tsx:56
 msgid "No effects"
@@ -13069,7 +13069,7 @@ msgstr "Retas. Darbuotojas, pasamdytas prieš 7 ar daugiau dienų, turintis bruo
 
 #: src/components/_economy/employee/employeeStats.tsx:362
 msgid "Rare+ training card"
-msgstr ""
+msgstr "Reta+ mokymo korta"
 
 #: src/components/_user/user/EcoSkillEffects.tsx:98
 msgid "Rarer cards when you train your employees. Each level moves card odds off Common: <0/>."
@@ -15808,7 +15808,7 @@ msgstr "Visa valgykla vieningai pasipiktinusi tavimi. Kelias dienas visi puikiai
 
 #: src/components/_economy/employee/RecruitModal.tsx:117
 msgid "The whole shortlist is replaced every day at 00:00 UTC. Hiring only refills the slot you hired from."
-msgstr ""
+msgstr "Visas kandidatų sąrašas kasdien pakeičiamas 00:00 UTC. Pasamdžius papildoma tik ta vieta, iš kurios samdei."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1674
 msgid "The winning ticket"
@@ -16255,7 +16255,7 @@ msgstr "Rasta įrankių dėžė"
 
 #: src/components/_economy/employee/employeeStats.tsx:355
 msgid "Toolbox per hour"
-msgstr ""
+msgstr "Įrankių dėžė per valandą"
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:43
 #: src/components/_economy/inventory/Inventory.tsx:852
