@@ -313,7 +313,7 @@ msgstr "{answerWithin} للإجابة"
 
 #: src/components/_economy/employee/TrainingCard.tsx:328
 msgid "{badTraitPercent}% chance of a bad trait"
-msgstr ""
+msgstr "احتمال اكتساب خصائص سلبية بنسبة {badTraitPercent}%"
 
 #. placeholder {0}: states.length
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:214
@@ -1996,7 +1996,7 @@ msgstr "+{perPoint}% لكل نقطة فوق {statPivot}، و-{perPoint}% لكل 
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:191
 msgid "+{skillPerLevel}% per level of your Management."
-msgstr ""
+msgstr "+{skillPerLevel}% لكل مستوى من مهارة الادارة."
 
 #: src/components/_user/user/Level.tsx:196
 msgid "+{xpBonusPercent}%"
@@ -2480,7 +2480,7 @@ msgstr "<0>-{0}%</0> نمو المقاومة في الساعة"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:753
 msgid "<0>-1%</0> per 1% of employee tax, up to <1>-30%</1>"
-msgstr "<0>-1%</0> لكل 1% من ضريبة الموظفين، بحد أقصى <1>-30%</1>"
+msgstr "<0>-1%</0> لكل 1% من ضريبة الدولة للموظفين، بحد أقصى <1>-30%</1>"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:647
 msgid "<0>-1</0> to all stats every 20 days at the same company, up to <1>-3</1>"
@@ -2712,7 +2712,7 @@ msgstr "<0>{0}</0> للوصول إلى المستوى {1}"
 #. placeholder {1}: -2
 #: src/components/_economy/employee/employee.frontConfig.tsx:659
 msgid "<0>{0}</0> until 40, then <1>{1}</1> per 10 years, down to none at 60"
-msgstr ""
+msgstr "<0>{0}</0> حتى سن 40، ثم <1>{1}</1> كل 10 سنوات، وتتراجع إلى الصفر عند سن 60"
 
 #. placeholder {0}: -10
 #: src/components/_economy/employee/employee.frontConfig.tsx:388
@@ -2742,7 +2742,7 @@ msgstr "<0>{0}</0> عندما ينتج شخص ما أكثر منهم"
 #. placeholder {0}: 2
 #: src/components/_economy/employee/employee.frontConfig.tsx:766
 msgid "<0>{0}</0> with employee tax at 20% or more"
-msgstr "<0>{0}</0> عندما تبلغ ضريبة الموظفين 20% أو أكثر"
+msgstr "<0>{0}</0> عندما تبلغ ضريبة الدولة للموظفين 20% أو أكثر"
 
 #. placeholder {0}: lawConfig.maintenanceCost
 #: src/components/_political/law/Law.tsx:125
@@ -2756,7 +2756,7 @@ msgstr "<0>{activeCompaniesCount}/{0}</0> شركات"
 
 #: src/components/_user/user/EcoSkillEffects.tsx:104
 msgid "<0>{bonus}</0> employee production, +{eventOdds}% event odds<1/>Card odds: <2/>"
-msgstr ""
+msgstr "<0>{bonus}</0> إنتاج الموظفين، +{eventOdds}% احتمالية الأحداث<1/>احتمالات البطاقات: <2/>"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:47
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
@@ -2777,7 +2777,7 @@ msgstr "<0>{v}</0> إنتاج ÷ {OUTPUT_DIVISOR} = <1>{0} نقطة في الس�
 
 #: src/components/_economy/employee/employeeStats.tsx:405
 msgid "<0>{v}</0> Responsibility = <1>+{happiness}</1> <2>Happiness</2>."
-msgstr ""
+msgstr "<0>{v}</0> المسؤولية = <1>+{happiness}</1> <2>سعادة</2>"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:924
 msgid "<0>+1</0> candidate on every company's daily shortlist"
@@ -2915,7 +2915,7 @@ msgstr "<0>الإنتاج</0>: ما يصنعونه."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:149
 msgid "<0>Responsibility</0>: raises their <1>Happiness</1>."
-msgstr ""
+msgstr "<0>المسؤولية</0>: ترفع مستوى <1>سعادتهم</1>."
 
 #. placeholder {0}: gameConfig?.unrest.contributionCost
 #. placeholder {1}: gameConfig?.unrest.contributionCost
@@ -2933,7 +2933,7 @@ msgstr "<0>×2</0> سرعة التخصص"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:874
 msgid "<0>x2</0> toolbox chance"
-msgstr ""
+msgstr "<0>ضعفا</0> فرصة صندوق الأدوات"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:113
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
@@ -3482,7 +3482,7 @@ msgstr "نداء للتعبئة"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:167
 msgid "A candidate's starting trait is revealed once you hire them."
-msgstr ""
+msgstr "يتم الكشف عن خصائص العامل الأساسية بمجرد توظيفه."
 
 #: src/components/_economy/employee/TrainingCardList.tsx:132
 msgid "A card's rarity is its outline as well as its colour: a circle is Common, and it gains an edge at every tier up to the Legendary gem."
@@ -3538,23 +3538,23 @@ msgstr "يُطبَّق التخفيض الآن. إما أن يقبلوه أو ي
 
 #: src/components/_economy/manager/ManagerProfitEstimate.tsx:57
 msgid "A day of the production a manager adds to your employees at market value, minus their pay at this rate."
-msgstr ""
+msgstr "يوم من الإنتاج الذي يضيفه المدير إلى موظفيك بقيمة السوق، مطروحاً منه أجرهم بهذا المعدل."
 
 #: src/components/_economy/manager/ManagerProfitEstimate.tsx:106
 msgid "A day of the production this manager adds at market value, minus a day of their pay."
-msgstr ""
+msgstr "يوم من الإنتاج الذي يضيفه هذا المدير بقيمة السوق، مطروحاً منه أجر يوم واحد."
 
 #: src/components/_economy/employee/EstimatedProfit.tsx:259
 msgid "A day of their production at market value, minus a day of their wage."
-msgstr ""
+msgstr "يوم من إنتاجهم ببقيمة السوق، مطروحاً منه أجر يوم واحد."
 
 #: src/components/_economy/employee/EmployeeList.tsx:138
 msgid "A day of this company's production at market value, minus the day's payroll."
-msgstr ""
+msgstr "يوم من إنتاج هذه الشركة بقيمة السوق، مطروحاً منه رواتب ذلك اليوم."
 
 #: src/components/_economy/employee/EstimatedProfit.tsx:97
 msgid "A day of your employees' production at market value, minus the day's payroll."
-msgstr ""
+msgstr "يوم من إنتاج موظفيك بقيمة السوق، مطروحاً منه رواتب ذلك اليوم."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:715
 msgid "A day with family, and they come back smiling."
@@ -6995,11 +6995,11 @@ msgstr "كل مستوى يتسع لموظف إضافي."
 
 #: src/components/_user/user/EcoSkillEffects.tsx:87
 msgid "Each level gives your employees <0>{perPoint}</0> production, +{eventOddsPerLevel}% event odds and rarer training cards."
-msgstr ""
+msgstr "كل مستوى يمنح موظفيك <0>{perPoint}</0> إنتاج، و+{eventOddsPerLevel}% احتمالية حدوث فعاليات، وبطاقات تدريب أندر."
 
 #: src/components/_economy/employee/TrainingDrawOdds.tsx:181
 msgid "Each level of your Management moves {MOVED_PER_LEVEL}% of the draws from Common to the rarer cards."
-msgstr ""
+msgstr "كل مستوى من الإدارة لديك ينقل {MOVED_PER_LEVEL}% من عمليات اختيار  البطاقات الشائعة إلى البطاقات الأكثر ندرة."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:268
 msgid "Each level opens something new."
@@ -7026,17 +7026,17 @@ msgstr "يقود كل خيار إلى الخيار التالي."
 
 #: src/components/_economy/employee/employeeStats.tsx:399
 msgid "Each point gives +{RESP_HAPPINESS} <0>Happiness</0>, always on. It does not affect output directly."
-msgstr ""
+msgstr "تضيف كل نقطة +{RESP_HAPPINESS} إلى <0>السعادة</0> بشكل دائم، لكنها لا تؤثر مباشرةً في الإنتاج."
 
 #. placeholder {0}: LUCK_CHECK.statPerPoint
 #. placeholder {1}: LUCK_CHECK.luckPerPoint
 #: src/components/_economy/employee/employeeStats.tsx:307
 msgid "Each point is a {LUCK_PER_POINT_PCT}% chance per worked hour to find a toolbox, tilts training draws toward the rarer cards, and adds {0}% to the Luck checks of employee events, {1}% to every other check."
-msgstr ""
+msgstr "تمنح كل نقطة احتمالًا بنسبة {LUCK_PER_POINT_PCT}% للعثور على صندوق أدوات مع كل ساعة عمل، وتزيد فرص ظهور البطاقات النادرة عند السحب في التدريب، كما تحسّن فرص النجاح في اختبارات الحظ ضمن أحداث الموظفين بنسبة {0}%، وفي سائر الاختبارات بنسبة {1}%."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:147
 msgid "Each point is a {LUCK_PERCENT_PER_POINT}% chance per worked hour to find a toolbox, tilts training draws toward the rarer cards, and improves the odds of every employee event, Luck checks most."
-msgstr ""
+msgstr "تمنح كل نقطة احتمالًا بنسبة {LUCK_PERCENT_PER_POINT}% للعثور على صندوق أدوات مع كل ساعة عمل، وتزيد فرص ظهور البطاقات النادرة عند السحب في التدريب، كما تحسّن فرص النجاح في أحداث الموظفين، ولا سيما اختبارات الحظ."
 
 #: src/components/_user/user/SkillUpgrade.tsx:319
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
@@ -7052,7 +7052,7 @@ msgstr "تدرّ كل مورد استراتيجي على الدولة التي �
 
 #: src/components/_economy/employee/employee.traitMeta.ts:116
 msgid "Early Bloomer"
-msgstr ""
+msgstr "سريع النضج"
 
 #: src/components/_user/milestone/milestone.frontConfig.tsx:34
 msgid "Earn <0/> in total"
@@ -7294,7 +7294,7 @@ msgstr "قد يستقيل الموظفون الذين تقل سعادتهم عن
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:165
 msgid "Employees can have traits that change how they work."
-msgstr ""
+msgstr "يمتلك الموظفون خصائص تُغيّر من طريقة عملهم."
 
 #: src/components/_layout/loadingTips.tsx:390
 msgid "Employees get +{specializationPerDay}% production for every day spent on the same good, up to +{specializationMax}%."
@@ -8749,7 +8749,7 @@ msgstr "قائد أعلى"
 
 #: src/components/_economy/employee/RecruitModal.tsx:175
 msgid "Hire {name}"
-msgstr ""
+msgstr "توظيف {name}"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:299
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:144
@@ -9316,7 +9316,7 @@ msgstr "مجرد أن شيئاً ما لم يتم ذكره صراحة في ال�
 
 #: src/components/_economy/employee/useConfirmFire.tsx:16
 msgid "Just hired: can be fired in {hours}h"
-msgstr ""
+msgstr "تم توظيفه مؤخرًا: يمكن طرده خلال {hours} ساعة"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:50
 msgid "Just one more… what could go wrong?"
@@ -10031,7 +10031,7 @@ msgstr "مطلوب مدير"
 
 #: src/components/_economy/employee/EstimatedProfit.tsx:105
 msgid "Manufactured goods are valued minus the raws they use. Below zero, selling the raws would earn more."
-msgstr ""
+msgstr "تُحسب قيمة الموارد المصنعة خصمًا من قيمة المواد الخام المستخدمة. وإذا كانت النتيجة بالسالب، فإن بيع المواد الخام مباشرة سيكون أكثر إرباحًا من تصنيعها لشيء اخر"
 
 #: src/components/_layout/LoadingScreenContent.tsx:26
 msgid "map"
@@ -10597,7 +10597,7 @@ msgstr "تتحدد المعنويات مباشرةً وفقًا للسمات و�
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:136
 msgid "Morale: each point gives +{RESP_HAPPINESS} happiness, always on. Does not affect output directly."
-msgstr ""
+msgstr "المعنويات: تضيف كل نقطة +{RESP_HAPPINESS} إلى السعادة بشكل دائم، لكنها لا تؤثر مباشرةً في الإنتاج."
 
 #: src/components/_layout/LayoutLeftIcons.tsx:225
 #: src/components/_layout/MoreButtonNav.tsx:191
@@ -10652,7 +10652,7 @@ msgstr "انتقال"
 #. placeholder {0}: target.name
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:225
 msgid "Move {who} into {0}?"
-msgstr ""
+msgstr "هل تريد نقل {who} إلى {0}؟"
 
 #: src/components/_political/map/MapMenu.tsx:727
 msgid "Move & collect"
@@ -10727,7 +10727,7 @@ msgstr "ينقل السمة خطوة واحدة إلى الأعلى في مسا�
 
 #: src/components/_layout/loadingTips.tsx:399
 msgid "Moving an employee to another of your companies is free."
-msgstr ""
+msgstr "نقل موظف إلى إحدى شركاتك الأخرى مجاني بالكامل"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:590
 msgid "Moving costs <0>Stamina</0>, then Oil."
@@ -11431,7 +11431,7 @@ msgstr "لا توجد أداة"
 
 #: src/components/_economy/employee/ToolSelectorPopover.tsx:123
 msgid "No tool of this type"
-msgstr ""
+msgstr "لا توجد أداة من هذا النوع"
 
 #: src/components/_economy/inventory/Inventory.tsx:693
 msgid "No tools"
@@ -11810,7 +11810,7 @@ msgstr "فقط لمن لديه سمة {stockpiler}."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:505
 msgid "Only an {earlyBloomer}."
-msgstr ""
+msgstr "مجرد  {earlyBloomer}."
 
 #: src/components/_social/poll/PollCard.tsx:232
 msgid "Only citizens of <0/> can vote."
@@ -12365,7 +12365,7 @@ msgstr "{cardTitle} اختر"
 
 #: src/components/_economy/employee/RecruitModal.tsx:175
 msgid "Pick a candidate"
-msgstr ""
+msgstr "اختر موظفاً"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:121
 #: src/components/_other/tour/tuto.frontConfig.tsx:491
@@ -14550,7 +14550,7 @@ msgstr "البائع"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:166
 msgid "Some need your attention to get the best out of them."
-msgstr ""
+msgstr "يحتاج البعض إلى اهتمامك لتحقيق أقصى استفادة منهم."
 
 #: src/components/_economy/company/CompanyList.tsx:182
 msgid "Some of your companies are disabled."
@@ -15068,7 +15068,7 @@ msgstr "إضغط على المخزون"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:572
 msgid "Tap Move to travel there."
-msgstr "اضغط على «انتقال» للسفر إلى هناك."
+msgstr "اضغط على نتقال للسفر إلى هناك."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:456
 msgid "Tap one to read it."
@@ -15076,7 +15076,7 @@ msgstr "اضغط على أحدها لقراءته."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:123
 msgid "Tap one, then Hire."
-msgstr ""
+msgstr "اضغط على أحدهما، ثم توظيف."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:291
 msgid "Tap Save to keep your points."
@@ -15084,12 +15084,12 @@ msgstr "اضغط على «حفظ» للاحتفاظ بنقاطك."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:432
 msgid "Tap the chat."
-msgstr "إضغط على المحادثة"
+msgstr "اضغط على المحادثة."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:492
 #: src/components/_other/tour/tuto.frontConfig.tsx:521
 msgid "Tap the one you like best, then Hire."
-msgstr ""
+msgstr "اضغط على الخيار الذي يعجبك أكثر، ثم توظيف."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:136
 msgid "Tap them to see who they are."
@@ -15628,7 +15628,7 @@ msgstr "يتفرق المنتظرون وهم يتمتمون بشأن سوء ال
 
 #: src/components/_economy/employee/TrainingCardList.tsx:118
 msgid "The rarity is rolled once for the whole hand, among the rarities the employee has enough cards in. Management tilts these odds."
-msgstr ""
+msgstr "يتم تحديد مستوى الندرة مرة واحدة لكامل الكروت، وذلك من بين مستويات الندرة التي يمتلك الموظف ما يكفي من بطاقات لها. تعمل الإدارة على ترجيح هذه الاحتمالات لصالحك."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:568
 msgid "The region menu"
@@ -15929,7 +15929,7 @@ msgstr "هذه الشركة ليس لديها عمال."
 
 #: src/components/_economy/employee/EmployeeList.tsx:204
 msgid "This company is disabled and earns nothing. Once re-enabled, it would earn this much a day."
-msgstr ""
+msgstr "هذه الشركة معطلة ولا تحقق أي أرباح. بمجرد إعادة تشغيلها، ستحقق هذا القدر من الأرباح يومياً."
 
 #: src/components/_economy/company/CompanyTags.tsx:116
 msgid "This company is disabled because the owner reached the company limit."
@@ -16428,7 +16428,7 @@ msgstr "تبادل العناصر"
 #. placeholder {0}: coworker.name || t`this employee`
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:261
 msgid "Trade places between {who} and {0}?"
-msgstr ""
+msgstr "هل تريد تبديل الأماكن بين {who} و{0}؟"
 
 #: src/components/_economy/manager/MoveManagerModal.tsx:232
 msgid "Trade places between <0/> and <1/>? Each keeps their own pay and what they have earned, and both can resign straight afterwards."
@@ -16479,7 +16479,7 @@ msgstr "التدريب"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:168
 msgid "Training can teach them new traits."
-msgstr ""
+msgstr "يمكن للتدريب أن يكسبهم خصائص جديدة."
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:149
 msgid "Training cards"
@@ -17362,7 +17362,7 @@ msgstr "ما دفعته لك المعارك التي تخوضها حتى الآ�
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:545
 msgid "What your employees' Luck should find in a day. Only hours that bank production count."
-msgstr ""
+msgstr "ما يُتوقّع أن يعثر عليه الحظ لدى موظفيك خلال يوم واحد. تُحتسب فقط الساعات التي تتراكم خلال الانتاج."
 
 #: src/components/_common/GameRules.tsx:124
 msgid "While data collection and display tools that use the official public API are allowed, for any other development or data access, please contact the staff team directly."
@@ -18197,7 +18197,7 @@ msgstr "الحالة الخاصة لعمالك"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:163
 msgid "Your employee's traits"
-msgstr ""
+msgstr "خصائص موظفك"
 
 #: src/components/_economy/manager/ManagerProfitEstimate.tsx:66
 msgid "Your employees produce nothing right now, so a manager would add nothing."
@@ -18264,11 +18264,11 @@ msgstr "حظك في إجازة صيفية"
 
 #: src/components/_economy/employee/TrainingDrawOdds.tsx:173
 msgid "Your Management"
-msgstr ""
+msgstr "إدارتك"
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:88
 msgid "Your Management {value}"
-msgstr ""
+msgstr "إدارتك {value}"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:303
 msgid "Your milestones"
