@@ -607,11 +607,11 @@ msgstr "{gender, select, male {{name} liet een broodje in de machine vallen, en 
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3321
 msgid "{gender, select, male {{name} eats it alone, looking a little homesick.} female {{name} eats it alone, looking a little homesick.} other {{name} eats it alone, looking a little homesick.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} eet het alleen op, terwijl hij er een beetje heimwee-achtig uitziet.} female {{name} eet het alleen op, terwijl ze er een beetje heimwee-achtig uitziet.} other {{name} eet het alleen op, terwijl zij er een beetje heimwee-achtig uitziet.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2664
 msgid "{gender, select, male {{name} eats lunch outside, glaring at the machine.} female {{name} eats lunch outside, glaring at the machine.} other {{name} eats lunch outside, glaring at the machine.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} eet zijn lunch buiten, terwijl hij de machine grimmig aanstaart.} female {{name} eet haar lunch buiten, terwijl ze de machine grimmig aanstaart.} other {{name} eet hun lunch buiten, terwijl zij de machine grimmig aanstaart.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1157
 msgid "{gender, select, male {{name} eats one grape, nods, and works like a star.} female {{name} eats one grape, nods, and works like a star.} other {{name} eats one grape, nods, and works like a star.}}"
