@@ -539,7 +539,7 @@ msgstr "{gender, select, male {{name} kan het niet wanneer anderen kijken, ook n
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3909
 msgid "{gender, select, male {{name} climbed into the vents to prune Kevin, and was stuck there all afternoon.} female {{name} climbed into the vents to prune Kevin, and was stuck there all afternoon.} other {{name} climbed into the vents to prune Kevin, and was stuck there all afternoon.}}"
-msgstr "{gender, select, male {{name} klom in de ventilatieschachten om Kevin te snoeien en zat daar de hele namiddag vast.} female {{name} klom in de ventilatieschachten om Kevin te snoeien en zat daar de hele namiddag vast.} other {{name} klom in de ventilatieschachten om Kevin te snoeien en zat daar de hele namiddag vast.}}""
+msgstr "{gender, select, male {{name} klom in de ventilatieschachten om Kevin te snoeien en zat daar de hele namiddag vast.} female {{name} klom in de ventilatieschachten om Kevin te snoeien en zat daar de hele namiddag vast.} other {{name} klom in de ventilatieschachten om Kevin te snoeien en zat daar de hele namiddag vast.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:667
 msgid "{gender, select, male {{name} comes back a day later, proud and steadier than before.} female {{name} comes back a day later, proud and steadier than before.} other {{name} comes back a day later, proud and steadier than before.}}"
