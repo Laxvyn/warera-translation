@@ -84,7 +84,7 @@ msgstr "“عامل مخضرم” اذن, سيؤدي الغرض, في الوقت
 msgid "(average member development)"
 msgstr "متوسط تطوير العضو"
 
-#: src/components/_economy/employee/employeeStats.tsx:699
+#: src/components/_economy/employee/employeeStats.tsx:692
 msgid "(coworker)"
 msgstr "(زميل عمل)"
 
@@ -1715,7 +1715,7 @@ msgstr "تمت اتخاذ القرار بواسطة {names} أثناء غياب�
 msgid "{nextLevelSkillPoints} Skill Points"
 msgstr "{nextLevelSkillPoints} نقاط مهارة"
 
-#: src/components/_economy/employee/employeeStats.tsx:361
+#: src/components/_economy/employee/employeeStats.tsx:354
 msgid "{otherPct} on other checks"
 msgstr "{otherPct} في الاختبارات الأخرى"
 
@@ -1834,11 +1834,11 @@ msgstr "{value} أيام من الخبرة"
 msgid "{value} km"
 msgstr "{value} كم"
 
-#: src/components/_economy/employee/employeeStats.tsx:479
+#: src/components/_economy/employee/employeeStats.tsx:472
 msgid "{value} morale = <0>{signedBonus}</0> {production}."
 msgstr "{value} معنويات = <0>{signedBonus}</0> {production}."
 
-#: src/components/_economy/employee/employeeStats.tsx:475
+#: src/components/_economy/employee/employeeStats.tsx:468
 msgid "{value} morale = <0>no</0> {production} change."
 msgstr "{value} معنويات = <0>بدون</0> تغيير في {production}."
 
@@ -2308,9 +2308,9 @@ msgstr "انضم <0/> إلى شركتك <1/> بأجر <2>{0}</2>"
 msgid "<0/> kicked <1/> from the conversation"
 msgstr "طرد <0/>:-  <1/> من المحادثة"
 
-#: src/components/_economy/employee/employeeStats.tsx:577
-#: src/components/_economy/employee/employeeStats.tsx:757
-#: src/components/_economy/employee/employeeStats.tsx:850
+#: src/components/_economy/employee/employeeStats.tsx:570
+#: src/components/_economy/employee/employeeStats.tsx:750
+#: src/components/_economy/employee/employeeStats.tsx:843
 msgid "<0/> left"
 msgstr "<0/> غادر"
 
@@ -2478,35 +2478,35 @@ msgstr "تنتهي أولوية <0/> في <1/>"
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> نمو المقاومة في الساعة"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:756
+#: src/components/_economy/employee/employee.frontConfig.tsx:753
 msgid "<0>-1%</0> per 1% of employee tax, up to <1>-30%</1>"
 msgstr "<0>-1%</0> لكل 1% من ضريبة الموظفين، بحد أقصى <1>-30%</1>"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:650
+#: src/components/_economy/employee/employee.frontConfig.tsx:647
 msgid "<0>-1</0> to all stats every 20 days at the same company, up to <1>-3</1>"
 msgstr "<0>-1</0> إلى جميع الإحصائيات كل 20 يومًا في الشركة نفسها، بحد أقصى <1>-3</1>"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:445
+#: src/components/_economy/employee/employee.frontConfig.tsx:442
 msgid "<0>-15%</0> alongside their nemesis"
 msgstr "<0>-15%</0> عند العمل إلى جانب الخصم اللدود"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:512
+#: src/components/_economy/employee/employee.frontConfig.tsx:509
 msgid "<0>-15%</0> per female coworker, up to <1>-30%</1>"
 msgstr "<0>-15%</0> لكل زميلة، بحد أقصى <1>-30%</1>"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:498
+#: src/components/_economy/employee/employee.frontConfig.tsx:495
 msgid "<0>-15%</0> per male coworker, up to <1>-30%</1>"
 msgstr "<0>-15%</0> لكل زميل، بحد أقصى <1>-30%</1>"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:600
+#: src/components/_economy/employee/employee.frontConfig.tsx:597
 msgid "<0>-20%</0> until storage reaches level <1>3</1>"
 msgstr "<0>-20%</0> حتى يصل المخزون إلى المستوى <1>3</1>"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:626
+#: src/components/_economy/employee/employee.frontConfig.tsx:623
 msgid "<0>-30%</0> for 3 days after a transfer"
 msgstr "<0>-30%</0> لمدة 3 أيام بعد النقل"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:846
+#: src/components/_economy/employee/employee.frontConfig.tsx:843
 msgid "<0>-50%</0> below {quitThreshold} happiness"
 msgstr "<0>-50%</0> عندما تقل السعادة عن {quitThreshold}"
 
@@ -2527,31 +2527,31 @@ msgstr "<0>{0}</0> ضد عدو <1/>"
 
 #. placeholder {0}: 2
 #. placeholder {1}: 10
-#: src/components/_economy/employee/employee.frontConfig.tsx:710
+#: src/components/_economy/employee/employee.frontConfig.tsx:707
 msgid "<0>{0}</0> and <1>{1}</1> in a homeland core region"
 msgstr "<0>{0}</0> و<1>{1}</1> في منطقة أساسية من الوطن الأم"
 
 #. placeholder {0}: -2
 #. placeholder {1}: -5
-#: src/components/_economy/employee/employee.frontConfig.tsx:258
+#: src/components/_economy/employee/employee.frontConfig.tsx:255
 msgid "<0>{0}</0> and <1>{1}</1> when any coworker is foreign"
 msgstr "<0>{0}</0> و<1>{1}</1> عندما تكون جنسية أي زميل مختلفة"
 
 #. placeholder {0}: 2
 #. placeholder {1}: 5
-#: src/components/_economy/employee/employee.frontConfig.tsx:240
+#: src/components/_economy/employee/employee.frontConfig.tsx:237
 msgid "<0>{0}</0> and <1>{1}</1> when half or more coworkers are compatriots"
 msgstr "<0>{0}</0> و<1>{1}</1> عندما يكون نصف الزملاء أو أكثر من أبناء الوطن"
 
 #. placeholder {0}: -2
 #. placeholder {1}: -10
-#: src/components/_economy/employee/employee.frontConfig.tsx:728
+#: src/components/_economy/employee/employee.frontConfig.tsx:725
 msgid "<0>{0}</0> and <1>{1}</1> when working abroad"
 msgstr "<0>{0}</0> و<1>{1}</1> عند العمل في الخارج"
 
 #. placeholder {0}: 3
 #. placeholder {1}: 5
-#: src/components/_economy/employee/employee.frontConfig.tsx:528
+#: src/components/_economy/employee/employee.frontConfig.tsx:525
 msgid "<0>{0}</0> and <1>{1}</1> while producing their good"
 msgstr "<0>{0}</0> و<1>{1}</1> أثناء إنتاج سلعتهم"
 
@@ -2587,9 +2587,9 @@ msgstr "تمت إعادة رسوم <0>{0}</0> إلى الوحدة العسكري
 
 #. placeholder {0}: -1
 #. placeholder {0}: 2
-#: src/components/_economy/employee/employee.frontConfig.tsx:325
-#: src/components/_economy/employee/employee.frontConfig.tsx:343
-#: src/components/_economy/employee/employee.frontConfig.tsx:403
+#: src/components/_economy/employee/employee.frontConfig.tsx:322
+#: src/components/_economy/employee/employee.frontConfig.tsx:340
+#: src/components/_economy/employee/employee.frontConfig.tsx:400
 msgid "<0>{0}</0> for themselves"
 msgstr "<0>{0}</0> من اجل انفسهم"
 
@@ -2631,43 +2631,43 @@ msgid "<0>{0}</0> ground are required to win a round, points are gained every ti
 msgstr "مطلوب <0>{0}</0> أرض للفوز بجولة، يتم اكتساب النقاط مع كل نبضة (tick)"
 
 #. placeholder {0}: -1
-#: src/components/_economy/employee/employee.frontConfig.tsx:570
+#: src/components/_economy/employee/employee.frontConfig.tsx:567
 msgid "<0>{0}</0> on anything manufactured"
 msgstr "<0>{0}</0> على كل ما يتم تصنيعه"
 
 #. placeholder {0}: 3
-#: src/components/_economy/employee/employee.frontConfig.tsx:546
+#: src/components/_economy/employee/employee.frontConfig.tsx:543
 msgid "<0>{0}</0> on manufactured goods"
 msgstr "<0>{0}</0> على السلع المصنّعة"
 
 #. placeholder {0}: -1
 #. placeholder {0}: 3
-#: src/components/_economy/employee/employee.frontConfig.tsx:552
-#: src/components/_economy/employee/employee.frontConfig.tsx:564
+#: src/components/_economy/employee/employee.frontConfig.tsx:549
+#: src/components/_economy/employee/employee.frontConfig.tsx:561
 msgid "<0>{0}</0> on raw resources"
 msgstr "<0>{0}</0> عندما يكون عنصر خام"
 
 #. placeholder {0}: 2
 #. placeholder {1}: 6
-#: src/components/_economy/employee/employee.frontConfig.tsx:678
+#: src/components/_economy/employee/employee.frontConfig.tsx:675
 msgid "<0>{0}</0> per 10 years past 40, up to <1>{1}</1>"
 msgstr "<0>{0}</0> لكل 10 سنوات بعد سن 40، بحد أقصى <1>{1}</1>"
 
 #. placeholder {0}: -2
 #. placeholder {1}: -6
-#: src/components/_economy/employee/employee.frontConfig.tsx:695
+#: src/components/_economy/employee/employee.frontConfig.tsx:692
 msgid "<0>{0}</0> per 10 years past 50, up to <1>{1}</1>"
 msgstr "<0>{0}</0> لكل 10 سنوات بعد سن 50، بحد أقصى <1>{1}</1>"
 
 #. placeholder {0}: -5
 #. placeholder {1}: -10
-#: src/components/_economy/employee/employee.frontConfig.tsx:421
+#: src/components/_economy/employee/employee.frontConfig.tsx:418
 msgid "<0>{0}</0> per better-paid coworker, up to <1>{1}</1>"
 msgstr "<0>{0}</0> لكل زميل يتقاضى أجرًا أعلى، بحد أقصى <1>{1}</1>"
 
 #. placeholder {0}: 2
 #. placeholder {1}: 4
-#: src/components/_economy/employee/employee.frontConfig.tsx:271
+#: src/components/_economy/employee/employee.frontConfig.tsx:268
 msgid "<0>{0}</0> per foreign nationality among coworkers, up to <1>{1}</1>"
 msgstr "<0>{0}</0> لكل جنسية أجنبية بين الزملاء، بحد أقصى <1>{1}</1>"
 
@@ -2689,16 +2689,16 @@ msgstr "<0>{0}</0> سعة التخزين"
 #. placeholder {0}: -10
 #. placeholder {0}: -2
 #. placeholder {0}: 10
-#: src/components/_economy/employee/employee.frontConfig.tsx:319
-#: src/components/_economy/employee/employee.frontConfig.tsx:355
-#: src/components/_economy/employee/employee.frontConfig.tsx:409
-#: src/components/_economy/employee/employee.frontConfig.tsx:900
-#: src/components/_economy/employee/employee.frontConfig.tsx:914
+#: src/components/_economy/employee/employee.frontConfig.tsx:316
+#: src/components/_economy/employee/employee.frontConfig.tsx:352
+#: src/components/_economy/employee/employee.frontConfig.tsx:406
+#: src/components/_economy/employee/employee.frontConfig.tsx:897
+#: src/components/_economy/employee/employee.frontConfig.tsx:911
 msgid "<0>{0}</0> to every coworker"
 msgstr "<0>{0}</0> لكل زميل"
 
 #. placeholder {0}: 2
-#: src/components/_economy/employee/employee.frontConfig.tsx:337
+#: src/components/_economy/employee/employee.frontConfig.tsx:334
 msgid "<0>{0}</0> to every weaker coworker"
 msgstr "<0>{0}</0> لكل عامل ضعيف"
 
@@ -2710,37 +2710,37 @@ msgstr "<0>{0}</0> للوصول إلى المستوى {1}"
 
 #. placeholder {0}: 6
 #. placeholder {1}: -2
-#: src/components/_economy/employee/employee.frontConfig.tsx:662
+#: src/components/_economy/employee/employee.frontConfig.tsx:659
 msgid "<0>{0}</0> until 40, then <1>{1}</1> per 10 years, down to none at 60"
 msgstr ""
 
 #. placeholder {0}: -10
-#: src/components/_economy/employee/employee.frontConfig.tsx:391
+#: src/components/_economy/employee/employee.frontConfig.tsx:388
 msgid "<0>{0}</0> when they are not"
 msgstr "<0>{0}</0> عندما لا يكونون كذلك"
 
 #. placeholder {0}: 2
-#: src/components/_economy/employee/employee.frontConfig.tsx:740
+#: src/components/_economy/employee/employee.frontConfig.tsx:737
 msgid "<0>{0}</0> when working abroad"
 msgstr "<0>{0}</0> عندما يعمل في خارج البلد الام"
 
 #. placeholder {0}: -10
-#: src/components/_economy/employee/employee.frontConfig.tsx:308
+#: src/components/_economy/employee/employee.frontConfig.tsx:305
 msgid "<0>{0}</0> when working alone"
 msgstr "<0>{0}</0> عندما يعمل وحيدا"
 
 #. placeholder {0}: -1
-#: src/components/_economy/employee/employee.frontConfig.tsx:375
+#: src/components/_economy/employee/employee.frontConfig.tsx:372
 msgid "<0>{0}</0> while nobody out-produces them"
 msgstr "<0>{0}</0> ما دام لا يوجد من ينتج أكثر منهم"
 
 #. placeholder {0}: 3
-#: src/components/_economy/employee/employee.frontConfig.tsx:369
+#: src/components/_economy/employee/employee.frontConfig.tsx:366
 msgid "<0>{0}</0> while somebody out-produces them"
 msgstr "<0>{0}</0> عندما ينتج شخص ما أكثر منهم"
 
 #. placeholder {0}: 2
-#: src/components/_economy/employee/employee.frontConfig.tsx:769
+#: src/components/_economy/employee/employee.frontConfig.tsx:766
 msgid "<0>{0}</0> with employee tax at 20% or more"
 msgstr "<0>{0}</0> عندما تبلغ ضريبة الموظفين 20% أو أكثر"
 
@@ -2762,7 +2762,7 @@ msgstr ""
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
 msgstr "<0>{depositBonus}</0> من موارد الإيداع في <1/>."
 
-#: src/components/_economy/employee/employeeStats.tsx:324
+#: src/components/_economy/employee/employeeStats.tsx:318
 msgid "<0>{luck}</0> Luck: finds toolboxes, draws rarer training cards and tilts employee events."
 msgstr "<0>{luck}</0> الحظ: يعثر على صناديق الأدوات، ويسحب بطاقات تدريب أندر، ويرجّح كفة أحداث الموظفين."
 
@@ -2771,60 +2771,60 @@ msgid "<0>{percentPerDay}</0> per day worked in a good, up to <1>{maxPercent}</1
 msgstr "<0>{percentPerDay}</0> لكل يوم عمل في سلعة، حتى <1>{maxPercent}</1>. تحتفظ كل سلعة بأيامها الخاصة، لذا يبدأ الموظف المنقول من جديد في السلعة الجديدة ويحتفظ بالمكافأة القديمة لوقت لاحق."
 
 #. placeholder {0}: fmt2(v / OUTPUT_DIVISOR)
-#: src/components/_economy/employee/employeeStats.tsx:237
+#: src/components/_economy/employee/employeeStats.tsx:236
 msgid "<0>{v}</0> Production ÷ {OUTPUT_DIVISOR} = <1>{0} points per hour</1>, before bonuses."
 msgstr "<0>{v}</0> إنتاج ÷ {OUTPUT_DIVISOR} = <1>{0} نقطة في الساعة</1>، قبل المكافآت."
 
-#: src/components/_economy/employee/employeeStats.tsx:412
+#: src/components/_economy/employee/employeeStats.tsx:405
 msgid "<0>{v}</0> Responsibility = <1>+{happiness}</1> <2>Happiness</2>."
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:927
+#: src/components/_economy/employee/employee.frontConfig.tsx:924
 msgid "<0>+1</0> candidate on every company's daily shortlist"
 msgstr "<0>+1</0> مرشح إضافي في القائمة اليومية المختصرة لكل شركة"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:638
+#: src/components/_economy/employee/employee.frontConfig.tsx:635
 msgid "<0>+1</0> to one stat every 10 days at the same company, up to <1>+4</1>"
 msgstr "<0>+1</0> لإحدى الإحصائيات كل 10 أيام في الشركة نفسها، بحد أقصى <1>+4</1>"
 
 #. placeholder {0}: 5
-#: src/components/_economy/employee/employee.frontConfig.tsx:288
+#: src/components/_economy/employee/employee.frontConfig.tsx:285
 msgid "<0>+100%</0> and <1>{0}</1> when working alone"
 msgstr "<0>+100%</0> و<1>{0}</1> عند العمل بمفردك"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:433
+#: src/components/_economy/employee/employee.frontConfig.tsx:430
 msgid "<0>+15%</0> alongside their friend"
 msgstr "<0>+15%</0> عند العمل إلى جانب صديقهم"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:470
+#: src/components/_economy/employee/employee.frontConfig.tsx:467
 msgid "<0>+15%</0> per female coworker, up to <1>+30%</1>"
 msgstr "<0>+15%</0> لكل زميلة، بحد أقصى <1>+30%</1>"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:484
+#: src/components/_economy/employee/employee.frontConfig.tsx:481
 msgid "<0>+15%</0> per male coworker, up to <1>+30%</1>"
 msgstr "<0>+15%</0> لكل زميل، بحد أقصى <1>+30%</1>"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:614
+#: src/components/_economy/employee/employee.frontConfig.tsx:611
 msgid "<0>+20%</0> after 30 days at the same company"
 msgstr "<0>+20%</0> بعد 30 يوم في نفس الشركة"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:457
+#: src/components/_economy/employee/employee.frontConfig.tsx:454
 msgid "<0>+20%</0> alongside their sweetheart"
 msgstr "<0>+20%</0> عند العمل إلى جانب حبيبهم"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:387
+#: src/components/_economy/employee/employee.frontConfig.tsx:384
 msgid "<0>+20%</0> when paid more than every coworker"
 msgstr "<0>+20%</0> عندما يدفع له اكثر من كل العمال"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:303
+#: src/components/_economy/employee/employee.frontConfig.tsx:300
 msgid "<0>+25%</0> per coworker, up to <1>+50%</1>"
 msgstr "<0>+25%</0> لكل زميل، بحد أقصى <1>+50%</1>"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:226
+#: src/components/_economy/employee/employee.frontConfig.tsx:223
 msgid "<0>+25%</0> while holding no tool"
 msgstr "<0>+25%</0> عندما تكون لا تكون بحوزته اداة"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:214
+#: src/components/_economy/employee/employee.frontConfig.tsx:211
 msgid "<0>+40%</0> while holding a tool"
 msgstr "<0>+40%</0> عندما تكون بحوزته اداة"
 
@@ -2885,7 +2885,7 @@ msgstr "<0>كل موظف في هذه الشركة ينتج <1>{0}</1> أكثر.<
 msgid "<0>Filled with <1>Production Points</1> when you work, by your employees and by the automated engine.</0><2>Only the company owner can spend it to produce items.</2>"
 msgstr "<0>تمتلئ بـ<1>نقاط الإنتاج</1> عندما تعمل، بواسطة موظفيك والمحرك الآلي.</0><2>فقط مالك الشركة يمكنه إنفاقها لإنتاج العناصر.</2>"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:820
+#: src/components/_economy/employee/employee.frontConfig.tsx:817
 msgid "<0>Half</0> Happiness losses"
 msgstr "<0>النصف</0> من خسائر السعادة"
 
@@ -2897,7 +2897,7 @@ msgstr "<0>الصحة</0> للقتال، و<1>الجوع</1> للأكل."
 msgid "<0>Luck</0>: finds toolboxes."
 msgstr "<0>الحظ</0>: يجد صناديق الأدوات."
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:843
+#: src/components/_economy/employee/employee.frontConfig.tsx:840
 msgid "<0>Never</0> quits"
 msgstr "<0>لا يستقيل أبدًا</0>"
 
@@ -2927,13 +2927,13 @@ msgstr ""
 msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can <3>increase</3> or <4>decrease</4> unrest by spending <5>{0}</5> or <6>{1}</6> to change the bar by <7>{2}</7>.<8/><9/>When the bar is full, any party can vote via motion to start a <10>Civil war</10> (cost: <11>development × 10</11>, cooldown: {3}h). The battle takes place in the capital region, and <12>only citizens</12> can fight.<13/><14/>If revolutionaries win:<15/>- Government is impeached<16/>- Borders are opened for {4} days<17/>- Presidential elections begin<18/><19/>After a revolution, contributions are disabled for {5}h."
 msgstr "<0>الاضطرابات</0> تمثل التوتر الداخلي في الدولة.<1/><2/>يمكن للمواطنين <3>زيادة</3> أو <4>تقليل</4> الاضطرابات عن طريق إنفاق <5>{0}</5> أو <6>{1}</6> لتغيير الشريط بمقدار <7>{2}</7>.<8/><9/>عندما يمتلئ الشريط، يمكن لأي حزب التصويت عبر اقتراح لبدء <10>حرب أهلية</10> (التكلفة: <11>التنمية × 10</11>، مدة الانتظار: {3} ساعة). تجري المعركة في منطقة العاصمة، و<12>المواطنون فقط</12> يمكنهم القتال.<13/><14/>إذا فاز الثوار:<15/>- يتم عزل الحكومة<16/>- تُفتح الحدود لمدة {4} أيام<17/>- تبدأ الانتخابات الرئاسية<18/><19/>بعد الثورة، تُعطل المساهمات لمدة {5} ساعة."
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:582
+#: src/components/_economy/employee/employee.frontConfig.tsx:579
 msgid "<0>x2</0> specialization speed"
 msgstr "<0>×2</0> سرعة التخصص"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:877
-msgid "<0>x2</0> toolbox chance and cap"
-msgstr "<0>×2</0> فرصة العثور على صندوق أدوات والحد الأقصى لها"
+#: src/components/_economy/employee/employee.frontConfig.tsx:874
+msgid "<0>x2</0> toolbox chance"
+msgstr ""
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:113
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
@@ -4056,7 +4056,7 @@ msgstr "جميع الجولات"
 msgid "All skins owned"
 msgstr "تمتلك جميع المظاهر"
 
-#: src/components/_economy/employee/EmployeeTraitsModal.tsx:152
+#: src/components/_economy/employee/EmployeeTraitsModal.tsx:153
 msgid "All traits"
 msgstr "كل الصفات"
 
@@ -4731,8 +4731,8 @@ msgstr "شعارات"
 msgid "Bans"
 msgstr "الحظر"
 
-#: src/components/_economy/employee/employeeStats.tsx:171
-#: src/components/_economy/employee/employeeStats.tsx:745
+#: src/components/_economy/employee/employeeStats.tsx:170
+#: src/components/_economy/employee/employeeStats.tsx:738
 msgid "Base"
 msgstr "الأساسي"
 
@@ -5297,10 +5297,6 @@ msgstr "عاصمة"
 msgid "Capital of"
 msgstr "عاصمة دولة"
 
-#: src/components/_economy/employee/employeeStats.tsx:347
-msgid "Capped at {cappedPct}%"
-msgstr "بحد أقصى {cappedPct}%"
-
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:91
 msgid "Captain"
 msgstr "نقيب"
@@ -5329,8 +5325,8 @@ msgstr "البطاقات"
 msgid "Care"
 msgstr "الرعاية"
 
-#: src/components/_economy/employee/employeeStats.tsx:685
-#: src/components/_economy/employee/employeeStats.tsx:833
+#: src/components/_economy/employee/employeeStats.tsx:678
+#: src/components/_economy/employee/employeeStats.tsx:826
 msgid "Cared for by manager"
 msgstr "رعاية من المدير"
 
@@ -5382,7 +5378,7 @@ msgstr "فرصة لتفادي جميع الأضرار القادمة عند ال
 msgid "Chance to hit the target.<0/>Misses cannot crit, and deal half damage."
 msgstr "فرصة لإصابة الهدف.<0/>الضربات الضائعة لا يمكن أن تكون حرجة، وتسبب نصف الضرر."
 
-#: src/components/_economy/employee/employeeStats.tsx:800
+#: src/components/_economy/employee/employeeStats.tsx:793
 msgid "Chance to quit"
 msgstr "احتمال الاستقالة"
 
@@ -6065,7 +6061,7 @@ msgid "Core development of <0/>"
 msgstr "التطوير الأساسي لـ <0/>"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:221
-#: src/components/_economy/employee/employeeStats.tsx:527
+#: src/components/_economy/employee/employeeStats.tsx:520
 msgid "Core region"
 msgstr "منطقة أساسية"
 
@@ -6296,7 +6292,7 @@ msgstr "فرصة ضربة حرجة"
 msgid "Crit. damages"
 msgstr "أضرار حرجة"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:866
+#: src/components/_economy/employee/employee.frontConfig.tsx:863
 msgid "Critical event outcomes, good or bad, twice as often"
 msgstr "تتكرر نتائج الأحداث الحاسمة، الجيدة منها والسيئة، بمعدل الضعف"
 
@@ -6754,7 +6750,7 @@ msgstr "ماسة خام"
 msgid "Diamonds"
 msgstr "الماس"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:98
+#: src/components/_economy/employee/employee.frontConfig.tsx:96
 msgid "Died in a battle fought over the region they worked in."
 msgstr "مات في معركة دارت على المنطقة التي كان يعمل فيها."
 
@@ -6973,7 +6969,7 @@ msgstr "بأناقة قاتلة"
 msgid "Drill"
 msgstr "مثقاب"
 
-#: src/components/_economy/employee/employeeStats.tsx:488
+#: src/components/_economy/employee/employeeStats.tsx:481
 msgid "Drops too low and they can quit."
 msgstr "إذا انخفض كثيرًا قد يستقيلون."
 
@@ -7028,19 +7024,19 @@ msgstr "تعيد كل وجبة ملء <0>الصحة</0> وتستهلك <1>الج
 msgid "Each one leads to the next."
 msgstr "يقود كل خيار إلى الخيار التالي."
 
-#: src/components/_economy/employee/employeeStats.tsx:406
+#: src/components/_economy/employee/employeeStats.tsx:399
 msgid "Each point gives +{RESP_HAPPINESS} <0>Happiness</0>, always on. It does not affect output directly."
 msgstr ""
 
 #. placeholder {0}: LUCK_CHECK.statPerPoint
 #. placeholder {1}: LUCK_CHECK.luckPerPoint
-#: src/components/_economy/employee/employeeStats.tsx:308
-msgid "Each point is a {LUCK_PER_POINT_PCT}% chance per worked hour to find a toolbox (up to {LUCK_MAX_PCT}%), tilts training draws toward the rarer cards, and adds {0}% to the Luck checks of employee events, {1}% to every other check."
-msgstr "كل نقطة تمنح فرصة بنسبة {LUCK_PER_POINT_PCT}% للعثور على صندوق أدوات عن كل ساعة عمل (حتى {LUCK_MAX_PCT}%)، وترجّح سحوبات التدريب نحو البطاقات الأندر، وتضيف {0}% إلى اختبارات الحظ في أحداث الموظفين و{1}% إلى كل اختبار آخر."
+#: src/components/_economy/employee/employeeStats.tsx:307
+msgid "Each point is a {LUCK_PER_POINT_PCT}% chance per worked hour to find a toolbox, tilts training draws toward the rarer cards, and adds {0}% to the Luck checks of employee events, {1}% to every other check."
+msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:149
-msgid "Each point is a {LUCK_PERCENT_PER_POINT}% chance per worked hour to find a toolbox (up to {LUCK_MAX_PERCENT}%), tilts training draws toward the rarer cards, and improves the odds of every employee event, Luck checks most."
-msgstr "كل نقطة تمنح فرصة بنسبة {LUCK_PERCENT_PER_POINT}% للعثور على صندوق أدوات عن كل ساعة عمل (حتى {LUCK_MAX_PERCENT}%)، وترجّح سحوبات التدريب نحو البطاقات الأندر، وتحسّن فرص النجاح في جميع أحداث الموظفين، ولا سيما اختبارات الحظ."
+#: src/components/_economy/employee/employee.frontConfig.tsx:147
+msgid "Each point is a {LUCK_PERCENT_PER_POINT}% chance per worked hour to find a toolbox, tilts training draws toward the rarer cards, and improves the odds of every employee event, Luck checks most."
+msgstr ""
 
 #: src/components/_user/user/SkillUpgrade.tsx:319
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
@@ -7240,7 +7236,7 @@ msgstr "عامل"
 msgid "Employee cared for"
 msgstr "تمت رعاية الموظف"
 
-#: src/components/_economy/employee/EmployeeTraitsModal.tsx:150
+#: src/components/_economy/employee/EmployeeTraitsModal.tsx:151
 #: src/components/_user/notification/notification.frontConfig.tsx:2207
 msgid "Employee events"
 msgstr "أحداث الموظفين"
@@ -7272,7 +7268,7 @@ msgstr "تم تغيير اسم العامل!"
 #: src/components/_economy/company/CompanyTags.tsx:59
 #: src/components/_economy/company/CompanyTags.tsx:72
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:197
-#: src/components/_economy/employee/employeeStats.tsx:682
+#: src/components/_economy/employee/employeeStats.tsx:675
 #: src/components/_political/country/CountryTaxes.tsx:21
 #: src/components/_political/law/law.frontConfig.tsx:66
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:64
@@ -7489,16 +7485,16 @@ msgid "Eureka"
 msgstr "وجدتها!"
 
 #: src/components/_economy/employee/employeeStats.tsx:70
-#: src/components/_economy/employee/employeeStats.tsx:513
-#: src/components/_economy/employee/employeeStats.tsx:687
+#: src/components/_economy/employee/employeeStats.tsx:506
+#: src/components/_economy/employee/employeeStats.tsx:680
 msgid "Event"
 msgstr "حدث"
 
-#: src/components/_economy/employee/employeeStats.tsx:360
+#: src/components/_economy/employee/employeeStats.tsx:353
 msgid "Event Luck checks"
 msgstr "اختبارات حظ الأحداث"
 
-#: src/components/_economy/employee/EmployeeTraitsModal.tsx:180
+#: src/components/_economy/employee/EmployeeTraitsModal.tsx:181
 #: src/components/_layout/LayoutRightIcons.tsx:265
 #: src/components/_layout/MoreButtonNav.tsx:91
 #: src/pages/country/[countryId]/index.tsx:262
@@ -7519,7 +7515,7 @@ msgstr "كل دقيقتين، يكتسب الجانب الذي يحقق <0>أض�
 msgid "Every employee of this company produces <0>{0}</0> more: <1>{1}</1> per Management point, and they have <2/>."
 msgstr "ينتج كل موظف في هذه الشركة كمية إضافية قدرها <0>{0}</0>: <1>{1}</1> لكل نقطة إدارة، ولديهم <2/>."
 
-#: src/components/_economy/employee/EmployeeTraitsModal.tsx:79
+#: src/components/_economy/employee/EmployeeTraitsModal.tsx:80
 msgid "Every employee rolls 1 to 3 of these at hire, hidden until training reveals them."
 msgstr "يحصل كل موظف عشوائيًا على 1 إلى 3 من هذه السمات عند التوظيف، وتظل مخفية حتى يكشفها التدريب."
 
@@ -7558,7 +7554,7 @@ msgstr "يمنحك كل مستوى نقاط مهارة. اضغط على «الم
 msgid "Every mission you ever completed and claimed"
 msgstr "كل مهمة أكملتها واستلمت مكافأتها"
 
-#: src/components/_economy/employee/employeeStats.tsx:559
+#: src/components/_economy/employee/employeeStats.tsx:552
 msgid "Every percent that scales what their <0>Production</0> banks, added together."
 msgstr "مجموع كل نسبة مئوية تؤثر في مقدار <0>الإنتاج</0> الذي يخزّنونه."
 
@@ -7650,15 +7646,15 @@ msgstr "الراتب المتوقع"
 msgid "Expected wage <0>-{0}%</0>"
 msgstr "الأجر المتوقع <0>-{0}%</0>"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:796
+#: src/components/_economy/employee/employee.frontConfig.tsx:793
 msgid "Expects <0>15%</0> less pay than the market rate"
 msgstr "يتوقع أجرًا أقل من سعر السوق بنسبة <0>15%</0>"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:807
+#: src/components/_economy/employee/employee.frontConfig.tsx:804
 msgid "Expects <0>2%</0> more pay for every week hired"
 msgstr "يتوقع زيادة في الأجر بنسبة <0>2%</0> عن كل أسبوع منذ التوظيف"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:785
+#: src/components/_economy/employee/employee.frontConfig.tsx:782
 msgid "Expects <0>20%</0> more pay than the market rate"
 msgstr "يتوقع أجرًا أعلى من سعر السوق بنسبة <0>20%</0>"
 
@@ -8588,9 +8584,9 @@ msgid "Hang in there"
 msgstr "اصمد"
 
 #: src/components/_economy/company/CompanyTags.tsx:78
-#: src/components/_economy/employee/employeeStats.tsx:497
-#: src/components/_economy/employee/employeeStats.tsx:529
-#: src/components/_economy/employee/employeeStats.tsx:907
+#: src/components/_economy/employee/employeeStats.tsx:490
+#: src/components/_economy/employee/employeeStats.tsx:522
+#: src/components/_economy/employee/employeeStats.tsx:900
 #: src/components/_economy/employee/EmployeeTooltip.tsx:117
 #: src/components/_economy/employee/WorkforceSummary.tsx:319
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:155
@@ -8931,7 +8927,7 @@ msgstr "إذا كانت سلبية، ادفع <0/> مقابل <1/> (مرة وا�
 msgid "If the new nominee is already in government, their positions will be swapped. Otherwise the current member will be fired and won't be able to be nominated again for {cooldownDays} days."
 msgstr "يوم {cooldownDays} إذا كان المرشح الجديد عضواً بالفعل في الحكومة، فسيتم تبادل مناصبهما. وخلاف ذلك، سيتم فصل العضو الحالي ولن يكون من الممكن ترشيحه مرة أخرى لمدة "
 
-#: src/components/_economy/employee/employeeStats.tsx:484
+#: src/components/_economy/employee/employeeStats.tsx:477
 msgid "If your choices put them here, <0>{quitText}%/h</0> chance to quit."
 msgstr "إذا دفعتهم اختياراتك إلى هذا الوضع، فهناك احتمال <0>{quitText}%/ساعة</0> لاستقالتهم."
 
@@ -9404,7 +9400,7 @@ msgstr "طرد دولة"
 msgid "Kick Member"
 msgstr "طرد العضو"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:96
+#: src/components/_economy/employee/employee.frontConfig.tsx:94
 msgid "Killed"
 msgstr "قُتل"
 
@@ -9686,7 +9682,7 @@ msgstr "دعهم يحلون الأمر فيما بينهم"
 msgid "Let them volunteer"
 msgstr "دعهم يتطوعون"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:938
+#: src/components/_economy/employee/employee.frontConfig.tsx:935
 msgid "Lets every coworker train <0>2</0> times a day"
 msgstr "يسمح لكل زميل بالتدرب <0>مرتين</0> يوميًا"
 
@@ -9926,8 +9922,8 @@ msgstr "مقدم"
 msgid "Lt. General"
 msgstr "فريق"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:147
-#: src/components/_economy/employee/employeeStats.tsx:384
+#: src/components/_economy/employee/employee.frontConfig.tsx:145
+#: src/components/_economy/employee/employeeStats.tsx:377
 msgid "Luck"
 msgstr "الحظ"
 
@@ -9984,13 +9980,13 @@ msgstr "أفسح المجال لمزيد من الموظفين!"
 msgid "Manage Subscription"
 msgstr "إدارة الاشتراك"
 
-#: src/components/_economy/employee/employeeStats.tsx:519
+#: src/components/_economy/employee/employeeStats.tsx:512
 #: src/components/_user/user/skills.frontConfig.tsx:203
 #: src/components/_user/user/skills.frontConfig.tsx:204
 msgid "Management"
 msgstr "الإدارة"
 
-#: src/components/_economy/employee/employeeStats.tsx:525
+#: src/components/_economy/employee/employeeStats.tsx:518
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:281
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:489
 #: src/pages/company/[companyId]/index.tsx:57
@@ -10243,8 +10239,8 @@ msgstr "عضوية معلقة"
 msgid "Memorandum"
 msgstr "مذكرة"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:490
-#: src/components/_economy/employee/employee.frontConfig.tsx:518
+#: src/components/_economy/employee/employee.frontConfig.tsx:487
+#: src/components/_economy/employee/employee.frontConfig.tsx:515
 msgid "Men only."
 msgstr "الرجال فقط"
 
@@ -10591,15 +10587,15 @@ msgstr "إعادة ضبط المهام الشهرية"
 msgid "Monthly:"
 msgstr "شهرياً:"
 
-#: src/components/_economy/employee/employeeStats.tsx:451
+#: src/components/_economy/employee/employeeStats.tsx:444
 msgid "Morale (0-100). Above {neutral} it adds a <0>Production</0> bonus (up to +{maxBonus}% at 100), below {neutral} a malus (down to {minBonus}% at 0). Below {quitBelow} from your choices they can quit, up to {maxQuit}%/h at 0."
 msgstr "المعنويات (0-100). فوق {neutral} تمنح مكافأة <0>للإنتاج</0> (تصل إلى +{maxBonus}% عند 100)، وتحت {neutral} تفرض عقوبة (حتى {minBonus}% عند 0). إذا انخفضت عن {quitBelow} بسبب اختياراتك، فقد يستقيلون، باحتمال يصل إلى {maxQuit}% في الساعة عند 0."
 
-#: src/components/_economy/employee/employeeStats.tsx:742
+#: src/components/_economy/employee/employeeStats.tsx:735
 msgid "Morale is set live by traits and conditions."
 msgstr "تتحدد المعنويات مباشرةً وفقًا للسمات والظروف."
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:138
+#: src/components/_economy/employee/employee.frontConfig.tsx:136
 msgid "Morale: each point gives +{RESP_HAPPINESS} happiness, always on. Does not affect output directly."
 msgstr ""
 
@@ -10717,7 +10713,7 @@ msgstr "رفع إلى الأعلى"
 msgid "Move your manager?"
 msgstr "هل تريد نقل مديرك؟"
 
-#: src/components/_economy/employee/employeeStats.tsx:683
+#: src/components/_economy/employee/employeeStats.tsx:676
 msgid "Moved recently"
 msgstr "تم نقله مؤخرا"
 
@@ -11267,7 +11263,7 @@ msgstr "لا يوجد عنب"
 msgid "No ground ranking yet."
 msgstr "لا يوجد تصنيف بري بعد."
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:592
+#: src/components/_economy/employee/employee.frontConfig.tsx:589
 msgid "No Happiness loss when storage is full"
 msgstr "لا خسارة في السعادة عندما يكون المخزون ممتلئًا"
 
@@ -11627,8 +11623,8 @@ msgstr "لم تصب أي ضربة، لكن لم يستمتع أحد بالعمل
 msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a top damage rank to claim a spot in its loot pool."
 msgstr "لا يوجد أي اشتباك نشط. شارك في معركة قائمة لبدء جني الأرباح، واحصل على مرتبة متقدمة في الضرر لتأمين مكانك في قائمة الغنائم."
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:395
-#: src/components/_economy/employee/employee.frontConfig.tsx:413
+#: src/components/_economy/employee/employee.frontConfig.tsx:392
+#: src/components/_economy/employee/employee.frontConfig.tsx:410
 msgid "Nothing while alone."
 msgstr "لا تأثير عند العمل منفردًا."
 
@@ -11745,7 +11741,7 @@ msgstr "مشتعل"
 msgid "On strike"
 msgstr "مضرب عن العمل"
 
-#: src/components/_economy/employee/employeeStats.tsx:837
+#: src/components/_economy/employee/employeeStats.tsx:830
 msgid "Once a day their manager picks one employee: +{happinessBoost} <0>Happiness</0> for {durationHours}h. Boosts stack."
 msgstr "مرة يوميًا، يختار مديرهم موظفًا واحدًا: +{happinessBoost} من <0>السعادة</0> لمدة {durationHours} ساعة. وتتراكم التعزيزات."
 
@@ -11820,7 +11816,7 @@ msgstr ""
 msgid "Only citizens of <0/> can vote."
 msgstr "لا يمكن التصويت إلا لمواطني <0/>."
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:462
+#: src/components/_economy/employee/employee.frontConfig.tsx:459
 #: src/components/_economy/employee/EmployeeTraitArg.tsx:121
 msgid "Only ever from an office romance."
 msgstr "لا يحدث ذلك إلا نتيجة علاقة عاطفية في مكان العمل."
@@ -12490,7 +12486,7 @@ msgstr "يرجى اختيار منطقة"
 msgid "Plutocracy"
 msgstr "حكم الأثرياء"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:102
+#: src/components/_economy/employee/employee.frontConfig.tsx:100
 msgid "Poached"
 msgstr "تم استقطابه"
 
@@ -12763,10 +12759,10 @@ msgstr "العنصر المنتج"
 msgid "Produced item changed!"
 msgstr "تم تغيير العنصر المنتج!"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:125
-#: src/components/_economy/employee/employeeStats.tsx:259
-#: src/components/_economy/employee/employeeStats.tsx:276
-#: src/components/_economy/employee/employeeStats.tsx:791
+#: src/components/_economy/employee/employee.frontConfig.tsx:123
+#: src/components/_economy/employee/employeeStats.tsx:258
+#: src/components/_economy/employee/employeeStats.tsx:275
+#: src/components/_economy/employee/employeeStats.tsx:784
 #: src/components/_economy/employee/WorkforceSummary.tsx:305
 #: src/components/_economy/work/WorkChart.tsx:232
 #: src/components/_user/user/skills.frontConfig.tsx:124
@@ -12776,7 +12772,7 @@ msgid "Production"
 msgstr "الإنتاج"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:42
-#: src/components/_economy/employee/employeeStats.tsx:632
+#: src/components/_economy/employee/employeeStats.tsx:625
 #: src/components/_economy/employee/EmployeeTooltip.tsx:135
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:170
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:517
@@ -12792,7 +12788,7 @@ msgstr "الإنتاج في <0/> ممتلئ، يجب أن تبدأ الإنتا�
 msgid "Production is full"
 msgstr "الإنتاج ممتلئ"
 
-#: src/components/_economy/employee/employeeStats.tsx:279
+#: src/components/_economy/employee/employeeStats.tsx:278
 msgid "Production points made per day at the current rate, bonuses included."
 msgstr "نقاط الإنتاج التي تُنتَج يوميًا بالمعدل الحالي، شاملًا المكافآت."
 
@@ -12994,11 +12990,11 @@ msgstr "تفكيك المعدات بسرعة"
 msgid "Quintessence Still"
 msgstr "مقطّر الجوهر الخالص"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:90
+#: src/components/_economy/employee/employee.frontConfig.tsx:88
 msgid "Quit"
 msgstr "استقالة"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:831
+#: src/components/_economy/employee/employee.frontConfig.tsx:828
 msgid "Quits below <0>{flightRiskQuitThreshold}</0> happiness instead of {quitThreshold}"
 msgstr "يستقيل عندما تقل سعادته عن <0>{flightRiskQuitThreshold}</0> بدلًا من {quitThreshold}"
 
@@ -13066,7 +13062,7 @@ msgstr "نادر. عُيّن منذ 14 يومًا أو أكثر، وسعادته
 msgid "Rare. Someone hired 7 days ago or more who is {craftsman}, {specialist} or {handy}, or has 15 days of experience in the company's good, if a tool exists for that good."
 msgstr "نادر. موظف عُيّن منذ 7 أيام أو أكثر ولديه سمة {craftsman} أو {specialist} أو {handy}، أو خبرة 15 يومًا في سلعة الشركة، إذا توفرت أداة لتلك السلعة."
 
-#: src/components/_economy/employee/employeeStats.tsx:353
+#: src/components/_economy/employee/employeeStats.tsx:346
 msgid "Rare+ training card"
 msgstr "بطاقة تدريب نادرة أو أندر"
 
@@ -13312,7 +13308,7 @@ msgid "Regens <0>{0}</0> when consumed"
 msgstr "يجدد <0>{0}</0> عند الاستهلاك"
 
 #: src/components/_economy/company/CompanyHeader.tsx:37
-#: src/components/_economy/employee/employeeStats.tsx:517
+#: src/components/_economy/employee/employeeStats.tsx:510
 #: src/components/_military/mu/MuHeader.tsx:110
 #: src/components/_military/mu/MuTooltip.tsx:109
 #: src/components/_political/map/MapMenu.tsx:444
@@ -13343,7 +13339,7 @@ msgstr "منطقة"
 msgid "Region transfer"
 msgstr "نقل منطقة"
 
-#: src/components/_economy/employee/employeeStats.tsx:684
+#: src/components/_economy/employee/employeeStats.tsx:677
 msgid "Region under attack"
 msgstr "المنطقة تتعرض للهجوم"
 
@@ -13734,9 +13730,9 @@ msgstr "إعادة توزيع الموارد الاستراتيجية"
 msgid "Response to message"
 msgstr "رد على رسالة"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:136
-#: src/components/_economy/employee/employeeStats.tsx:434
-#: src/components/_economy/employee/employeeStats.tsx:690
+#: src/components/_economy/employee/employee.frontConfig.tsx:134
+#: src/components/_economy/employee/employeeStats.tsx:427
+#: src/components/_economy/employee/employeeStats.tsx:683
 msgid "Responsibility"
 msgstr "المسؤولية"
 
@@ -13768,11 +13764,11 @@ msgstr "استأنفه في أي وقت من علامة تبويب الأدلة 
 msgid "Resume it anytime from your inventory to earn its reward."
 msgstr "استأنفه في أي وقت من مخزونك لتحصل على المكافأة."
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:106
+#: src/components/_economy/employee/employee.frontConfig.tsx:104
 msgid "Retired"
 msgstr "متقاعد"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:107
+#: src/components/_economy/employee/employee.frontConfig.tsx:105
 msgid "Retired at the end of a long career."
 msgstr "تقاعد بعد مسيرة مهنية طويلة."
 
@@ -13925,7 +13921,7 @@ msgstr "الحزب الحاكم"
 msgid "Run in elections"
 msgstr "ترشح للانتخابات"
 
-#: src/components/_economy/employee/employeeStats.tsx:854
+#: src/components/_economy/employee/employeeStats.tsx:847
 msgid "Running"
 msgstr "قيد التشغيل"
 
@@ -13992,7 +13988,7 @@ msgstr "قلها مجددا،لكن ببطئ"
 msgid "Say nothing"
 msgstr "لا تقل شيئًا"
 
-#: src/components/_economy/employee/employeeStats.tsx:214
+#: src/components/_economy/employee/employeeStats.tsx:213
 msgid "Scales output, not the stat"
 msgstr "يغيّر حجم الإنتاج، لا الإحصائية نفسها"
 
@@ -14800,7 +14796,7 @@ msgstr "شريحة لحم"
 msgid "Steel"
 msgstr "فولاذ"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:891
+#: src/components/_economy/employee/employee.frontConfig.tsx:888
 msgid "Still finds toolboxes when storage is full"
 msgstr "يستمر في العثور على صناديق الأدوات حتى عندما يكون المخزون ممتلئًا"
 
@@ -14817,7 +14813,7 @@ msgstr "مطرقة حجرية"
 msgid "Storage"
 msgstr "التخزين"
 
-#: src/components/_economy/employee/employeeStats.tsx:680
+#: src/components/_economy/employee/employeeStats.tsx:673
 msgid "Storage full"
 msgstr "المخزون ممتلئ"
 
@@ -15827,11 +15823,11 @@ msgstr "زملاؤهم"
 msgid "Their Luck"
 msgstr "الحظ خاصتهم"
 
-#: src/components/_economy/employee/employeeStats.tsx:232
+#: src/components/_economy/employee/employeeStats.tsx:231
 msgid "Their output: every {OUTPUT_DIVISOR} Production banks one point per hour, before bonuses."
 msgstr "إنتاجهم: كل {OUTPUT_DIVISOR} من نقاط الإنتاج يخزّن نقطة واحدة في الساعة، قبل احتساب المكافآت."
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:127
+#: src/components/_economy/employee/employee.frontConfig.tsx:125
 msgid "Their output: every {OUTPUT_DIVISOR} Production banks one production point per hour, before bonuses."
 msgstr "إنتاجهم: كل {OUTPUT_DIVISOR} من نقاط الإنتاج يخزّن نقطة إنتاج واحدة في الساعة، قبل احتساب المكافآت."
 
@@ -16208,7 +16204,7 @@ msgstr "كتاب العواصف"
 msgid "Tome of Tides"
 msgstr "كتاب الأمواج"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:103
+#: src/components/_economy/employee/employee.frontConfig.tsx:101
 msgid "Took a job offer from a rival firm."
 msgstr "قبل عرض عمل من شركة منافسة."
 
@@ -16250,7 +16246,7 @@ msgstr "العثور على صناديق الأدوات"
 msgid "Toolbox found"
 msgstr "تم العثور على صندوق الأدوات"
 
-#: src/components/_economy/employee/employeeStats.tsx:346
+#: src/components/_economy/employee/employeeStats.tsx:340
 msgid "Toolbox per hour"
 msgstr "صندوق أدوات في الساعة"
 
@@ -16318,9 +16314,9 @@ msgstr "سيد التلة"
 msgid "total"
 msgstr "المجموع"
 
-#: src/components/_economy/employee/employeeStats.tsx:200
-#: src/components/_economy/employee/employeeStats.tsx:595
-#: src/components/_economy/employee/employeeStats.tsx:782
+#: src/components/_economy/employee/employeeStats.tsx:199
+#: src/components/_economy/employee/employeeStats.tsx:588
+#: src/components/_economy/employee/employeeStats.tsx:775
 #: src/components/_economy/employee/employeeTags.tsx:222
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:120
 #: src/components/_economy/itemTrading/TradingOrders.tsx:55
@@ -16476,8 +16472,8 @@ msgstr "متدرب"
 msgid "Trainer"
 msgstr "مدرب"
 
-#: src/components/_economy/employee/employeeStats.tsx:177
-#: src/components/_economy/employee/EmployeeTraitsModal.tsx:175
+#: src/components/_economy/employee/employeeStats.tsx:176
+#: src/components/_economy/employee/EmployeeTraitsModal.tsx:176
 msgid "Training"
 msgstr "التدريب"
 
@@ -16485,7 +16481,7 @@ msgstr "التدريب"
 msgid "Training can teach them new traits."
 msgstr ""
 
-#: src/components/_economy/employee/EmployeeTraitsModal.tsx:148
+#: src/components/_economy/employee/EmployeeTraitsModal.tsx:149
 msgid "Training cards"
 msgstr "بطاقات التدريب"
 
@@ -16527,7 +16523,7 @@ msgstr "التدريب يحسّنهم جميعًا."
 
 #: src/components/_economy/employee/EmployeeModal.tsx:722
 #: src/components/_economy/employee/EmployeeTooltip.tsx:155
-#: src/components/_economy/employee/EmployeeTraitsModal.tsx:170
+#: src/components/_economy/employee/EmployeeTraitsModal.tsx:171
 msgid "Traits"
 msgstr "السمات"
 
@@ -16701,7 +16697,7 @@ msgstr "حزمة مفتوحة"
 msgid "Unmuted <0/>"
 msgstr "إلغاء الكتم <0/>"
 
-#: src/components/_economy/employee/employeeStats.tsx:681
+#: src/components/_economy/employee/employeeStats.tsx:674
 msgid "Unpaid"
 msgstr "غير مدفوع"
 
@@ -17233,7 +17229,7 @@ msgstr "انتظر حتى يمر الأمر"
 msgid "Waiting for level {0}"
 msgstr "بانتظار المستوى {0}"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:92
+#: src/components/_economy/employee/employee.frontConfig.tsx:90
 msgid "Walked out: they were too unhappy to keep working for you."
 msgstr "غادروا المكان: كانوا غير سعداء لدرجة لا تسمح لهم بمواصلة العمل لديك."
 
@@ -17445,8 +17441,8 @@ msgstr "خلال ساعة، الجميع فهم الملحوظة"
 msgid "Wizard Hat"
 msgstr "قبعة ساحر"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:476
-#: src/components/_economy/employee/employee.frontConfig.tsx:504
+#: src/components/_economy/employee/employee.frontConfig.tsx:473
+#: src/components/_economy/employee/employee.frontConfig.tsx:501
 msgid "Women only."
 msgstr "نساء فقط"
 
