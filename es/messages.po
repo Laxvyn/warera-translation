@@ -783,7 +783,7 @@ msgstr "{gender, select, male {{name} no se rinde. Alguien lo vió pintando una 
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3258
 msgid "{gender, select, male {{name} is offended: you do not ask how a war ends.} female {{name} is offended: you do not ask how a war ends.} other {{name} is offended: you do not ask how a war ends.}}"
-msgstr "{gender, select, male {{name} se ofende: no se pregunta cómo termina una guerra.} female {{name} se ofende: se ofende: no se pregunta cómo termina una guerra.} other {{name} se ofende: no se pregunta cómo termina una guerra.}}}"
+msgstr "{gender, select, male {{name} se ofende: no se pregunta cómo termina una guerra.} female {{name} se ofende: se ofende: no se pregunta cómo termina una guerra.} other {{name} se ofende: no se pregunta cómo termina una guerra.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1676
 msgid "{gender, select, male {{name} is running laps of the workshop, waving a lottery ticket and shouting that he won.} female {{name} is running laps of the workshop, waving a lottery ticket and shouting that she won.} other {{name} is running laps of the workshop, waving a lottery ticket and shouting that they won.}}"
@@ -1143,7 +1143,7 @@ msgstr "{gender, select, male {{name} gana la mejor silla, y ahora espera un mej
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3206
 msgid "{gender, select, male {{name} wins, and spends the rest of the day out of breath.} female {{name} wins, and spends the rest of the day out of breath.} other {{name} wins, and spends the rest of the day out of breath.}}"
-msgstr "{gender, select, male {{name} gana, y esta el resto del dia sin aire.} female {{name} gana, y esta el resto del dia sin aire.} other {{name} gana, y esta el resto del dia sin aire."
+msgstr "{gender, select, male {{name} gana, y esta el resto del dia sin aire.} female {{name} gana, y esta el resto del dia sin aire.} other {{name} gana, y esta el resto del dia sin aire.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:583
 msgid "{gender, select, male {{name} won it back, and pays you with interest.} female {{name} won it back, and pays you with interest.} other {{name} won it back, and pays you with interest.}}"
