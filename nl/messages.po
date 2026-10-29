@@ -583,27 +583,27 @@ msgstr "{gender, select, male {{name} wilde het niet weten en heeft het er moeil
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2168
 msgid "{gender, select, male {{name} digs in and stays out on the picket line.} female {{name} digs in and stays out on the picket line.} other {{name} digs in and stays out on the picket line.}}"
-msgstr "" 
+msgstr "{gender, select, male {{name} graaft in en blijft uit op de piketlijn.} female {{name} graaft in en blijft uit op de piketlijn.} other {{name} graaft in en blijft uit op de piketlijn.}}" 
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1080
 msgid "{gender, select, male {{name} does an impression of you banning impressions.} female {{name} does an impression of you banning impressions.} other {{name} does an impression of you banning impressions.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} doet een imitaties van jouw die impressies verbiedt.} female {{name} doet een imitaties van jouw die impressies verbiedt.} other {{name} doet een imitaties van jouw die impressies verbiedt.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1339
 msgid "{gender, select, male {{name} does not agree that it is just a chair.} female {{name} does not agree that it is just a chair.} other {{name} does not agree that it is just a chair.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} is het er niet mee eens dat het maar een stoel is.} female {{name} is het er niet mee eens dat het maar een stoel is.} other {{name} is het er niet mee eens dat het maar een stoel is.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3365
 msgid "{gender, select, male {{name} does push-ups alone by the machine, disappointed.} female {{name} does push-ups alone by the machine, disappointed.} other {{name} does push-ups alone by the machine, disappointed.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} doet alleen push-ups bij de machine, teleurgesteld.} female {{name} doet alleen push-ups bij de machine, teleurgesteld.} other {{name} doet alleen push-ups bij de machine, teleurgesteld.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2793
 msgid "{gender, select, male {{name} dreamed the solution to everything and wrote it on his arm before it faded. It is smudged.} female {{name} dreamed the solution to everything and wrote it on her arm before it faded. It is smudged.} other {{name} dreamed the solution to everything and wrote it on their arm before it faded. It is smudged.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} droomde de oplossing voor alles en schreef die op zijn arm voordat het vervaagde. Het is vegerig.} female {{name} droomde de oplossing voor alles en schreef die op zijn arm voordat het vervaagde. Het is vegerig.} other {{name} droomde de oplossing voor alles en schreef die op zijn arm voordat het vervaagde. Het is vegerig.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2630
 msgid "{gender, select, male {{name} dropped a sandwich into the machine, and output went up. Nobody knows why, least of all him.} female {{name} dropped a sandwich into the machine, and output went up. Nobody knows why, least of all her.} other {{name} dropped a sandwich into the machine, and output went up. Nobody knows why, least of all them.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} liet een broodje in de machine vallen, en de output steeg. Niemand weet waarom, hijzelf nog het minst van al.} female {{name} liet een broodje in de machine vallen, en de output steeg. Niemand weet waarom, zijzelf nog het minst van al.} other {{name} liet een broodje in de machine vallen, en de output steeg. Niemand weet waarom, zijzelf nog het minst van al.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3321
 msgid "{gender, select, male {{name} eats it alone, looking a little homesick.} female {{name} eats it alone, looking a little homesick.} other {{name} eats it alone, looking a little homesick.}}"
