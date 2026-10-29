@@ -3484,7 +3484,7 @@ msgstr "Građanski rat započet od <0/> u <1/>"
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:161
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:533
 msgid "A company with 2 or more employees at work."
-msgstr "Događaj moguć: ako kompanija ima 3 ili više zaposlenika koji rade."
+msgstr "Događaj moguć: ako kompanija ima 2 ili više zaposlenika koji rade."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:409
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:493
