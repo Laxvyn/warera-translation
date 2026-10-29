@@ -11241,7 +11241,7 @@ msgstr "Noch keine Spenden"
 #: src/components/_economy/employee/EmployeeModal.tsx:738
 #: src/components/_economy/employee/EmployeeTraitBadge.tsx:202
 msgid "No effect now"
-msgstr ""
+msgstr "Aktuell kein Effekt"
 
 #: src/components/_political/govType/GovTypeEffects.tsx:56
 msgid "No effects"
