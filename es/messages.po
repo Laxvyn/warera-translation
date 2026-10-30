@@ -155,7 +155,7 @@ msgstr "{0, plural, one {Desbloquear aspecto #} other {Desbloquear aspectos #}}"
 #. placeholder {1}: upgradeName(EUpgrade.BUNKER)
 #: src/components/_political/govType/govType.frontConfig.tsx:269
 msgid "{0} {1} bonus"
-msgstr ""
+msgstr "{0} bonificación de {1}"
 
 #. placeholder {0}: myCountry?.name
 #: src/components/_military/battle/EndedBattlesList.tsx:81
@@ -313,7 +313,7 @@ msgstr "{answerWithin} por responder"
 
 #: src/components/_economy/employee/TrainingCard.tsx:328
 msgid "{badTraitPercent}% chance of a bad trait"
-msgstr ""
+msgstr "{badTraitPercent}% probabilidad de un rasgo negativo"
 
 #. placeholder {0}: states.length
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:214
@@ -1159,35 +1159,35 @@ msgstr "{gender, select, male {{name} trabaja todo el dia, temblando. No pasa na
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3071
 msgid "{gender, select, male {{name} works slowly from a safe distance, and his tool gets a rest.} female {{name} works slowly from a safe distance, and her tool gets a rest.} other {{name} works slowly from a safe distance, and their tool gets a rest.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} trabaja lentamente a una distancia segura, y su herramienta descansa.} female {{name} trabaja lentamente a una distancia segura, y su herramienta descansa.} other {{name} trabaja lentamente a una distancia segura, y su herramienta descansa.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1185
 msgid "{gender, select, male {{name} works, but sighs loudly every few minutes.} female {{name} works, but sighs loudly every few minutes.} other {{name} works, but sighs loudly every few minutes.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} trabaja, pero suspira fuertemente cada un par de minutos.} female {{name} trabaja, pero suspira fuertemente cada un par de minutos.} other {{name} trabaja, pero suspira fuertemente cada un par de minutos.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1783
 msgid "{gender, select, male {{name} would like a new job title, and has drafted a few. “Supreme Commander of {good}” is his favorite.} female {{name} would like a new job title, and has drafted a few. “Supreme Commander of {good}” is her favorite.} other {{name} would like a new job title, and has drafted a few. “Supreme Commander of {good}” is their favorite.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} quiere un nuevo titulo, y tiene algunas ideas. “Comandante Supremo de {good}” es su favorito.} female {{name} quiere un nuevo titulo, y tiene algunas ideas. “Comandante Suprema de {good}” es su favorito.} other {{name} quiere un nuevo titulo, y tiene algunas ideas. “Comandante Supremo de {good}” es su favorito.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2199
 msgid "{gender, select, male {{name} wrote a resignation letter, then lost it somewhere in the building. He is looking for it, very casually.} female {{name} wrote a resignation letter, then lost it somewhere in the building. She is looking for it, very casually.} other {{name} wrote a resignation letter, then lost it somewhere in the building. They are looking for it, very casually.}}"
-msgstr ""
+msgstr "{gender, select, male {{name} escribio una carta de renuncia, y la perdio en alguna parte del edificio. La esta buscando, muy casualmente.} female {{name} escribio una carta de renuncia, y la perdio en alguna parte del edificio. La esta buscando, muy casualmente.} other {{name} escribio una carta de renuncia, y la perdio en alguna parte del edificio. La esta buscando, muy casualmente.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2914
 msgid "{gender, select, male {{name}'s horoscope promises a great misfortune at work today. He refuses to touch the machine.} female {{name}'s horoscope promises a great misfortune at work today. She refuses to touch the machine.} other {{name}'s horoscope promises a great misfortune at work today. They refuse to touch the machine.}}"
-msgstr ""
+msgstr "{gender, select, male {El horoscopo de {name} predice una gran desgracia en el trabajo hoy. Se niega a tocar la maquina.} female {El horoscopo de {name} predice una gran desgracia en el trabajo hoy. Se niega a tocar la maquina.} other {El horoscopo de {name} predice una gran desgracia en el trabajo hoy. Se niega a tocar la maquina.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2325
 msgid "{gender, select, male {{name}'s tool is smoking. He keeps working, and insists it has always done that.} female {{name}'s tool is smoking. She keeps working, and insists it has always done that.} other {{name}'s tool is smoking. They keep working, and insist it has always done that.}}"
-msgstr ""
+msgstr "{gender, select, male {La herramienta de {name} esta echando humo. El sigue trabajando, y insiste que siempre hace eso.} female {La herramienta de {name} esta echando humo. Ella sigue trabajando, y insiste que siempre hace eso.} other {La herramienta de {name} esta echando humo. Sigue trabajando, y insiste que siempre hace eso.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:988
 msgid "{gender, select, male {A note slides under the workshop door: {name} needs materials, and will not come out without them.} female {A note slides under the workshop door: {name} needs materials, and will not come out without them.} other {A note slides under the workshop door: {name} needs materials, and will not come out without them.}}"
-msgstr ""
+msgstr "{gender, select, male {Deslizan una nota por abajo de la pueta del taller: {name} necesita materiales, y no va a salir hasta conseguirlos.} female {Deslizan una nota por abajo de la pueta del taller: {name} necesita materiales, y no va a salir hasta conseguirlos.} other {Deslizan una nota por abajo de la pueta del taller: {name} necesita materiales, y no va a salir hasta conseguirlos.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1713
 msgid "{gender, select, male {A pigeon has moved into the rafters. {name} has named it General Coo and insists it outranks you.} female {A pigeon has moved into the rafters. {name} has named it General Coo and insists it outranks you.} other {A pigeon has moved into the rafters. {name} has named it General Coo and insists it outranks you.}}"
-msgstr ""
+msgstr "{gender, select, male {Una paloma se instalo en las vigas. {name} la nombro General Coo y insiste que tiene un rango superior al tuyo.} female {Una paloma se instalo en las vigas. {name} la nombro General Coo y insiste que tiene un rango superior al tuyo.} other {Una paloma se instalo en las vigas. {name} la nombro General Coo y insiste que tiene un rango superior al tuyo.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:425
 msgid "{gender, select, male {A rival firm has offered {name} a job. He has not said yes, but he has not said no either.} female {A rival firm has offered {name} a job. She has not said yes, but she has not said no either.} other {A rival firm has offered {name} a job. They have not said yes, but they have not said no either.}}"
@@ -15596,19 +15596,19 @@ msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3861
 msgid "The note on the fridge now mentions lawyers."
-msgstr ""
+msgstr "La nota en la heladera ahora menciona abodagos."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2467
 msgid "The planes pass over. Running on nerves, the team works faster."
-msgstr ""
+msgstr "Los aviones pasan por el cielo. Por los nervios, el equipo trabaja mas rapido."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3790
 msgid "The prank war"
-msgstr ""
+msgstr "Guerra de bromas"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3814
 msgid "The pranks become legend. {name} and {partnerName} are old friends now."
-msgstr ""
+msgstr "Las bromas se vuelven legendarias.{name} y {partnerName} son viejos amigos ahora."
 
 #: src/components/_economy/itemOffer/CreateItemOffersModal.tsx:77
 msgid "The price must be positive"
@@ -15616,35 +15616,35 @@ msgstr "El precio debe ser positivo"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:312
 msgid "The prototype never quite works. The money is gone."
-msgstr ""
+msgstr "El prototipo nunca termina de funcionar. El dinero se perdio."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2438
 msgid "The pyramid quietly collapses on its own. Nobody talks about it."
-msgstr ""
+msgstr "La piramide colapsa sileciosamente. Nadie habla al respecto."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3627
 msgid "The queue breaks up, muttering about bad luck."
-msgstr ""
+msgstr "La fila se desarma, susurrando sobre mala suerte."
 
 #: src/components/_economy/employee/TrainingCardList.tsx:118
 msgid "The rarity is rolled once for the whole hand, among the rarities the employee has enough cards in. Management tilts these odds."
-msgstr ""
+msgstr "La rareza se determina una vez para toda la mano, entre las rarezas para las que el empleado tiene suficientes cartas. La gestion modifica estas probabilidades"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:568
 msgid "The region menu"
-msgstr ""
+msgstr "El menu de la región"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:748
 msgid "The reinvention fizzles out, and they sulk about it."
-msgstr ""
+msgstr "La reinvencion se desvanece, y esto los maluhumora"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:750
 msgid "The reinvention wipes out what they knew of the trade."
-msgstr ""
+msgstr "La reinvencion borra los que sabian del oficio"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2644
 msgid "The research finds nothing. It was a coincidence, and an expensive one."
-msgstr ""
+msgstr "La investigacion no encuentra nada. Era una concidencia, y una cara."
 
 #: src/components/_political/event/event.frontConfig.tsx:88
 msgid "The revolution in <0/> has been suppressed. The government remains in power."
@@ -15656,7 +15656,7 @@ msgstr "¡La revolución en <0/> ha tenido éxito! El gobierno ha sido derrocado
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2719
 msgid "The rival assumes it is a trick and slams the door."
-msgstr ""
+msgstr "El rival asume que es un truco y cierra la puerta de un golpe"
 
 #: src/components/_layout/LayoutMapUserMenu.tsx:450
 msgid "The roll is skipped while you hold {maxLoots} uncollected cases"
@@ -15676,15 +15676,15 @@ msgstr "El asiento está libre"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2738
 msgid "The shortcut"
-msgstr ""
+msgstr "El atajo"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1864
 msgid "The silence continues. It is very loud."
-msgstr ""
+msgstr "El silencio continua. Es ensordecedor"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3782
 msgid "The silence lasts until the hair grows back."
-msgstr ""
+msgstr "El silecio continua hata que le vuelve a crecer el pelo"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2504
 msgid "The speech runs long, and the beige goes cold."
@@ -15701,15 +15701,15 @@ msgstr ""
 #. placeholder {0}: roundTax(companyCountry.taxes.income)
 #: src/components/_economy/company/CompanyTags.tsx:63
 msgid "The state collects {0}% of this company's employee payroll, and every point of it costs each employee happiness."
-msgstr ""
+msgstr "El estado recauda {0}% de los sueldos de empleados de esta empresa, y cada punto le cuesta felicidad al empleado."
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:198
 msgid "The state collects {taxPercent}% of your employees' wages as employee tax."
-msgstr ""
+msgstr "El estado recauda {taxPercent}% de los salarios de tus empleados como impuesto a los empleados"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:209
 msgid "The state withholds {managerTaxPercent}% of a hired manager's pay as manager tax."
-msgstr ""
+msgstr "El estado retiene {managerTaxPercent}% de la remuneracion de un gerente contratado como impuesto a los gerentes."
 
 #: src/pages/region/[regionId]/index.tsx:113
 msgid "The strategic resource will be reshuffled in the following amount of time."
@@ -15717,19 +15717,19 @@ msgstr "El recurso estratégico será redistribuido en el siguiente tiempo."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:354
 msgid "The streak holds for days. Output is way up."
-msgstr ""
+msgstr "La racha se mantiene por días. La producción esta por los cielos."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:352
 msgid "The streak holds. Output is way up."
-msgstr ""
+msgstr "La racha se mantiene. La produccion aumenta."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3377
 msgid "The suggestion box"
-msgstr ""
+msgstr "Caja de sugerencias"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:889
 msgid "The talk goes badly. Now they are both angry."
-msgstr ""
+msgstr "La charla sale mal. Ahora los dos estan enojados."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3750
 msgid "The thermostat goes up and down all day. Nobody is comfortable."
@@ -15741,7 +15741,7 @@ msgstr "La guerra del termostato"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3848
 msgid "The thief takes the bait, loudly. The whole workshop enjoys it."
-msgstr ""
+msgstr "El ladron toma el cebo, ruidosamente. El resto del taller lo disfruta."
 
 #: src/components/_social/poll/PollEditorModal.tsx:249
 msgid "The timer starts when the article is published."
@@ -15749,15 +15749,15 @@ msgstr "El tiempo inicia cuando el artículo es publicado."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1586
 msgid "The tool is officially uncursed. There is a certificate."
-msgstr ""
+msgstr "La herramienta esta oficialmente desmaldecida. Hay un certificado."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:621
 msgid "The toolbox goes in the stores. They found it, and they will not let you forget it."
-msgstr ""
+msgstr "La caja de herramientas va en el almacen. La encontraron, y no te van a dejar olvidarlo."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:269
 msgid "The toolbox helped only halfway: the tool is better, not new."
-msgstr ""
+msgstr "La caja de herramientas ayudo a medias: la herramienta es mejor, no nueva."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1554
 msgid "The tournament has ended for your team <0/>. Check the results!"
@@ -15765,15 +15765,15 @@ msgstr "El torneo ha terminado para tu equipo <0/>. ¡Revisa los resultados!"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2694
 msgid "The trick works for everyone. The whole shift runs faster."
-msgstr ""
+msgstr "El truco funciona para todos. La jornada entera va mas rapido."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:706
 msgid "The trip settles something: the homesickness is gone."
-msgstr ""
+msgstr "El viaje soluciona algo: ya se fue la nostalgia."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2079
 msgid "The union is dissolved without a fuss."
-msgstr ""
+msgstr "El sindicato se disuelve sin problemas."
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:12
 msgid "The universe owes you something big"
@@ -15785,23 +15785,23 @@ msgstr "El uso de bots, scripts o cualquier forma de automatización para obtene
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3176
 msgid "The van race"
-msgstr ""
+msgstr "Carrera de camionetas"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3199
 msgid "The van wins. So does the driver, who took your bet."
-msgstr ""
+msgstr "La camioneta gana. Tambien el conductor, que tomo tu apuesta."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1881
 msgid "The wall is taller now."
-msgstr ""
+msgstr "El muro es mas alto ahora."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1852
 msgid "The whole lunchroom is united in outrage against you. For a few days, everyone gets along."
-msgstr ""
+msgstr "El comedor se unio indignado en tu contra. Por unos dias, todos se llevan bien."
 
 #: src/components/_economy/employee/RecruitModal.tsx:198
 msgid "The whole shortlist is replaced every day at 00:00 UTC. Hiring only refills the slot you hired from."
-msgstr ""
+msgstr "La lista completa de candidato se renueva todos los dias a las 00:00 UTC. Contratar solo renueva el espacio del que contrataste"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1674
 msgid "The winning ticket"
@@ -15809,11 +15809,11 @@ msgstr "El ticket ganador"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:644
 msgid "The workshop has a cat now, and everyone is in a better mood."
-msgstr ""
+msgstr "El taller tiene un gato ahora, y todos estan con mejor animo."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3920
 msgid "The workshop is a jungle now. Everyone loves it, and nobody can find the stapler."
-msgstr ""
+msgstr "El taller se convirtio en una jungla. Le encanta todos, y nadie puede encontrar la grapadora."
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:336
 msgid "Their coworkers"
