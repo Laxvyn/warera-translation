@@ -1411,7 +1411,7 @@ msgstr "{gender, select, male {Alguien lo encuentra y lo lee en voz alta durante
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3123
 msgid "{gender, select, male {Talk him through it} female {Talk her through it} other {Talk them through it}}"
-msgstr "{gender, select, male {Explícaselo paso a paso} female {Explícaselo paso a paso} other {Explícaselos paso a paso}"
+msgstr "{gender, select, male {Explícaselo paso a paso} female {Explícaselo paso a paso} other {Explícaselos paso a paso}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1320
 msgid "{gender, select, male {Tell him it is just a chair} female {Tell her it is just a chair} other {Tell them it is just a chair}}"
