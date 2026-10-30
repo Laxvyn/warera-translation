@@ -8005,7 +8005,7 @@ msgstr "من أجل"
 
 #: src/components/_economy/manager/ManagerCareButton.tsx:117
 msgid "for {durationHours}h. One pick per day, boosts stack."
-msgstr "لمدة {durationHours} ساعة. اختيار واحد يوميًا، وتتراكم التعزيزات."
+msgstr "⁧لمدة {durationHours} ساعة. اختيار واحد فقط في اليوم، والتعزيزات تتراكم.⁩"
 
 #: src/components/_economy/company/MoveCompanyForm.tsx:89
 msgid "for {penaltyDays} days, on every employee of the company"
