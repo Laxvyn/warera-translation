@@ -2756,7 +2756,7 @@ msgstr "<0>{activeCompaniesCount}/{0}</0> Firmen"
 
 #: src/components/_user/user/EcoSkillEffects.tsx:104
 msgid "<0>{bonus}</0> employee production, +{eventOdds}% event odds<1/>Card odds: <2/>"
-msgstr ""
+msgstr "<0>{bonus}</0> Mitarbeiterproduktion, +{eventOdds}% Ereignischance<1/>Kartenchancen: <2/>"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:47
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
@@ -3538,27 +3538,27 @@ msgstr "Es gilt nun ein Kürzung. Entweder akzeptieren sie diese oder sie kündi
 
 #: src/components/_economy/manager/ManagerProfitEstimate.tsx:57
 msgid "A day of the production a manager adds to your employees at market value, minus their pay at this rate."
-msgstr ""
+msgstr "Der Marktwert der zusätzlichen Tagesproduktion, die ein Manager deinen Mitarbeitern bringt, abzüglich seines Lohns zu diesem Satz."
 
 #: src/components/_economy/manager/ManagerProfitEstimate.tsx:106
 msgid "A day of the production this manager adds at market value, minus a day of their pay."
-msgstr ""
+msgstr "Der Marktwert der zusätzlichen Tagesproduktion dieses Managers, abzüglich seines Tageslohns."
 
 #: src/components/_economy/employee/EstimatedProfit.tsx:259
 msgid "A day of their production at market value, minus a day of their wage."
-msgstr ""
+msgstr "Der Marktwert einer Tagesproduktion dieses Mitarbeiters, abzüglich seines Tageslohns."
 
 #: src/components/_economy/employee/EmployeeList.tsx:138
 msgid "A day of this company's production at market value, minus the day's payroll."
-msgstr ""
+msgstr "Der Marktwert der Tagesproduktion dieser Firma, abzüglich der Lohnkosten des Tages."
 
 #: src/components/_economy/employee/EstimatedProfit.tsx:97
 msgid "A day of your employees' production at market value, minus the day's payroll."
-msgstr ""
+msgstr "Der Marktwert der Tagesproduktion deiner Mitarbeiter, abzüglich der Lohnkosten des Tages."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:715
 msgid "A day with family, and they come back smiling."
-msgstr "Ein Tag mi der Familie, und sie kommen lächelnd zurück"
+msgstr "Einen Tag mit der Familie, und sie kommen lächelnd zurück"
 
 #: src/pages/region/[regionId]/index.tsx:60
 msgid "A deposit has been found in this region, it can be exploited by companies to produce raws."
@@ -7032,11 +7032,11 @@ msgstr "Jeder Punkt gibt +{RESP_HAPPINESS} <0>Zufriedenheit</0>, dauerhaft aktiv
 #. placeholder {1}: LUCK_CHECK.luckPerPoint
 #: src/components/_economy/employee/employeeStats.tsx:307
 msgid "Each point is a {LUCK_PER_POINT_PCT}% chance per worked hour to find a toolbox, tilts training draws toward the rarer cards, and adds {0}% to the Luck checks of employee events, {1}% to every other check."
-msgstr ""
+msgstr "Jeder Punkt gibt pro gearbeiteter Stunde eine Chance von {LUCK_PER_POINT_PCT}%, eine Werkzeugkiste zu finden, verschiebt Trainingsziehungen zu den selteneren Karten und fügt den Glücksprüfungen bei Mitarbeiterereignissen {0}% hinzu, allen anderen Prüfungen {1}%."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:147
 msgid "Each point is a {LUCK_PERCENT_PER_POINT}% chance per worked hour to find a toolbox, tilts training draws toward the rarer cards, and improves the odds of every employee event, Luck checks most."
-msgstr ""
+msgstr "Jeder Punkt gibt pro gearbeiteter Stunde eine Chance von {LUCK_PERCENT_PER_POINT}%, eine Werkzeugkiste zu finden, verschiebt Trainingsziehungen zu den selteneren Karten und verbessert die Chancen bei allen Mitarbeiterereignissen, am stärksten bei Glücksprüfungen."
 
 #: src/components/_user/user/SkillUpgrade.tsx:319
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
@@ -10031,7 +10031,7 @@ msgstr "Manager gesucht"
 
 #: src/components/_economy/employee/EstimatedProfit.tsx:105
 msgid "Manufactured goods are valued minus the raws they use. Below zero, selling the raws would earn more."
-msgstr ""
+msgstr "Hergestellte Waren werden abzüglich der verbrauchten Rohstoffe bewertet. Unter null würde der Verkauf der Rohstoffe mehr einbringen."
 
 #: src/components/_layout/LoadingScreenContent.tsx:26
 msgid "map"
@@ -10597,7 +10597,7 @@ msgstr "Die Moral wird laufend durch Eigenschaften und Bedingungen bestimmt."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:136
 msgid "Morale: each point gives +{RESP_HAPPINESS} happiness, always on. Does not affect output directly."
-msgstr ""
+msgstr "Moral: Jeder Punkt gibt +{RESP_HAPPINESS} Zufriedenheit, dauerhaft aktiv. Hat keinen direkten Einfluss auf die Produktion."
 
 #: src/components/_layout/LayoutLeftIcons.tsx:225
 #: src/components/_layout/MoreButtonNav.tsx:191
@@ -15628,7 +15628,7 @@ msgstr "Die Schlange löst sich auf; alle murmeln über das Pech."
 
 #: src/components/_economy/employee/TrainingCardList.tsx:118
 msgid "The rarity is rolled once for the whole hand, among the rarities the employee has enough cards in. Management tilts these odds."
-msgstr ""
+msgstr "Die Seltenheit wird einmal für die ganze Hand ausgewürfelt, und zwar unter den Seltenheiten, von denen der Mitarbeiter genug Karten hat. Das Management beeinflusst diese Wahrscheinlichkeiten."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:568
 msgid "The region menu"
@@ -15929,7 +15929,7 @@ msgstr "Diese Firma hat keine Mitarbeiter"
 
 #: src/components/_economy/employee/EmployeeList.tsx:204
 msgid "This company is disabled and earns nothing. Once re-enabled, it would earn this much a day."
-msgstr ""
+msgstr "Diese Firma ist deaktiviert und verdient nichts. Nach der Reaktivierung würde sie so viel pro Tag verdienen."
 
 #: src/components/_economy/company/CompanyTags.tsx:116
 msgid "This company is disabled because the owner reached the company limit."
@@ -16428,7 +16428,7 @@ msgstr "Gegenstände handeln"
 #. placeholder {0}: coworker.name || t`this employee`
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:261
 msgid "Trade places between {who} and {0}?"
-msgstr ""
+msgstr "Die Plätze von {who} und {0} tauschen?"
 
 #: src/components/_economy/manager/MoveManagerModal.tsx:232
 msgid "Trade places between <0/> and <1/>? Each keeps their own pay and what they have earned, and both can resign straight afterwards."
@@ -16479,7 +16479,7 @@ msgstr "Training"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:168
 msgid "Training can teach them new traits."
-msgstr ""
+msgstr "Durch Training können sie neue Eigenschaften lernen."
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:149
 msgid "Training cards"
@@ -17362,7 +17362,7 @@ msgstr "Was dir die Schlachten, an denen du teilnimmst, bisher eingebracht haben
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:545
 msgid "What your employees' Luck should find in a day. Only hours that bank production count."
-msgstr ""
+msgstr "Was das Glück deiner Mitarbeiter voraussichtlich an einem Tag findet. Es zählen nur Stunden, in denen Produktion eingelagert wird."
 
 #: src/components/_common/GameRules.tsx:124
 msgid "While data collection and display tools that use the official public API are allowed, for any other development or data access, please contact the staff team directly."
@@ -18197,7 +18197,7 @@ msgstr "Deine Mitarbeiterstatistiken"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:163
 msgid "Your employee's traits"
-msgstr ""
+msgstr "Die Eigenschaften deines Mitarbeiters"
 
 #: src/components/_economy/manager/ManagerProfitEstimate.tsx:66
 msgid "Your employees produce nothing right now, so a manager would add nothing."
@@ -18264,11 +18264,11 @@ msgstr "Dein Glück hat gerade Urlaub"
 
 #: src/components/_economy/employee/TrainingDrawOdds.tsx:173
 msgid "Your Management"
-msgstr ""
+msgstr "Dein Management"
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:88
 msgid "Your Management {value}"
-msgstr ""
+msgstr "Dein Management {value}"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:303
 msgid "Your milestones"
