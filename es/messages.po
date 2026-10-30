@@ -1459,67 +1459,67 @@ msgstr "{gender, select, male {Las puertas se abren. {name} abraza al primer com
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3694
 msgid "{gender, select, male {The fire is out and the cousin is safe. {name} is very grateful.} female {The fire is out and the cousin is safe. {name} is very grateful.} other {The fire is out and the cousin is safe. {name} is very grateful.}}"
-msgstr ""
+msgstr "{gender, select, male {El incendio ya está extinguido y el primo está a salvo. {name} está muy agradecido.} female {El incendio ya está extinguido y el primo está a salvo. {name} está muy agradecida.} other {El incendio ya está extinguido y el primo está a salvo. {name} está muy agradecido.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3055
 msgid "{gender, select, male {The fortune teller takes one look at {name} and runs, which hurts.} female {The fortune teller takes one look at {name} and runs, which hurts.} other {The fortune teller takes one look at {name} and runs, which hurts.}}"
-msgstr ""
+msgstr "{gender, select, male {La adivina echa un vistazo a {name} y sale corriendo, lo cual duele.} female {La adivina echa un vistazo a {name} y sale corriendo, lo cual duele.} other {La adivina echa un vistazo a {name} y sale corriendo, lo cual duele.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1739
 msgid "{gender, select, male {The General won. {name} needs the afternoon to recover.} female {The General won. {name} needs the afternoon to recover.} other {The General won. {name} needs the afternoon to recover.}}"
-msgstr ""
+msgstr "{gender, select, male {El General ganó. {name} necesita la tarde para recuperarse.} female {El General ganó. {name} necesita la tarde para recuperarse.} other {El General ganó. {name} necesita la tarde para recuperarse.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2968
 msgid "{gender, select, male {The horoscope was right: {name}'s tool takes a nasty knock.} female {The horoscope was right: {name}'s tool takes a nasty knock.} other {The horoscope was right: {name}'s tool takes a nasty knock.}}"
-msgstr ""
+msgstr "{gender, select, male {El horóscopo tenía razón: la herramienta de {name} sufre un duro golpe.} female {El horóscopo tenía razón: la herramienta de {name} sufre un duro golpe.} other {El horóscopo tenía razón: la herramienta de {name} sufre un duro golpe.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2298
 msgid "{gender, select, male {The inspector leaves charmed, and the whole staff cheers {name} all afternoon.} female {The inspector leaves charmed, and the whole staff cheers {name} all afternoon.} other {The inspector leaves charmed, and the whole staff cheers {name} all afternoon.}}"
-msgstr ""
+msgstr "{gender, select, male {El inspector se marcha encantado, y todo el personal anima a {name} durante toda la tarde.} female {El inspector se marcha encantado, y todo el personal anima a {name} durante toda la tarde.} other {El inspector se marcha encantado, y todo el personal anima a {name} durante toda la tarde.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2866
 msgid "{gender, select, male {The lessons pay off. {name} is a better worker for it.} female {The lessons pay off. {name} is a better worker for it.} other {The lessons pay off. {name} is a better worker for it.}}"
-msgstr ""
+msgstr "{gender, select, male {Las lecciones dan sus frutos. {name} es ahora un mejor trabajador gracias a ello.} female {Las lecciones dan sus frutos. {name} es ahora un mejor trabajador gracias a ello.} other {Las lecciones dan sus frutos. {name} es ahora un mejor trabajador gracias a ello.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2254
 msgid "{gender, select, male {The letter never turns up, and {name} stays on edge.} female {The letter never turns up, and {name} stays on edge.} other {The letter never turns up, and {name} stays on edge.}}"
-msgstr ""
+msgstr "{gender, select, male {La carta nunca llega, y {name} sigue estando muy nervioso.} female {La carta nunca llega, y {name} sigue estando muy nerviosa.} other {La carta nunca llega, y {name} sigue estando muy nervioso.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3098
 msgid "{gender, select, male {The lift broke down between two floors with {name} inside. He is reading his will through the door.} female {The lift broke down between two floors with {name} inside. She is reading her will through the door.} other {The lift broke down between two floors with {name} inside. They are reading their will through the door.}}"
-msgstr ""
+msgstr "{gender, select, male {El ascensor se ha averiado entre dos plantas con {name} dentro. Está leyendo su testamento a través de la puerta.} female {El ascensor se ha averiado entre dos plantas con {name} dentro. Está leyendo su testamento a través de la puerta.} other {El ascensor se ha averiado entre dos plantas con {name} dentro. Están leyendo su testamento a través de la puerta.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3164
 msgid "{gender, select, male {The lift restarts at dusk. {name} takes the stairs from now on.} female {The lift restarts at dusk. {name} takes the stairs from now on.} other {The lift restarts at dusk. {name} takes the stairs from now on.}}"
-msgstr ""
+msgstr "{gender, select, male {El ascensor vuelve a funcionar al anochecer. A partir de ahora, {name} subirá por las escaleras.} female {El ascensor vuelve a funcionar al anochecer. A partir de ahora, {name} subirá por las escaleras.} other {El ascensor vuelve a funcionar al anochecer. A partir de ahora, {name} subirá por las escaleras.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2610
 msgid "{gender, select, male {The magic fades halfway through the night, but {name} still learned something.} female {The magic fades halfway through the night, but {name} still learned something.} other {The magic fades halfway through the night, but {name} still learned something.}}"
-msgstr ""
+msgstr "{gender, select, male {La magia se desvanece a mitad de la noche, pero {name} aún así ha aprendido algo.} female {La magia se desvanece a mitad de la noche, pero {name} aún así ha aprendido algo.} other {La magia se desvanece a mitad de la noche, pero {name} aún así ha aprendido algo.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2427
 msgid "{gender, select, male {The money vanishes up the pyramid. {name} is delighted anyway.} female {The money vanishes up the pyramid. {name} is delighted anyway.} other {The money vanishes up the pyramid. {name} is delighted anyway.}}"
-msgstr ""
+msgstr "{gender, select, male {El dinero se esfuma en la pirámide. De todos modos, {name} está encantado.} female {El dinero se esfuma en la pirámide. De todos modos, {name} está encantada.} other {El dinero se esfuma en la pirámide. De todos modos, {name} está encantado.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3534
 msgid "{gender, select, male {The new poster looks like your mugshot. {name} misses the kitten.} female {The new poster looks like your mugshot. {name} misses the kitten.} other {The new poster looks like your mugshot. {name} misses the kitten.}}"
-msgstr ""
+msgstr "{gender, select, male {El nuevo cartel parece tu ficha policial. {name} echa de menos al gatito.} female {El nuevo cartel parece tu ficha policial. {name} echa de menos al gatito.} other {El nuevo cartel parece tu ficha policial. {name} echa de menos al gatito.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1495
 msgid "{gender, select, male {The only cake left said “Happy Retirement”. {name} finds it hilarious. It is a tradition now.} female {The only cake left said “Happy Retirement”. {name} finds it hilarious. It is a tradition now.} other {The only cake left said “Happy Retirement”. {name} finds it hilarious. It is a tradition now.}}"
-msgstr ""
+msgstr "{gender, select, male {El único pastel que quedaba decía «Feliz jubilación». A {name} le parece muy gracioso. Ahora ya es una tradición.} female {El único pastel que quedaba decía «Feliz jubilación». A {name} le parece muy gracioso. Ahora ya es una tradición.} other {El único pastel que quedaba decía «Feliz jubilación». A {name} le parece muy gracioso. Ahora ya es una tradición.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1501
 msgid "{gender, select, male {The only cake left said “Happy Retirement”. {name} starts to wonder.} female {The only cake left said “Happy Retirement”. {name} starts to wonder.} other {The only cake left said “Happy Retirement”. {name} starts to wonder.}}"
-msgstr ""
+msgstr "{gender, select, male {El único pastel que quedaba decía «Feliz jubilación». {name} empieza a preguntarse.} female {El único pastel que quedaba decía «Feliz jubilación». {name} empieza a preguntarse.} other {El único pastel que quedaba decía «Feliz jubilación». {name} empieza a preguntarse.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3897
 msgid "{gender, select, male {The real Kevin has grown into the ventilation, and there are leaves coming out of every vent. {name} is very proud.} female {The real Kevin has grown into the ventilation, and there are leaves coming out of every vent. {name} is very proud.} other {The real Kevin has grown into the ventilation, and there are leaves coming out of every vent. {name} is very proud.}}"
-msgstr ""
+msgstr "{gender, select, male {El verdadero Kevin se ha metido en el sistema de ventilación, y le salen hojas por todas las rejillas. {name} está muy orgulloso.} female {El verdadero Kevin se ha metido en el sistema de ventilación, y le salen hojas por todas las rejillas. {name} está muy orgullosa.} other {El verdadero Kevin se ha metido en el sistema de ventilación, y le salen hojas por todas las rejillas. {name} está muy orgulloso.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:657
 msgid "{gender, select, male {The region is under attack. {name} wants to leave his post and help defend it.} female {The region is under attack. {name} wants to leave her post and help defend it.} other {The region is under attack. {name} wants to leave their post and help defend it.}}"
-msgstr ""
+msgstr "{gender, select, male {La región está siendo atacada. {name} quiere abandonar su puesto para ayudar a defenderla.} female {La región está siendo atacada. {name} quiere abandonar su puesto para ayudar a defenderla.} other {La región está siendo atacada. {name} quieren abandonar su puesto para ayudar a defenderla.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2707
 msgid "{gender, select, male {The rival sends a thank-you card. {name} is proud to have done the right thing.} female {The rival sends a thank-you card. {name} is proud to have done the right thing.} other {The rival sends a thank-you card. {name} is proud to have done the right thing.}}"
