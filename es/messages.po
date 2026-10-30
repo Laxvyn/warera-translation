@@ -12276,7 +12276,7 @@ msgstr "Aumento de salario"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2277
 msgid "Pay the “inspection fee”"
-msgstr "Pagar la "cuota de inspección""
+msgstr "Pagar la “cuota de inspección”"
 
 #: src/pages/shop/index.tsx:48
 msgid "Payment successful! Thanks for supporting the game <3"
