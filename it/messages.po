@@ -2814,7 +2814,7 @@ msgstr "<0>+20%</0> accanto alla sua dolce metà"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:384
 msgid "<0>+20%</0> when paid more than every coworker"
-msgstr "<0>+25%</0> per collega, fino a <1>+50%</1>"
+msgstr "<0>+20%</0> quando pagato più di ogni collega"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:300
 msgid "<0>+25%</0> per coworker, up to <1>+50%</1>"
@@ -6863,7 +6863,7 @@ msgstr "Chiudi"
 
 #: src/components/_economy/employee/useConfirmFire.tsx:32
 msgid "Dismiss {name}? This cannot be undone."
-msgstr "Eliminare {nome}? Questa operazione non può essere annullata."
+msgstr "Eliminare {name}? Questa operazione non può essere annullata."
 
 #: src/components/_economy/employeeEvent/EmployeeEventInbox.tsx:70
 msgid "Dismiss past outcomes"
@@ -7031,11 +7031,11 @@ msgstr ""
 #. placeholder {0}: LUCK_CHECK.statPerPoint
 #. placeholder {1}: LUCK_CHECK.luckPerPoint
 #: src/components/_economy/employee/employeeStats.tsx:307
-msgid "Each point is a {LUCK_PER_POINT_PCT}% chance per worked hour to find a toolbox (up to {LUCK_MAX_PCT}%), tilts training draws toward the rarer cards, and adds {0}% to the Luck checks of employee events, {1}% to every other check."
+msgid "Each point is a {LUCK_PER_POINT_PCT}% chance per worked hour to find a toolbox, tilts training draws toward the rarer cards, and adds {0}% to the Luck checks of employee events, {1}% to every other check."
 msgstr ""
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:147
-msgid "Each point is a {LUCK_PERCENT_PER_POINT}% chance per worked hour to find a toolbox (up to {LUCK_MAX_PERCENT}%), tilts training draws toward the rarer cards, and improves the odds of every employee event, Luck checks most."
+msgid "Each point is a {LUCK_PERCENT_PER_POINT}% chance per worked hour to find a toolbox, tilts training draws toward the rarer cards, and improves the odds of every employee event, Luck checks most."
 msgstr ""
 
 #: src/components/_user/user/SkillUpgrade.tsx:319
