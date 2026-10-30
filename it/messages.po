@@ -300,7 +300,7 @@ msgstr "{0}% dell'investito"
 #. placeholder {1}: specializationBonusPercent(employee, code)
 #: src/components/_economy/employee/EmployeeSpecializations.tsx:68
 msgid "{0}d worked: <0>{1}</0>"
-msgstr "{0} giorni lavorati: <0>{1}</0>"
+msgstr "{0, plural, one {lavorato per #g} other {lavorato per #gg}}: <0>{1}</0>"
 
 #. placeholder {0}: contract.unpaidHours
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:223
@@ -1823,7 +1823,7 @@ msgstr "{trainable} da formare"
 #. placeholder {1}: employee.potentialMax
 #: src/components/_economy/employee/EmployeeResumeRow.tsx:370
 msgid "{trainingsLeft} training sessions left ({0}/{1} used)."
-msgstr "{trainingsLeft} sessioni di formazione rimanenti ({0}/{1} utilizzate)."
+msgstr "{trainingsLeft, plural, one {# sessione formativa rimanente} other {# sessioni formative rimanenti}} ({0}/{1} utilizzate)."
 
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:482
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:118
@@ -1980,7 +1980,7 @@ msgstr "/h"
 
 #: src/components/_economy/manager/ManagerRateFormModal.tsx:107
 msgid "/h at {points} Management points"
-msgstr "/h con {points} punti di Gestione"
+msgstr "/h con {points, plural, one {# punto} plural {# punti}} Gestione"
 
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:383
 msgid "/h max"
@@ -2814,7 +2814,7 @@ msgstr "<0>+20%</0> accanto alla sua dolce metà"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:384
 msgid "<0>+20%</0> when paid more than every coworker"
-msgstr "<0>+20%</0> quando viene pagato più di tutti gli altri colleghi"
+msgstr "<0>+20%</0> quando pagato più di ogni collega"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:300
 msgid "<0>+25%</0> per coworker, up to <1>+50%</1>"
