@@ -313,7 +313,7 @@ msgstr "{answerWithin} untuk menjawab"
 
 #: src/components/_economy/employee/TrainingCard.tsx:328
 msgid "{badTraitPercent}% chance of a bad trait"
-msgstr ""
+msgstr "{badTraitPercent}% peluang mendapat sifat buruk"
 
 #. placeholder {0}: states.length
 #: src/components/_other/tour/TutorialChapterEndModal.tsx:214
@@ -1996,7 +1996,7 @@ msgstr "+{perPoint}% per poin di atas {statPivot}, -{perPoint}% per poin di bawa
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:191
 msgid "+{skillPerLevel}% per level of your Management."
-msgstr ""
+msgstr "+{skillPerLevel}% per level Manajemenmu."
 
 #: src/components/_user/user/Level.tsx:196
 msgid "+{xpBonusPercent}%"
@@ -2712,7 +2712,7 @@ msgstr "<0>{0}</0> lagi untuk mencapai level {1}"
 #. placeholder {1}: -2
 #: src/components/_economy/employee/employee.frontConfig.tsx:659
 msgid "<0>{0}</0> until 40, then <1>{1}</1> per 10 years, down to none at 60"
-msgstr ""
+msgstr "<0>{0}</0> sampai 40, lalu <1>{1}</1> per 10 tahun, turun menjadi nol pada 60"
 
 #. placeholder {0}: -10
 #: src/components/_economy/employee/employee.frontConfig.tsx:388
@@ -2756,7 +2756,7 @@ msgstr "<0>{activeCompaniesCount}/{0}</0> perusahaan"
 
 #: src/components/_user/user/EcoSkillEffects.tsx:104
 msgid "<0>{bonus}</0> employee production, +{eventOdds}% event odds<1/>Card odds: <2/>"
-msgstr ""
+msgstr "<0>{bonus}</0> produksi karyawan, +{eventOdds}% peluang event<1/>Peluang kartu: <2/>"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:47
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
@@ -2777,7 +2777,7 @@ msgstr "<0>{v}</0> Production ÷ {OUTPUT_DIVISOR} = <1>{0} poin per jam</1>, seb
 
 #: src/components/_economy/employee/employeeStats.tsx:405
 msgid "<0>{v}</0> Responsibility = <1>+{happiness}</1> <2>Happiness</2>."
-msgstr ""
+msgstr "<0>{v}</0> Tanggung Jawab = <1>+{happiness}</1> <2>Kebahagiaan</2>."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:924
 msgid "<0>+1</0> candidate on every company's daily shortlist"
@@ -2915,7 +2915,7 @@ msgstr "<0>Production</0>: barang yang mereka hasilkan."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:149
 msgid "<0>Responsibility</0>: raises their <1>Happiness</1>."
-msgstr ""
+msgstr "<0>Tanggung Jawab</0>: meningkatkan <1>Kebahagiaan</1> mereka."
 
 #. placeholder {0}: gameConfig?.unrest.contributionCost
 #. placeholder {1}: gameConfig?.unrest.contributionCost
@@ -2933,7 +2933,7 @@ msgstr "<0>x2</0> kecepatan spesialisasi"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:874
 msgid "<0>x2</0> toolbox chance"
-msgstr ""
+msgstr "<0>x2</0> peluang kotak perkakas"
 
 #: src/components/_user/modals/PhoneVerificationModal.tsx:113
 msgid "<0>Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days.</0><1>Phone numbers are encrypted and not visible to any administrator.</1>"
@@ -3482,7 +3482,7 @@ msgstr "Seruan untuk bertempur"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:167
 msgid "A candidate's starting trait is revealed once you hire them."
-msgstr ""
+msgstr "Sifat awal kandidat terungkap setelah kamu merekrutnya."
 
 #: src/components/_economy/employee/TrainingCardList.tsx:132
 msgid "A card's rarity is its outline as well as its colour: a circle is Common, and it gains an edge at every tier up to the Legendary gem."
@@ -3538,23 +3538,23 @@ msgstr "Pemotongan mulai berlaku sekarang. Mereka bisa menerimanya atau memilih 
 
 #: src/components/_economy/manager/ManagerProfitEstimate.tsx:57
 msgid "A day of the production a manager adds to your employees at market value, minus their pay at this rate."
-msgstr ""
+msgstr "Produksi sehari yang ditambahkan manajer kepada karyawanmu pada harga pasar, dikurangi gaji mereka pada tingkat ini."
 
 #: src/components/_economy/manager/ManagerProfitEstimate.tsx:106
 msgid "A day of the production this manager adds at market value, minus a day of their pay."
-msgstr ""
+msgstr "Produksi sehari yang ditambahkan manajer ini pada harga pasar, dikurangi gaji sehari mereka."
 
 #: src/components/_economy/employee/EstimatedProfit.tsx:259
 msgid "A day of their production at market value, minus a day of their wage."
-msgstr ""
+msgstr "Produksi sehari mereka pada harga pasar, dikurangi gaji sehari mereka."
 
 #: src/components/_economy/employee/EmployeeList.tsx:138
 msgid "A day of this company's production at market value, minus the day's payroll."
-msgstr ""
+msgstr "Produksi sehari perusahaan ini pada harga pasar, dikurangi total gaji sehari."
 
 #: src/components/_economy/employee/EstimatedProfit.tsx:97
 msgid "A day of your employees' production at market value, minus the day's payroll."
-msgstr ""
+msgstr "Produksi sehari karyawanmu pada harga pasar, dikurangi total gaji sehari."
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:715
 msgid "A day with family, and they come back smiling."
@@ -6995,11 +6995,11 @@ msgstr "Setiap peningkatan level menambah kapasitas satu karyawan."
 
 #: src/components/_user/user/EcoSkillEffects.tsx:87
 msgid "Each level gives your employees <0>{perPoint}</0> production, +{eventOddsPerLevel}% event odds and rarer training cards."
-msgstr ""
+msgstr "Setiap level menambah produksi karyawanmu sebesar <0>{perPoint}</0>, meningkatkan peluang terjadinya event sebesar +{eventOddsPerLevel}%, dan memperbesar peluang mendapatkan kartu pelatihan yang lebih langka."
 
 #: src/components/_economy/employee/TrainingDrawOdds.tsx:181
 msgid "Each level of your Management moves {MOVED_PER_LEVEL}% of the draws from Common to the rarer cards."
-msgstr ""
+msgstr "Setiap level Manajemen mengalihkan {MOVED_PER_LEVEL}% peluang undian dari kartu Umum ke kartu yang lebih langka."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:268
 msgid "Each level opens something new."
@@ -7026,17 +7026,17 @@ msgstr "Masing-masing mengarah ke yang berikutnya."
 
 #: src/components/_economy/employee/employeeStats.tsx:399
 msgid "Each point gives +{RESP_HAPPINESS} <0>Happiness</0>, always on. It does not affect output directly."
-msgstr ""
+msgstr "Setiap poin memberikan tambahan +{RESP_HAPPINESS} <0>Kebahagiaan</0> kepada karyawan. Efek ini selalu aktif dan tidak secara langsung meningkatkan produksi."
 
 #. placeholder {0}: LUCK_CHECK.statPerPoint
 #. placeholder {1}: LUCK_CHECK.luckPerPoint
 #: src/components/_economy/employee/employeeStats.tsx:307
 msgid "Each point is a {LUCK_PER_POINT_PCT}% chance per worked hour to find a toolbox, tilts training draws toward the rarer cards, and adds {0}% to the Luck checks of employee events, {1}% to every other check."
-msgstr ""
+msgstr "Setiap poin memberikan peluang {LUCK_PER_POINT_PCT}% setiap jam kerja untuk menemukan kotak peralatan, meningkatkan peluang mendapatkan kartu pelatihan yang lebih langka, serta menambah {0}% pada pemeriksaan Keberuntungan dalam event karyawan dan {1}% pada pemeriksaan lainnya."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:147
 msgid "Each point is a {LUCK_PERCENT_PER_POINT}% chance per worked hour to find a toolbox, tilts training draws toward the rarer cards, and improves the odds of every employee event, Luck checks most."
-msgstr ""
+msgstr "Setiap poin memberikan peluang {LUCK_PERCENT_PER_POINT}% setiap jam kerja untuk menemukan kotak peralatan, meningkatkan peluang mendapatkan kartu pelatihan yang lebih langka, serta meningkatkan peluang keberhasilan event karyawan, terutama pada pemeriksaan Keberuntungan."
 
 #: src/components/_user/user/SkillUpgrade.tsx:319
 msgid "Each prestige point gives the equivalent of {skillBonusLevels} level of the selected skill"
@@ -7052,7 +7052,7 @@ msgstr "Setiap sumber daya strategis membayarkan kepada negara yang menguasainya
 
 #: src/components/_economy/employee/employee.traitMeta.ts:116
 msgid "Early Bloomer"
-msgstr ""
+msgstr "Cepat Berkembang"
 
 #: src/components/_user/milestone/milestone.frontConfig.tsx:34
 msgid "Earn <0/> in total"
@@ -7294,7 +7294,7 @@ msgstr "Karyawan dengan kebahagiaan di bawah {happinessQuitThreshold} dapat berh
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:165
 msgid "Employees can have traits that change how they work."
-msgstr ""
+msgstr "Setiap karyawan bisa memiliki sifat yang memengaruhi cara mereka bekerja."
 
 #: src/components/_layout/loadingTips.tsx:390
 msgid "Employees get +{specializationPerDay}% production for every day spent on the same good, up to +{specializationMax}%."
@@ -8749,7 +8749,7 @@ msgstr "Komandan Senior"
 
 #: src/components/_economy/employee/RecruitModal.tsx:175
 msgid "Hire {name}"
-msgstr ""
+msgstr "Rekrut {name}"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:299
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:144
@@ -9316,7 +9316,7 @@ msgstr "Tidak disebutkannya sesuatu secara eksplisit dalam peraturan bukan berar
 
 #: src/components/_economy/employee/useConfirmFire.tsx:16
 msgid "Just hired: can be fired in {hours}h"
-msgstr ""
+msgstr "Baru direkrut: bisa dipecat dalam {hours} jam"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:50
 msgid "Just one more… what could go wrong?"
@@ -10031,7 +10031,7 @@ msgstr "Mencari manajer"
 
 #: src/components/_economy/employee/EstimatedProfit.tsx:105
 msgid "Manufactured goods are valued minus the raws they use. Below zero, selling the raws would earn more."
-msgstr ""
+msgstr "Barang hasil produksi dihitung setelah dikurangi bahan baku yang digunakan. Jika hasilnya negatif, menjual bahan bakunya secara langsung akan lebih menguntungkan."
 
 #: src/components/_layout/LoadingScreenContent.tsx:26
 msgid "map"
@@ -10597,7 +10597,7 @@ msgstr "Semangat kerja ditentukan secara langsung oleh sifat dan kondisi."
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:136
 msgid "Morale: each point gives +{RESP_HAPPINESS} happiness, always on. Does not affect output directly."
-msgstr ""
+msgstr "Semangat: setiap poin memberikan tambahan +{RESP_HAPPINESS} Kebahagiaan secara permanen. Tidak berpengaruh langsung terhadap produksi."
 
 #: src/components/_layout/LayoutLeftIcons.tsx:225
 #: src/components/_layout/MoreButtonNav.tsx:191
@@ -10652,7 +10652,7 @@ msgstr "Pindah"
 #. placeholder {0}: target.name
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:225
 msgid "Move {who} into {0}?"
-msgstr ""
+msgstr "Pindahkan {who} ke {0}?"
 
 #: src/components/_political/map/MapMenu.tsx:727
 msgid "Move & collect"
@@ -10727,7 +10727,7 @@ msgstr "Menaikkan satu sifat satu anak tangga."
 
 #: src/components/_layout/loadingTips.tsx:399
 msgid "Moving an employee to another of your companies is free."
-msgstr ""
+msgstr "Memindahkan karyawan ke perusahaanmu yang lain tidak dikenakan biaya."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:590
 msgid "Moving costs <0>Stamina</0>, then Oil."
@@ -11431,7 +11431,7 @@ msgstr "Tanpa perkakas"
 
 #: src/components/_economy/employee/ToolSelectorPopover.tsx:123
 msgid "No tool of this type"
-msgstr ""
+msgstr "Tidak ada alat dengan jenis ini"
 
 #: src/components/_economy/inventory/Inventory.tsx:693
 msgid "No tools"
@@ -11810,7 +11810,7 @@ msgstr "Hanya untuk {stockpiler}."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:505
 msgid "Only an {earlyBloomer}."
-msgstr ""
+msgstr "Hanya karyawan dengan sifat {earlyBloomer}."
 
 #: src/components/_social/poll/PollCard.tsx:232
 msgid "Only citizens of <0/> can vote."
@@ -12365,7 +12365,7 @@ msgstr "Pilih {cardTitle}"
 
 #: src/components/_economy/employee/RecruitModal.tsx:175
 msgid "Pick a candidate"
-msgstr ""
+msgstr "Pilih calon karyawan"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:121
 #: src/components/_other/tour/tuto.frontConfig.tsx:491
@@ -14550,7 +14550,7 @@ msgstr "Dijual oleh"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:166
 msgid "Some need your attention to get the best out of them."
-msgstr ""
+msgstr "Beberapa karyawan membutuhkan perhatianmu agar bisa menunjukkan kemampuan terbaik mereka."
 
 #: src/components/_economy/company/CompanyList.tsx:182
 msgid "Some of your companies are disabled."
@@ -15076,7 +15076,7 @@ msgstr "Ketuk salah satunya untuk membacanya."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:123
 msgid "Tap one, then Hire."
-msgstr ""
+msgstr "Pilih salah satu, lalu rekrut."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:291
 msgid "Tap Save to keep your points."
@@ -15089,7 +15089,7 @@ msgstr "Ketuk obrolan."
 #: src/components/_other/tour/tuto.frontConfig.tsx:492
 #: src/components/_other/tour/tuto.frontConfig.tsx:521
 msgid "Tap the one you like best, then Hire."
-msgstr ""
+msgstr "Pilih kandidat yang paling kamu suka, lalu rekrut."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:136
 msgid "Tap them to see who they are."
@@ -15628,7 +15628,7 @@ msgstr "Antrean bubar sambil menggerutu soal nasib sial."
 
 #: src/components/_economy/employee/TrainingCardList.tsx:118
 msgid "The rarity is rolled once for the whole hand, among the rarities the employee has enough cards in. Management tilts these odds."
-msgstr ""
+msgstr "Tingkat kelangkaan ditentukan satu kali untuk seluruh kartu dalam satu undian, berdasarkan tingkat kelangkaan yang jumlah kartunya mencukupi bagi karyawan tersebut. Manajemen memengaruhi peluangnya."
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:568
 msgid "The region menu"
@@ -15929,7 +15929,7 @@ msgstr "Perusahaan ini tidak punya karyawan"
 
 #: src/components/_economy/employee/EmployeeList.tsx:204
 msgid "This company is disabled and earns nothing. Once re-enabled, it would earn this much a day."
-msgstr ""
+msgstr "Perusahaan ini dinonaktifkan dan tidak menghasilkan apa-apa. Setelah diaktifkan kembali, perusahaan ini akan menghasilkan sebesar ini per hari."
 
 #: src/components/_economy/company/CompanyTags.tsx:116
 msgid "This company is disabled because the owner reached the company limit."
@@ -16428,7 +16428,7 @@ msgstr "Perdagangkan item"
 #. placeholder {0}: coworker.name || t`this employee`
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:261
 msgid "Trade places between {who} and {0}?"
-msgstr ""
+msgstr "Tukar posisi antara {who} dan {0}?"
 
 #: src/components/_economy/manager/MoveManagerModal.tsx:232
 msgid "Trade places between <0/> and <1/>? Each keeps their own pay and what they have earned, and both can resign straight afterwards."
@@ -16479,7 +16479,7 @@ msgstr "Pelatihan"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:168
 msgid "Training can teach them new traits."
-msgstr ""
+msgstr "Pelatihan bisa mengajarkan sifat-sifat baru kepada mereka."
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:149
 msgid "Training cards"
@@ -17362,7 +17362,7 @@ msgstr "Apa yang sudah kamu peroleh dari pertempuran yang sedang kamu ikuti seja
 
 #: src/components/_economy/employee/WorkforceSummary.tsx:545
 msgid "What your employees' Luck should find in a day. Only hours that bank production count."
-msgstr ""
+msgstr "Perkiraan temuan dari Keberuntungan karyawanmu dalam sehari. Hanya jam ketika produksi tersimpan yang dihitung."
 
 #: src/components/_common/GameRules.tsx:124
 msgid "While data collection and display tools that use the official public API are allowed, for any other development or data access, please contact the staff team directly."
@@ -18197,7 +18197,7 @@ msgstr "Statistik karyawanmu"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:163
 msgid "Your employee's traits"
-msgstr ""
+msgstr "Sifat karyawanmu"
 
 #: src/components/_economy/manager/ManagerProfitEstimate.tsx:66
 msgid "Your employees produce nothing right now, so a manager would add nothing."
@@ -18264,11 +18264,11 @@ msgstr "Keberuntunganmu sedang libur"
 
 #: src/components/_economy/employee/TrainingDrawOdds.tsx:173
 msgid "Your Management"
-msgstr ""
+msgstr "Manajemenmu"
 
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:88
 msgid "Your Management {value}"
-msgstr ""
+msgstr "Manajemenmu {value}"
 
 #: src/components/_other/tour/tuto.frontConfig.tsx:303
 msgid "Your milestones"
