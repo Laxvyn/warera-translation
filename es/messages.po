@@ -1167,7 +1167,7 @@ msgstr "{gender, select, male {{name} trabaja, pero suspira fuertemente cada un 
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1783
 msgid "{gender, select, male {{name} would like a new job title, and has drafted a few. “Supreme Commander of {good}” is his favorite.} female {{name} would like a new job title, and has drafted a few. “Supreme Commander of {good}” is her favorite.} other {{name} would like a new job title, and has drafted a few. “Supreme Commander of {good}” is their favorite.}}"
-msgstr ""{gender, select, male {{name} quiere un nuevo titulo, y tiene algunas ideas. “Comandante Supremo de {good}” es su favorito.} female {{name} quiere un nuevo titulo, y tiene algunas ideas. “Comandante Suprema de {good}” es su favorito.} other {{name} quiere un nuevo titulo, y tiene algunas ideas. “Comandante Supremo de {good}” es su favorito.}}"
+msgstr "{gender, select, male {{name} quiere un nuevo titulo, y tiene algunas ideas. “Comandante Supremo de {good}” es su favorito.} female {{name} quiere un nuevo titulo, y tiene algunas ideas. “Comandante Suprema de {good}” es su favorito.} other {{name} quiere un nuevo titulo, y tiene algunas ideas. “Comandante Supremo de {good}” es su favorito.}}"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2199
 msgid "{gender, select, male {{name} wrote a resignation letter, then lost it somewhere in the building. He is looking for it, very casually.} female {{name} wrote a resignation letter, then lost it somewhere in the building. She is looking for it, very casually.} other {{name} wrote a resignation letter, then lost it somewhere in the building. They are looking for it, very casually.}}"
