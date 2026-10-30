@@ -2633,7 +2633,7 @@ msgstr "<0>{0}</0> punktów terenu jest wymaganych do wygrania rundy, punkty są
 #. placeholder {0}: -1
 #: src/components/_economy/employee/employee.frontConfig.tsx:567
 msgid "<0>{0}</0> on anything manufactured"
-msgstr "<0>{0}</0> przy wszystkim, co zostało przetworzone z surowców"
+msgstr "<0>{0}</0> przy towarach przetworzonych"
 
 #. placeholder {0}: 3
 #: src/components/_economy/employee/employee.frontConfig.tsx:543
@@ -5217,7 +5217,7 @@ msgstr "Link do artykułu kampanijnego (opcjonalny)"
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:528
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:530
 msgid "Can happen to anyone."
-msgstr "Każdemu może się przytrafić"
+msgstr "Może przytrafić się każdemu"
 
 #: src/components/_political/govType/govType.frontConfig.tsx:453
 msgid "Can't have a sworn enemy"
@@ -8581,7 +8581,7 @@ msgstr "Złota rączka"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:3513
 msgid "Hang in there"
-msgstr "Wytrwaj"
+msgstr "Nie poddawaj się"
 
 #: src/components/_economy/company/CompanyTags.tsx:78
 #: src/components/_economy/employee/employeeStats.tsx:490
@@ -8595,7 +8595,7 @@ msgstr "Zadowolenie"
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:148
 msgid "Happiness {mood} or less, or {burnout} or {wornOut}."
-msgstr "Zadowwolenie {mood} albo mniejsze, bądź {burnout} albo {wornOut}."
+msgstr "Zadowolenie {mood} albo mniejsze, bądź {burnout} albo {wornOut}."
 
 #: src/components/_economy/employeeEvent/EmployeeEventCatalog.tsx:137
 msgid "Happiness {mood} or less, Production {output} or more, or {climber}. Always possible for a {flightRisk}, and twice as likely."
@@ -12243,7 +12243,7 @@ msgstr "Obniżka pensji w toku"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1450
 msgid "Pay for a correction"
-msgstr "Zapłać za koretkę"
+msgstr "Zapłać za korektę"
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:2003
 msgid "Pay for a dinner for two"
@@ -14798,7 +14798,7 @@ msgstr "Stal"
 
 #: src/components/_economy/employee/employee.frontConfig.tsx:888
 msgid "Still finds toolboxes when storage is full"
-msgstr "Nadal wyszukuje skrzynek z narzędziami nawet przy pełnym magazynie"
+msgstr "Wyszukuje skrzynek z narzędziami nawet przy pełnym magazynie"
 
 #: src/components/_economy/employee/employee.traitMeta.ts:113
 msgid "Stockpiler"
